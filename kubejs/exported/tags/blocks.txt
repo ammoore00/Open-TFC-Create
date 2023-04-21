@@ -1,4 +1,4 @@
-To refresh this file, delete it and run /reload command again! Last updated: Apr 17, 2023, 12:19:04 PM
+To refresh this file, delete it and run /reload command again! Last updated: Apr 21, 2023, 1:35:16 PM
 
 #forge:cobblestone/mossy
 - minecraft:mossy_cobblestone
@@ -393,6 +393,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:granite
 - minecraft:diorite
 
+#toms_storage:remote_activate
+- toms_storage:ts.storage_terminal
+- toms_storage:ts.crafting_terminal
+
 #forge:glass_panes/light_gray
 - minecraft:light_gray_stained_glass_pane
 
@@ -620,40 +624,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tfc:ceramic/large_vessel/red
 - tfc:ceramic/large_vessel/black
 
-#extendedgears:large_cogwheel
-- extendedgears:large_dark_oak_cogwheel
-- extendedgears:large_oak_cogwheel
-- extendedgears:large_birch_cogwheel
-- extendedgears:large_jungle_cogwheel
-- extendedgears:large_acacia_cogwheel
-- extendedgears:large_warped_cogwheel
-- extendedgears:large_crimson_cogwheel
-- extendedgears:large_shaftless_dark_oak_cogwheel
-- extendedgears:large_shaftless_oak_cogwheel
-- extendedgears:large_shaftless_birch_cogwheel
-- extendedgears:large_shaftless_jungle_cogwheel
-- extendedgears:large_shaftless_acacia_cogwheel
-- extendedgears:large_shaftless_warped_cogwheel
-- extendedgears:large_shaftless_crimson_cogwheel
-- extendedgears:large_half_shaft_dark_oak_cogwheel
-- extendedgears:large_half_shaft_oak_cogwheel
-- extendedgears:large_half_shaft_birch_cogwheel
-- extendedgears:large_half_shaft_jungle_cogwheel
-- extendedgears:large_half_shaft_acacia_cogwheel
-- extendedgears:large_half_shaft_warped_cogwheel
-- extendedgears:large_half_shaft_crimson_cogwheel
-- extendedgears:large_iron_cogwheel
-- extendedgears:large_steel_cogwheel
-- extendedgears:large_copper_cogwheel
-- extendedgears:large_shaftless_iron_cogwheel
-- extendedgears:large_shaftless_steel_cogwheel
-- extendedgears:large_shaftless_copper_cogwheel
-- extendedgears:large_half_shaft_iron_cogwheel
-- extendedgears:large_half_shaft_steel_cogwheel
-- extendedgears:large_half_shaft_copper_cogwheel
-- extendedgears:large_half_shaft_spruce_cogwheel
-- extendedgears:large_shaftless_spruce_cogwheel
-
 #minecraft:dragon_immune
 - minecraft:barrier
 - minecraft:bedrock
@@ -673,7 +643,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:respawn_anchor
 
 #farmersdelight:heat_sources
-- create_central_kitchen:blaze_stove?
+- minecraft:magma_block
+- minecraft:lava_cauldron
+- farmersdelight:stove
+- #farmersdelight:tray_heat_sources
 
 #forge:glass/pink
 - minecraft:pink_stained_glass
@@ -777,25 +750,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - #tfc:clay_dirt
 - #tfc:clay_grass
 
+#farmersdelight:ropes
+- farmersdelight:rope
+- quark:rope?
+- supplementaries:rope?
+
 #forge:glass/red
 - minecraft:red_stained_glass
-
-#extendedflywheels:steel_painted_flywheels
-- extendedflywheels:black_steel_flywheel
-- extendedflywheels:gray_steel_flywheel
-- extendedflywheels:light_gray_steel_flywheel
-- extendedflywheels:white_steel_flywheel
-- extendedflywheels:red_steel_flywheel
-- extendedflywheels:orange_steel_flywheel
-- extendedflywheels:yellow_steel_flywheel
-- extendedflywheels:lime_steel_flywheel
-- extendedflywheels:green_steel_flywheel
-- extendedflywheels:cyan_steel_flywheel
-- extendedflywheels:light_blue_steel_flywheel
-- extendedflywheels:blue_steel_flywheel
-- extendedflywheels:magenta_steel_flywheel
-- extendedflywheels:purple_steel_flywheel
-- extendedflywheels:pink_steel_flywheel
 
 #forge:smooth_stone
 - tfc:rock/smooth/granite
@@ -947,6 +908,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:chests/trapped
 - minecraft:trapped_chest
+- lootr:lootr_trapped_chest
 
 #forge:fence_gates
 - #forge:fence_gates/wooden
@@ -1041,73 +1003,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tfc:wood/fallen_leaves/white_cedar
 - tfc:wood/fallen_leaves/willow
 
-#extendedgears:cogwheel
-- extendedgears:dark_oak_cogwheel
-- extendedgears:oak_cogwheel
-- extendedgears:birch_cogwheel
-- extendedgears:jungle_cogwheel
-- extendedgears:acacia_cogwheel
-- extendedgears:warped_cogwheel
-- extendedgears:crimson_cogwheel
-- extendedgears:large_dark_oak_cogwheel
-- extendedgears:large_oak_cogwheel
-- extendedgears:large_birch_cogwheel
-- extendedgears:large_jungle_cogwheel
-- extendedgears:large_acacia_cogwheel
-- extendedgears:large_warped_cogwheel
-- extendedgears:large_crimson_cogwheel
-- extendedgears:shaftless_dark_oak_cogwheel
-- extendedgears:shaftless_oak_cogwheel
-- extendedgears:shaftless_birch_cogwheel
-- extendedgears:shaftless_jungle_cogwheel
-- extendedgears:shaftless_acacia_cogwheel
-- extendedgears:shaftless_warped_cogwheel
-- extendedgears:shaftless_crimson_cogwheel
-- extendedgears:large_shaftless_dark_oak_cogwheel
-- extendedgears:large_shaftless_oak_cogwheel
-- extendedgears:large_shaftless_birch_cogwheel
-- extendedgears:large_shaftless_jungle_cogwheel
-- extendedgears:large_shaftless_acacia_cogwheel
-- extendedgears:large_shaftless_warped_cogwheel
-- extendedgears:large_shaftless_crimson_cogwheel
-- extendedgears:half_shaft_dark_oak_cogwheel
-- extendedgears:half_shaft_oak_cogwheel
-- extendedgears:half_shaft_birch_cogwheel
-- extendedgears:half_shaft_jungle_cogwheel
-- extendedgears:half_shaft_acacia_cogwheel
-- extendedgears:half_shaft_warped_cogwheel
-- extendedgears:half_shaft_crimson_cogwheel
-- extendedgears:large_half_shaft_dark_oak_cogwheel
-- extendedgears:large_half_shaft_oak_cogwheel
-- extendedgears:large_half_shaft_birch_cogwheel
-- extendedgears:large_half_shaft_jungle_cogwheel
-- extendedgears:large_half_shaft_acacia_cogwheel
-- extendedgears:large_half_shaft_warped_cogwheel
-- extendedgears:large_half_shaft_crimson_cogwheel
-- extendedgears:iron_cogwheel
-- extendedgears:steel_cogwheel
-- extendedgears:copper_cogwheel
-- extendedgears:large_iron_cogwheel
-- extendedgears:large_steel_cogwheel
-- extendedgears:large_copper_cogwheel
-- extendedgears:shaftless_iron_cogwheel
-- extendedgears:shaftless_steel_cogwheel
-- extendedgears:shaftless_copper_cogwheel
-- extendedgears:large_shaftless_iron_cogwheel
-- extendedgears:large_shaftless_steel_cogwheel
-- extendedgears:large_shaftless_copper_cogwheel
-- extendedgears:half_shaft_iron_cogwheel
-- extendedgears:half_shaft_steel_cogwheel
-- extendedgears:half_shaft_copper_cogwheel
-- extendedgears:large_half_shaft_iron_cogwheel
-- extendedgears:large_half_shaft_steel_cogwheel
-- extendedgears:large_half_shaft_copper_cogwheel
-- extendedgears:half_shaft_spruce_cogwheel
-- extendedgears:large_half_shaft_spruce_cogwheel
-- extendedgears:shaftless_spruce_cogwheel
-- extendedgears:large_shaftless_spruce_cogwheel
-- create:cogwheel?
-
 #forge:cobblestone/infested
 - minecraft:infested_cobblestone
 
@@ -1187,22 +1082,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #minecraft:doors
 - #minecraft:wooden_doors
 - minecraft:iron_door
-- alloyed:steel_door
-- alloyed:locked_steel_door
 - create:train_door
 - create:framed_glass_door
 
 #forge:relocation_not_supported
-- railways:track_acacia
-- railways:track_birch
-- railways:track_crimson
-- railways:track_dark_oak
-- railways:track_jungle
-- railways:track_oak
-- railways:track_spruce
-- railways:track_warped
-- railways:track_blackstone
-- railways:track_monorail
 - create:track
 
 #minecraft:infiniburn_overworld
@@ -1341,6 +1224,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tfc:wood/wood/acacia
 - tfc:wood/stripped_log/acacia
 - tfc:wood/stripped_wood/acacia
+
+#toms_storage:trims
+- toms_storage:ts.trim
+- toms_storage:ts.painted_trim
 
 #minecraft:big_dripleaf_placeable
 - #minecraft:small_dripleaf_placeable
@@ -1527,6 +1414,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:glass_panes/red
 - minecraft:red_stained_glass_pane
 
+#farmersdelight:mushroom_colony_growable_on
+- farmersdelight:rich_soil
+
 #tfc:single_block_replaceable
 - tfc:wood/twig/acacia
 - tfc:wood/fallen_leaves/acacia
@@ -1655,6 +1545,27 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #tfc:creates_downward_bubbles
 - minecraft:soul_sand
 
+#spiderstpo:non_climbable
+- minecraft:white_glazed_terracotta
+- minecraft:orange_glazed_terracotta
+- minecraft:magenta_glazed_terracotta
+- minecraft:light_blue_glazed_terracotta
+- minecraft:yellow_glazed_terracotta
+- minecraft:lime_glazed_terracotta
+- minecraft:pink_glazed_terracotta
+- minecraft:gray_glazed_terracotta
+- minecraft:light_gray_glazed_terracotta
+- minecraft:cyan_glazed_terracotta
+- minecraft:purple_glazed_terracotta
+- minecraft:blue_glazed_terracotta
+- minecraft:brown_glazed_terracotta
+- minecraft:green_glazed_terracotta
+- minecraft:red_glazed_terracotta
+- minecraft:black_glazed_terracotta
+- minecraft:ice
+- minecraft:packed_ice
+- minecraft:blue_ice
+
 #minecraft:dripstone_replaceable_blocks
 - #minecraft:base_stone_overworld
 - create:asurine
@@ -1672,8 +1583,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:respawn_anchor
 
 #create:fan_transparent
-- alloyed:steel_bars
-- alloyed:steel_trapdoor
 - create:blaze_burner
 - create:lit_blaze_burner
 - create:sail_frame
@@ -1681,7 +1590,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - #minecraft:campfires
 - #minecraft:fences
 - #minecraft:leaves
-- create_central_kitchen:blaze_stove?
 
 #forge:cobblestone/normal
 - minecraft:cobblestone
@@ -1949,6 +1857,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tfc:fire_clay_block
 - tfc:charcoal_pile
 - tfc:charcoal_forge
+- farmersdelight:organic_compost
+- farmersdelight:rich_soil
+- farmersdelight:rich_soil_farmland
 
 #tfc:logs_that_log
 - #minecraft:logs
@@ -1959,6 +1870,15 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #minecraft:redstone_ores
 - minecraft:redstone_ore
 - minecraft:deepslate_redstone_ore
+
+#farmersdelight:straw_blocks
+- farmersdelight:rice_bag
+- farmersdelight:rope
+- farmersdelight:safety_net
+- farmersdelight:canvas_rug
+- farmersdelight:tatami
+- farmersdelight:full_tatami_mat
+- farmersdelight:half_tatami_mat
 
 #minecraft:fall_damage_resetting
 - #minecraft:climbable
@@ -2041,11 +1961,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #minecraft:soul_speed_blocks
 - minecraft:soul_sand
 - minecraft:soul_soil
-
-#forge:walls/chocolate
-- neapolitan:chocolate_brick_wall?
-- neapolitan:chocolate_tile_wall?
-- create_confectionary:chocolate_bricks_wall?
 
 #minecraft:walls
 - minecraft:cobblestone_wall
@@ -2266,7 +2181,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tfc:mud_bricks/loam_wall
 - tfc:mud_bricks/sandy_loam_wall
 - tfc:mud_bricks/silty_loam_wall
-- alloyed:steel_bars
 - create:cut_granite_wall
 - create:polished_cut_granite_wall
 - create:cut_granite_brick_wall
@@ -2323,7 +2237,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - create:polished_cut_veridium_wall
 - create:cut_veridium_brick_wall
 - create:small_veridium_brick_wall
-- #forge:walls/chocolate
 
 #minecraft:coral_blocks
 - minecraft:tube_coral_block
@@ -2615,18 +2528,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tfc:ore/normal_sphalerite/gneiss
 - tfc:ore/normal_sphalerite/marble
 
-#c:relocation_not_supported
-- railways:track_acacia
-- railways:track_birch
-- railways:track_crimson
-- railways:track_dark_oak
-- railways:track_jungle
-- railways:track_oak
-- railways:track_spruce
-- railways:track_warped
-- railways:track_blackstone
-- railways:track_monorail
-
 #minecraft:impermeable
 - minecraft:glass
 - minecraft:white_stained_glass
@@ -2743,6 +2644,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:fences/wooden
 - #minecraft:wooden_fences
 
+#sereneseasons:summer_crops
+- farmersdelight:budding_tomatoes
+- farmersdelight:tomatoes
+- farmersdelight:rice
+- farmersdelight:rice_panicles
+
 #forge:storage_blocks
 - #forge:storage_blocks/amethyst
 - #forge:storage_blocks/coal
@@ -2761,7 +2668,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - create:raw_zinc_block
 - create:zinc_block
 - create:brass_block
-- #forge:storage_blocks/chocolate
 
 #minecraft:campfires
 - minecraft:campfire
@@ -2818,10 +2724,20 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tfc:ore/gypsum/marble
 
 #farmersdelight:mineable/knife
-- create_central_kitchen:pumpkin_pie?
-- create_central_kitchen:cherry_pie?
-- create_central_kitchen:truffle_pie?
-- create_central_kitchen:mulberry_pie?
+- minecraft:cobweb
+- minecraft:cake
+- farmersdelight:apple_pie
+- farmersdelight:sweet_berry_cheesecake
+- farmersdelight:chocolate_pie
+- farmersdelight:roast_chicken_block
+- farmersdelight:honey_glazed_ham_block
+- farmersdelight:shepherds_pie_block
+- farmersdelight:rice_roll_medley_block
+- #minecraft:carpets
+- #minecraft:wool
+- #minecraft:candle_cakes
+- #farmersdelight:straw_blocks
+- #forge:mineable/knife
 
 #minecraft:wooden_trapdoors
 - minecraft:acacia_trapdoor
@@ -2907,41 +2823,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:glass/light_blue
 - minecraft:light_blue_stained_glass
-
-#extendedgears:small_cogwheel
-- extendedgears:dark_oak_cogwheel
-- extendedgears:oak_cogwheel
-- extendedgears:birch_cogwheel
-- extendedgears:jungle_cogwheel
-- extendedgears:acacia_cogwheel
-- extendedgears:warped_cogwheel
-- extendedgears:crimson_cogwheel
-- extendedgears:shaftless_dark_oak_cogwheel
-- extendedgears:shaftless_oak_cogwheel
-- extendedgears:shaftless_birch_cogwheel
-- extendedgears:shaftless_jungle_cogwheel
-- extendedgears:shaftless_acacia_cogwheel
-- extendedgears:shaftless_warped_cogwheel
-- extendedgears:shaftless_crimson_cogwheel
-- extendedgears:half_shaft_dark_oak_cogwheel
-- extendedgears:half_shaft_oak_cogwheel
-- extendedgears:half_shaft_birch_cogwheel
-- extendedgears:half_shaft_jungle_cogwheel
-- extendedgears:half_shaft_acacia_cogwheel
-- extendedgears:half_shaft_warped_cogwheel
-- extendedgears:half_shaft_crimson_cogwheel
-- extendedgears:iron_cogwheel
-- extendedgears:steel_cogwheel
-- extendedgears:copper_cogwheel
-- extendedgears:shaftless_iron_cogwheel
-- extendedgears:shaftless_steel_cogwheel
-- extendedgears:shaftless_copper_cogwheel
-- extendedgears:half_shaft_iron_cogwheel
-- extendedgears:half_shaft_steel_cogwheel
-- extendedgears:half_shaft_copper_cogwheel
-- extendedgears:half_shaft_spruce_cogwheel
-- extendedgears:shaftless_spruce_cogwheel
-- create:cogwheel?
 
 #tfc:ash_logs
 - tfc:wood/log/ash
@@ -3213,7 +3094,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tfc:mud_bricks/loam_stairs
 - tfc:mud_bricks/sandy_loam_stairs
 - tfc:mud_bricks/silty_loam_stairs
-- alloyed:steel_sheet_stairs
 - create:cut_granite_stairs
 - create:polished_cut_granite_stairs
 - create:cut_granite_brick_stairs
@@ -3270,7 +3150,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - create:polished_cut_veridium_stairs
 - create:cut_veridium_brick_stairs
 - create:small_veridium_brick_stairs
-- #forge:stairs/chocolate
+
+#sereneseasons:unbreakable_infertile_crops
+- farmersdelight:onions
 
 #minecraft:logs
 - #minecraft:logs_that_burn
@@ -3296,6 +3178,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - #tfc:white_cedar_logs
 - #tfc:willow_logs
 
+#lootr:shulkers
+- lootr:lootr_shulker
+
 #create:passive_boiler_heaters
 - create:blaze_burner
 - create:lit_blaze_burner
@@ -3303,6 +3188,24 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:lava
 - #minecraft:campfires
 - #minecraft:fire
+
+#chalk:chalk_mark
+- chalk:white_chalk_mark
+- chalk:light_gray_chalk_mark
+- chalk:orange_chalk_mark
+- chalk:brown_chalk_mark
+- chalk:blue_chalk_mark
+- chalk:magenta_chalk_mark
+- chalk:light_blue_chalk_mark
+- chalk:lime_chalk_mark
+- chalk:purple_chalk_mark
+- chalk:pink_chalk_mark
+- chalk:black_chalk_mark
+- chalk:yellow_chalk_mark
+- chalk:green_chalk_mark
+- chalk:red_chalk_mark
+- chalk:gray_chalk_mark
+- chalk:cyan_chalk_mark
 
 #minecraft:valid_spawn
 - minecraft:grass_block
@@ -3335,6 +3238,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:podzol
 - minecraft:crimson_nylium
 - minecraft:warped_nylium
+- farmersdelight:organic_compost
+- farmersdelight:rich_soil
 
 #minecraft:wooden_doors
 - minecraft:oak_door
@@ -3393,13 +3298,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:emerald_ore
 - minecraft:deepslate_emerald_ore
 
+#sereneseasons:autumn_crops
+- farmersdelight:cabbages
+- farmersdelight:onions
+- farmersdelight:rice
+- farmersdelight:rice_panicles
+
 #forge:glass/purple
 - minecraft:purple_stained_glass
-
-#forge:stairs/chocolate
-- neapolitan:chocolate_brick_stairs?
-- neapolitan:chocolate_tile_stairs?
-- create_confectionary:chocolate_bricks_stairs?
 
 #minecraft:crimson_stems
 - minecraft:crimson_stem
@@ -4311,23 +4217,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tfc:ore/pyrite/schist
 - tfc:ore/pyrite/gneiss
 - tfc:ore/pyrite/marble
-- alloyed:bronze_block
-- alloyed:exposed_bronze_block
-- alloyed:weathered_bronze_block
-- alloyed:oxidized_bronze_block
-- alloyed:waxed_bronze_block
-- alloyed:waxed_exposed_bronze_block
-- alloyed:waxed_weathered_bronze_block
-- alloyed:waxed_oxidized_bronze_block
-- alloyed:bronze_bell
-- alloyed:steel_block
-- alloyed:steel_door
-- alloyed:locked_steel_door
-- alloyed:steel_sheet_metal
-- alloyed:steel_sheet_stairs
-- alloyed:steel_sheet_slab
-- alloyed:steel_bars
-- alloyed:steel_trapdoor
 - create:copper_shingles
 - create:exposed_copper_shingles
 - create:weathered_copper_shingles
@@ -4473,11 +4362,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - create:zinc_block
 - create:brass_block
 
-#railways:semaphore_poles
-- create:metal_girder
-- create:metal_girder_encased_shaft
-- #minecraft:fences
-
 #tfc:oak_logs
 - tfc:wood/log/oak
 - tfc:wood/wood/oak
@@ -4518,12 +4402,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:anvil
 - minecraft:chipped_anvil
 - minecraft:damaged_anvil
-
-#forge:storage_blocks/chocolate
-- neapolitan:chocolate_block?
-- neapolitan:chocolate_bricks?
-- neapolitan:chocolate_tiles?
-- create_confectionary:chocolate_bricks?
 
 #minecraft:moss_replaceable
 - #minecraft:base_stone_overworld
@@ -4608,6 +4486,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - #tfc:ores/gold/normal
 - #tfc:ores/gold/rich
 
+#lootr:chests
+- lootr:lootr_chest
+- lootr:lootr_inventory
+
 #minecraft:piglin_repellents
 - minecraft:soul_fire
 - minecraft:soul_torch
@@ -4685,6 +4567,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tfc:wood/trapped_chest/white_cedar
 - tfc:wood/chest/willow
 - tfc:wood/trapped_chest/willow
+- lootr:lootr_chest
 
 #forge:ores/iron
 - #minecraft:iron_ores
@@ -4810,6 +4693,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:green_carpet
 - minecraft:red_carpet
 - minecraft:black_carpet
+- farmersdelight:full_tatami_mat
+- farmersdelight:half_tatami_mat
 
 #minecraft:base_stone_overworld
 - minecraft:stone
@@ -4888,8 +4773,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tfc:wood/planks/white_cedar_button
 - tfc:wood/planks/willow_button
 
-#railways:track_casing_blacklist
-
 #tfc:rock/cracked_bricks
 - tfc:rock/cracked_bricks/granite
 - tfc:rock/cracked_bricks/diorite
@@ -4948,23 +4831,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:glass/orange
 - minecraft:orange_stained_glass
 
-#forge:flywheels/steel_painted_flywheels
-- extendedflywheels:black_steel_flywheel
-- extendedflywheels:gray_steel_flywheel
-- extendedflywheels:light_gray_steel_flywheel
-- extendedflywheels:white_steel_flywheel
-- extendedflywheels:red_steel_flywheel
-- extendedflywheels:orange_steel_flywheel
-- extendedflywheels:yellow_steel_flywheel
-- extendedflywheels:lime_steel_flywheel
-- extendedflywheels:green_steel_flywheel
-- extendedflywheels:cyan_steel_flywheel
-- extendedflywheels:light_blue_steel_flywheel
-- extendedflywheels:blue_steel_flywheel
-- extendedflywheels:magenta_steel_flywheel
-- extendedflywheels:purple_steel_flywheel
-- extendedflywheels:pink_steel_flywheel
-
 #forge:storage_blocks/raw_zinc
 - create:raw_zinc_block
 
@@ -4981,6 +4847,25 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tfc:grass/sandy_loam
 - tfc:grass/silty_loam
 - #tfc:clay_grass
+
+#vs_eureka:balloons
+- vs_eureka:balloon
+- vs_eureka:white_balloon
+- vs_eureka:light_gray_balloon
+- vs_eureka:gray_balloon
+- vs_eureka:black_balloon
+- vs_eureka:red_balloon
+- vs_eureka:orange_balloon
+- vs_eureka:yellow_balloon
+- vs_eureka:lime_balloon
+- vs_eureka:green_balloon
+- vs_eureka:light_blue_balloon
+- vs_eureka:cyan_balloon
+- vs_eureka:blue_balloon
+- vs_eureka:purple_balloon
+- vs_eureka:magenta_balloon
+- vs_eureka:pink_balloon
+- vs_eureka:brown_balloon
 
 #minecraft:slabs
 - #minecraft:wooden_slabs
@@ -5244,7 +5129,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tfc:mud_bricks/loam_slab
 - tfc:mud_bricks/sandy_loam_slab
 - tfc:mud_bricks/silty_loam_slab
-- alloyed:steel_sheet_slab
 - create:cut_granite_slab
 - create:polished_cut_granite_slab
 - create:cut_granite_brick_slab
@@ -5301,7 +5185,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - create:polished_cut_veridium_slab
 - create:cut_veridium_brick_slab
 - create:small_veridium_brick_slab
-- #forge:slabs/chocolate
 
 #minecraft:animals_spawnable_on
 - minecraft:grass_block
@@ -5338,6 +5221,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:raw_gold_block
 - #minecraft:shulker_boxes
 - #minecraft:gold_ores
+- lootr:lootr_chest
+- lootr:lootr_trapped_chest
+- lootr:lootr_barrel
 
 #forge:ores/emerald
 - #minecraft:emerald_ores
@@ -5428,6 +5314,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:stone_button
 - minecraft:polished_blackstone_button
 
+#lootr:containers
+- #lootr:barrels
+- #lootr:chests
+- #lootr:trapped_chests
+- #lootr:shulkers
+
 #minecraft:rails
 - minecraft:rail
 - minecraft:powered_rail
@@ -5435,6 +5327,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:activator_rail
 - create:cart_assembler
 - create:controller_rail
+- littlelogistics:switch_rail
+- littlelogistics:automatic_switch_rail
+- littlelogistics:tee_junction_rail
+- littlelogistics:automatic_tee_junction_rail
+- littlelogistics:junction_rail
+- littlelogistics:locomotive_dock_rail
+- littlelogistics:car_dock_rail
 
 #forge:barrels/wooden
 - minecraft:barrel
@@ -6677,6 +6576,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tfc:plant/lilac
 - tfc:plant/toquilla_palm
 - tfc:plant/marigold
+- farmersdelight:wild_rice
 
 #tfc:sycamore_logs
 - tfc:wood/log/sycamore
@@ -6708,23 +6608,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tfc:rock/pressure_plate/gneiss
 - tfc:rock/pressure_plate/marble
 
-#extendedflywheels:brass_painted_flywheels
-- extendedflywheels:black_brass_flywheel
-- extendedflywheels:gray_brass_flywheel
-- extendedflywheels:light_gray_brass_flywheel
-- extendedflywheels:white_brass_flywheel
-- extendedflywheels:red_brass_flywheel
-- extendedflywheels:orange_brass_flywheel
-- extendedflywheels:yellow_brass_flywheel
-- extendedflywheels:lime_brass_flywheel
-- extendedflywheels:green_brass_flywheel
-- extendedflywheels:cyan_brass_flywheel
-- extendedflywheels:light_blue_brass_flywheel
-- extendedflywheels:blue_brass_flywheel
-- extendedflywheels:magenta_brass_flywheel
-- extendedflywheels:purple_brass_flywheel
-- extendedflywheels:pink_brass_flywheel
-
 #minecraft:snow
 - minecraft:snow
 - minecraft:snow_block
@@ -6745,19 +6628,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:gold_ore
 - minecraft:nether_gold_ore
 - minecraft:deepslate_gold_ore
-
-#railways:tracks
-- railways:track_acacia
-- railways:track_birch
-- railways:track_crimson
-- railways:track_dark_oak
-- railways:track_jungle
-- railways:track_oak
-- railways:track_spruce
-- railways:track_warped
-- railways:track_blackstone
-- railways:track_monorail
-- create:track
 
 #tfc:ores/nickel/normal
 - tfc:ore/normal_garnierite/granite
@@ -6796,6 +6666,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:rooted_dirt
 - minecraft:moss_block
 - #tfc:dirt
+- farmersdelight:rich_soil
 
 #forge:netherrack
 - minecraft:netherrack
@@ -6818,6 +6689,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:green_candle_cake
 - minecraft:red_candle_cake
 - minecraft:black_candle_cake
+
+#forge:mineable/knife
 
 #tfc:mud_bricks
 - tfc:mud_bricks/loam
@@ -6886,6 +6759,17 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tfc:ore/normal_native_gold/schist
 - tfc:ore/normal_native_gold/gneiss
 - tfc:ore/normal_native_gold/marble
+
+#farmersdelight:unaffected_by_rich_soil
+- minecraft:grass_block
+- minecraft:grass
+- minecraft:fern
+- minecraft:twisting_vines
+- minecraft:twisting_vines_plant
+- farmersdelight:sandy_shrub
+- farmersdelight:brown_mushroom_colony
+- farmersdelight:red_mushroom_colony
+- #farmersdelight:wild_crops
 
 #forge:gravel
 - minecraft:gravel
@@ -7034,6 +6918,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:green_wool
 - minecraft:red_wool
 - minecraft:black_wool
+- #vs_eureka:balloons
 
 #forge:glass/colorless
 - minecraft:glass
@@ -7074,6 +6959,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:wheat
 - minecraft:melon_stem
 - minecraft:pumpkin_stem
+- farmersdelight:cabbages
+- farmersdelight:onions
+- farmersdelight:rice_panicles
+- farmersdelight:budding_tomatoes
+- farmersdelight:tomatoes
 
 #tfc:workbenches
 - tfc:wood/planks/acacia_workbench
@@ -7222,9 +7112,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - #minecraft:buttons
 - #minecraft:pressure_plates
 - #minecraft:rails
-- farmersdelight:cooking_pot?
-- farmersrespite:kettle?
-- miners_delight:copper_pot?
 
 #tfc:lecterns
 - tfc:wood/lectern/acacia
@@ -7285,7 +7172,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tfc:plant/liana_plant
 - tfc:plant/jungle_vines
 - tfc:plant/ivy
-- alloyed:steel_ladder
+- farmersdelight:rope
+- farmersdelight:tomatoes
 - create:andesite_ladder
 - create:brass_ladder
 - create:copper_ladder
@@ -7346,8 +7234,16 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:stripped_dark_oak_log
 - minecraft:stripped_dark_oak_wood
 
-#forge:storage_blocks/steel
-- alloyed:steel_block
+#farmersdelight:compost_activators
+- minecraft:brown_mushroom
+- minecraft:red_mushroom
+- minecraft:podzol
+- minecraft:mycelium
+- farmersdelight:organic_compost
+- farmersdelight:rich_soil
+- farmersdelight:rich_soil_farmland
+- farmersdelight:brown_mushroom_colony
+- farmersdelight:red_mushroom_colony
 
 #create:ore_override_stone
 - #minecraft:stone_ore_replaceables
@@ -7358,8 +7254,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - #minecraft:fence_gates
 
 #farmersdelight:tray_heat_sources
-- create:lit_blaze_burner
-- create:blaze_burner
+- minecraft:lava
+- #minecraft:campfires
+- #minecraft:fire
+- tfc:firepit
 
 #forge:glass_panes
 - #forge:glass_panes/colorless
@@ -7464,30 +7362,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #tfc:needs_steel_tool
 
-#extendedgears:metal_cogwheel
-- extendedgears:iron_cogwheel
-- extendedgears:steel_cogwheel
-- extendedgears:copper_cogwheel
-- extendedgears:large_iron_cogwheel
-- extendedgears:large_steel_cogwheel
-- extendedgears:large_copper_cogwheel
-- extendedgears:shaftless_iron_cogwheel
-- extendedgears:shaftless_steel_cogwheel
-- extendedgears:shaftless_copper_cogwheel
-- extendedgears:large_shaftless_iron_cogwheel
-- extendedgears:large_shaftless_steel_cogwheel
-- extendedgears:large_shaftless_copper_cogwheel
-- extendedgears:half_shaft_iron_cogwheel
-- extendedgears:half_shaft_steel_cogwheel
-- extendedgears:half_shaft_copper_cogwheel
-- extendedgears:large_half_shaft_iron_cogwheel
-- extendedgears:large_half_shaft_steel_cogwheel
-- extendedgears:large_half_shaft_copper_cogwheel
-
-#forge:storage_blocks/bronze
-- alloyed:bronze_block
-- alloyed:waxed_bronze_block
-
 #create:safe_nbt
 - create:creative_motor
 - create:creative_fluid_tank
@@ -7519,7 +7393,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #minecraft:fences
 - #minecraft:wooden_fences
 - minecraft:nether_brick_fence
-- alloyed:steel_mesh_fence
 
 #minecraft:saplings
 - minecraft:oak_sapling
@@ -7884,25 +7757,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - #minecraft:cauldrons
 - #minecraft:rails
 - minecraft:conduit
-- railways:track_coupler
-- railways:track_acacia
-- railways:track_birch
-- railways:track_crimson
-- railways:track_dark_oak
-- railways:track_jungle
-- railways:track_oak
-- railways:track_spruce
-- railways:track_warped
-- railways:track_blackstone
-- railways:track_monorail
-- railways:mono_bogey
-- railways:mono_bogey_upside_down
-- railways:smokestack_caboosestyle
-- railways:smokestack_coalburner
-- railways:smokestack_oilburner
-- railways:smokestack_streamlined
-- railways:smokestack_woodburner
-- railways:smokestack_diesel
 - tfc:ceramic/large_vessel
 - tfc:ceramic/large_vessel/white
 - tfc:ceramic/large_vessel/orange
@@ -10178,75 +10032,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tfc:ingot_pile
 - tfc:sheet_pile
 - tfc:blast_furnace
-- alloyed:bronze_block
-- alloyed:exposed_bronze_block
-- alloyed:weathered_bronze_block
-- alloyed:oxidized_bronze_block
-- alloyed:waxed_bronze_block
-- alloyed:waxed_exposed_bronze_block
-- alloyed:waxed_weathered_bronze_block
-- alloyed:waxed_oxidized_bronze_block
-- alloyed:bronze_bell
-- alloyed:steel_block
-- alloyed:steel_door
-- alloyed:locked_steel_door
-- alloyed:steel_sheet_metal
-- alloyed:steel_sheet_stairs
-- alloyed:steel_sheet_slab
-- alloyed:steel_bars
-- alloyed:steel_trapdoor
-- alloyed:steel_ladder
-- alloyed:steel_catwalk
-- alloyed:steel_sheet_vertical_slab
-- alloyed:steel_mesh_fence
-- extendedflywheels:flywheel
-- extendedflywheels:steelflywheel
-- extendedflywheels:ironflywheel
-- extendedflywheels:black_brass_flywheel
-- extendedflywheels:gray_brass_flywheel
-- extendedflywheels:light_gray_brass_flywheel
-- extendedflywheels:white_brass_flywheel
-- extendedflywheels:red_brass_flywheel
-- extendedflywheels:orange_brass_flywheel
-- extendedflywheels:yellow_brass_flywheel
-- extendedflywheels:lime_brass_flywheel
-- extendedflywheels:green_brass_flywheel
-- extendedflywheels:cyan_brass_flywheel
-- extendedflywheels:light_blue_brass_flywheel
-- extendedflywheels:blue_brass_flywheel
-- extendedflywheels:magenta_brass_flywheel
-- extendedflywheels:purple_brass_flywheel
-- extendedflywheels:pink_brass_flywheel
-- extendedflywheels:black_iron_flywheel
-- extendedflywheels:gray_iron_flywheel
-- extendedflywheels:light_gray_iron_flywheel
-- extendedflywheels:white_iron_flywheel
-- extendedflywheels:red_iron_flywheel
-- extendedflywheels:orange_iron_flywheel
-- extendedflywheels:yellow_iron_flywheel
-- extendedflywheels:lime_iron_flywheel
-- extendedflywheels:green_iron_flywheel
-- extendedflywheels:cyan_iron_flywheel
-- extendedflywheels:light_blue_iron_flywheel
-- extendedflywheels:blue_iron_flywheel
-- extendedflywheels:magenta_iron_flywheel
-- extendedflywheels:purple_iron_flywheel
-- extendedflywheels:pink_iron_flywheel
-- extendedflywheels:black_steel_flywheel
-- extendedflywheels:gray_steel_flywheel
-- extendedflywheels:light_gray_steel_flywheel
-- extendedflywheels:white_steel_flywheel
-- extendedflywheels:red_steel_flywheel
-- extendedflywheels:orange_steel_flywheel
-- extendedflywheels:yellow_steel_flywheel
-- extendedflywheels:lime_steel_flywheel
-- extendedflywheels:green_steel_flywheel
-- extendedflywheels:cyan_steel_flywheel
-- extendedflywheels:light_blue_steel_flywheel
-- extendedflywheels:blue_steel_flywheel
-- extendedflywheels:magenta_steel_flywheel
-- extendedflywheels:purple_steel_flywheel
-- extendedflywheels:pink_steel_flywheel
+- farmersdelight:stove
+- farmersdelight:cooking_pot
+- farmersdelight:skillet
 - create:schematicannon
 - create:schematic_table
 - create:shaft
@@ -10720,87 +10508,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - create:small_veridium_brick_wall
 - create:layered_veridium
 - create:veridium_pillar
-- create_central_kitchen:blaze_stove?
-- extendedgears:dark_oak_cogwheel
-- extendedgears:oak_cogwheel
-- extendedgears:birch_cogwheel
-- extendedgears:jungle_cogwheel
-- extendedgears:acacia_cogwheel
-- extendedgears:warped_cogwheel
-- extendedgears:crimson_cogwheel
-- extendedgears:large_dark_oak_cogwheel
-- extendedgears:large_oak_cogwheel
-- extendedgears:large_birch_cogwheel
-- extendedgears:large_jungle_cogwheel
-- extendedgears:large_acacia_cogwheel
-- extendedgears:large_warped_cogwheel
-- extendedgears:large_crimson_cogwheel
-- extendedgears:shaftless_dark_oak_cogwheel
-- extendedgears:shaftless_oak_cogwheel
-- extendedgears:shaftless_birch_cogwheel
-- extendedgears:shaftless_jungle_cogwheel
-- extendedgears:shaftless_acacia_cogwheel
-- extendedgears:shaftless_warped_cogwheel
-- extendedgears:shaftless_crimson_cogwheel
-- extendedgears:large_shaftless_dark_oak_cogwheel
-- extendedgears:large_shaftless_oak_cogwheel
-- extendedgears:large_shaftless_birch_cogwheel
-- extendedgears:large_shaftless_jungle_cogwheel
-- extendedgears:large_shaftless_acacia_cogwheel
-- extendedgears:large_shaftless_warped_cogwheel
-- extendedgears:large_shaftless_crimson_cogwheel
-- extendedgears:half_shaft_dark_oak_cogwheel
-- extendedgears:half_shaft_oak_cogwheel
-- extendedgears:half_shaft_birch_cogwheel
-- extendedgears:half_shaft_jungle_cogwheel
-- extendedgears:half_shaft_acacia_cogwheel
-- extendedgears:half_shaft_warped_cogwheel
-- extendedgears:half_shaft_crimson_cogwheel
-- extendedgears:large_half_shaft_dark_oak_cogwheel
-- extendedgears:large_half_shaft_oak_cogwheel
-- extendedgears:large_half_shaft_birch_cogwheel
-- extendedgears:large_half_shaft_jungle_cogwheel
-- extendedgears:large_half_shaft_acacia_cogwheel
-- extendedgears:large_half_shaft_warped_cogwheel
-- extendedgears:large_half_shaft_crimson_cogwheel
-- extendedgears:iron_cogwheel
-- extendedgears:steel_cogwheel
-- extendedgears:copper_cogwheel
-- extendedgears:large_iron_cogwheel
-- extendedgears:large_steel_cogwheel
-- extendedgears:large_copper_cogwheel
-- extendedgears:shaftless_iron_cogwheel
-- extendedgears:shaftless_steel_cogwheel
-- extendedgears:shaftless_copper_cogwheel
-- extendedgears:large_shaftless_iron_cogwheel
-- extendedgears:large_shaftless_steel_cogwheel
-- extendedgears:large_shaftless_copper_cogwheel
-- extendedgears:half_shaft_iron_cogwheel
-- extendedgears:half_shaft_steel_cogwheel
-- extendedgears:half_shaft_copper_cogwheel
-- extendedgears:large_half_shaft_iron_cogwheel
-- extendedgears:large_half_shaft_steel_cogwheel
-- extendedgears:large_half_shaft_copper_cogwheel
-- extendedgears:half_shaft_spruce_cogwheel
-- extendedgears:large_half_shaft_spruce_cogwheel
-- extendedgears:shaftless_spruce_cogwheel
-- extendedgears:large_shaftless_spruce_cogwheel
+- lootr:trophy
+- vs_eureka:ballast
+- vs_eureka:engine
+- vs_eureka:anchor
 - create_enchantment_industry:disenchanter
 - create_enchantment_industry:printer
 - create_enchantment_industry:blaze_enchanter
-- createaddition:accumulator
-- createaddition:alternator
-- createaddition:electric_motor
-- createaddition:rolling_mill
-- createaddition:creative_energy
-- createaddition:connector
-- createaddition:redstone_relay
-- createaddition:tesla_coil
-- createaddition:liquid_blaze_burner
-- createaddition:barbed_wire
-- createaddition:modular_accumulator
-- createaddition:portable_energy_interface
-- createaddition:digital_adapter
 
 #minecraft:unstable_bottom_center
 - #minecraft:fence_gates
@@ -10984,6 +10698,25 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tfc:coral/horn_coral_wall_fan
 
 #forge:enderman_place_on_blacklist
+
+#farmersdelight:drops_cake_slice
+- minecraft:candle_cake
+- minecraft:white_candle_cake
+- minecraft:orange_candle_cake
+- minecraft:magenta_candle_cake
+- minecraft:light_blue_candle_cake
+- minecraft:yellow_candle_cake
+- minecraft:lime_candle_cake
+- minecraft:pink_candle_cake
+- minecraft:gray_candle_cake
+- minecraft:light_gray_candle_cake
+- minecraft:cyan_candle_cake
+- minecraft:purple_candle_cake
+- minecraft:blue_candle_cake
+- minecraft:brown_candle_cake
+- minecraft:green_candle_cake
+- minecraft:red_candle_cake
+- minecraft:black_candle_cake
 
 #minecraft:cauldrons
 - minecraft:cauldron
@@ -11236,9 +10969,23 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tfc:wood/planks/sycamore_wall_sign
 - tfc:wood/planks/white_cedar_wall_sign
 - tfc:wood/planks/willow_wall_sign
-
-#quark:vertical_slabs
-- #quark:vertical_slabs/chocolate
+- farmersdelight:canvas_wall_sign
+- farmersdelight:white_canvas_wall_sign
+- farmersdelight:orange_canvas_wall_sign
+- farmersdelight:magenta_canvas_wall_sign
+- farmersdelight:light_blue_canvas_wall_sign
+- farmersdelight:yellow_canvas_wall_sign
+- farmersdelight:lime_canvas_wall_sign
+- farmersdelight:pink_canvas_wall_sign
+- farmersdelight:gray_canvas_wall_sign
+- farmersdelight:light_gray_canvas_wall_sign
+- farmersdelight:cyan_canvas_wall_sign
+- farmersdelight:purple_canvas_wall_sign
+- farmersdelight:blue_canvas_wall_sign
+- farmersdelight:brown_canvas_wall_sign
+- farmersdelight:green_canvas_wall_sign
+- farmersdelight:red_canvas_wall_sign
+- farmersdelight:black_canvas_wall_sign
 
 #tfc:tree_grows_on
 - minecraft:grass_block
@@ -11246,18 +10993,17 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - #tfc:grass
 - #tfc:mud
 
-#alloyed:bronze_instruments
-- alloyed:bronze_bell
-
 #minecraft:trapdoors
 - #minecraft:wooden_trapdoors
 - minecraft:iron_trapdoor
-- alloyed:steel_trapdoor
 - create:train_trapdoor
 - create:framed_glass_trapdoor
 
 #forge:glass/cyan
 - minecraft:cyan_stained_glass
+
+#lootr:barrels
+- lootr:lootr_barrel
 
 #forge:glass
 - #forge:glass/colorless
@@ -11317,55 +11063,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tfc:wood/leaves/sycamore
 - tfc:wood/leaves/white_cedar
 - tfc:wood/leaves/willow
-
-#extendedgears:wooden_cogwheel
-- extendedgears:dark_oak_cogwheel
-- extendedgears:oak_cogwheel
-- extendedgears:birch_cogwheel
-- extendedgears:jungle_cogwheel
-- extendedgears:acacia_cogwheel
-- extendedgears:warped_cogwheel
-- extendedgears:crimson_cogwheel
-- extendedgears:large_dark_oak_cogwheel
-- extendedgears:large_oak_cogwheel
-- extendedgears:large_birch_cogwheel
-- extendedgears:large_jungle_cogwheel
-- extendedgears:large_acacia_cogwheel
-- extendedgears:large_warped_cogwheel
-- extendedgears:large_crimson_cogwheel
-- extendedgears:shaftless_dark_oak_cogwheel
-- extendedgears:shaftless_oak_cogwheel
-- extendedgears:shaftless_birch_cogwheel
-- extendedgears:shaftless_jungle_cogwheel
-- extendedgears:shaftless_acacia_cogwheel
-- extendedgears:shaftless_warped_cogwheel
-- extendedgears:shaftless_crimson_cogwheel
-- extendedgears:large_shaftless_dark_oak_cogwheel
-- extendedgears:large_shaftless_oak_cogwheel
-- extendedgears:large_shaftless_birch_cogwheel
-- extendedgears:large_shaftless_jungle_cogwheel
-- extendedgears:large_shaftless_acacia_cogwheel
-- extendedgears:large_shaftless_warped_cogwheel
-- extendedgears:large_shaftless_crimson_cogwheel
-- extendedgears:half_shaft_dark_oak_cogwheel
-- extendedgears:half_shaft_oak_cogwheel
-- extendedgears:half_shaft_birch_cogwheel
-- extendedgears:half_shaft_jungle_cogwheel
-- extendedgears:half_shaft_acacia_cogwheel
-- extendedgears:half_shaft_warped_cogwheel
-- extendedgears:half_shaft_crimson_cogwheel
-- extendedgears:large_half_shaft_dark_oak_cogwheel
-- extendedgears:large_half_shaft_oak_cogwheel
-- extendedgears:large_half_shaft_birch_cogwheel
-- extendedgears:large_half_shaft_jungle_cogwheel
-- extendedgears:large_half_shaft_acacia_cogwheel
-- extendedgears:large_half_shaft_warped_cogwheel
-- extendedgears:large_half_shaft_crimson_cogwheel
-- extendedgears:half_shaft_spruce_cogwheel
-- extendedgears:large_half_shaft_spruce_cogwheel
-- extendedgears:shaftless_spruce_cogwheel
-- extendedgears:large_shaftless_spruce_cogwheel
-- create:cogwheel?
 
 #forge:ores_in_ground/netherrack
 - minecraft:nether_gold_ore
@@ -11557,6 +11254,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #tfc:forge_invisible_whitelist
 - tfc:crucible
+- create:basin
 
 #forge:stained_glass_panes
 - minecraft:white_stained_glass_pane
@@ -11650,11 +11348,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:moss_block
 - minecraft:moss_carpet
 - #tfc:mineable_with_sharp_tool
-
-#forge:slabs/chocolate
-- neapolitan:chocolate_brick_slab?
-- neapolitan:chocolate_tile_slab?
-- create_confectionary:chocolate_bricks_slab?
+- farmersdelight:rice_bale
+- farmersdelight:straw_bale
 
 #tfc:can_collapse
 - #tfc:can_trigger_collapse
@@ -11999,6 +11694,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tfc:plant/vriesea
 - tfc:plant/water_lily
 - tfc:plant/yucca
+- farmersdelight:wild_carrots
+- farmersdelight:wild_potatoes
+- farmersdelight:wild_beetroots
+- farmersdelight:wild_cabbages
+- farmersdelight:wild_tomatoes
+- farmersdelight:wild_onions
 
 #minecraft:replaceable_plants
 - minecraft:grass
@@ -12013,6 +11714,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:tall_grass
 - minecraft:large_fern
 - minecraft:hanging_roots
+- farmersdelight:sandy_shrub
 
 #minecraft:azalea_root_replaceable
 - #minecraft:base_stone_overworld
@@ -12044,6 +11746,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tfc:rooted_dirt/loam
 - tfc:rooted_dirt/sandy_loam
 - tfc:rooted_dirt/silty_loam
+
+#lootr:trapped_chests
+- lootr:lootr_trapped_chest
 
 #tfc:candle_cakes
 - tfc:candle_cake
@@ -12078,6 +11783,15 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tfc:metal/anvil/blue_steel
 - tfc:metal/anvil/red_steel
 
+#farmersdelight:wild_crops
+- farmersdelight:wild_carrots
+- farmersdelight:wild_potatoes
+- farmersdelight:wild_beetroots
+- farmersdelight:wild_cabbages
+- farmersdelight:wild_tomatoes
+- farmersdelight:wild_onions
+- farmersdelight:wild_rice
+
 #minecraft:wolves_spawnable_on
 - minecraft:grass_block
 - minecraft:snow
@@ -12105,6 +11819,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:snow
 - minecraft:snow_block
 - tfc:snow_pile
+
+#sereneseasons:winter_crops
+- farmersdelight:cabbages
 
 #tfc:rosewood_logs
 - tfc:wood/log/rosewood
@@ -12250,6 +11967,23 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:dark_oak_sign
 - minecraft:crimson_sign
 - minecraft:warped_sign
+- farmersdelight:canvas_sign
+- farmersdelight:white_canvas_sign
+- farmersdelight:orange_canvas_sign
+- farmersdelight:magenta_canvas_sign
+- farmersdelight:light_blue_canvas_sign
+- farmersdelight:yellow_canvas_sign
+- farmersdelight:lime_canvas_sign
+- farmersdelight:pink_canvas_sign
+- farmersdelight:gray_canvas_sign
+- farmersdelight:light_gray_canvas_sign
+- farmersdelight:cyan_canvas_sign
+- farmersdelight:purple_canvas_sign
+- farmersdelight:blue_canvas_sign
+- farmersdelight:brown_canvas_sign
+- farmersdelight:green_canvas_sign
+- farmersdelight:red_canvas_sign
+- farmersdelight:black_canvas_sign
 
 #tfc:pine_logs
 - tfc:wood/log/pine
@@ -12423,6 +12157,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #minecraft:wart_blocks
 - minecraft:nether_wart_block
 - minecraft:warped_wart_block
+
+#farmersdelight:heat_conductors
+- minecraft:hopper
+- create:chute?
 
 #tfc:ores/bismuth/rich
 - tfc:ore/rich_bismuthinite/granite
@@ -12648,6 +12386,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:red_shulker_box
 - minecraft:white_shulker_box
 - minecraft:yellow_shulker_box
+- lootr:lootr_shulker
 
 #forge:ores/silver
 - #tfc:ores/silver/poor
@@ -12659,6 +12398,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:birch_wood
 - minecraft:stripped_birch_log
 - minecraft:stripped_birch_wood
+
+#create:fan_heaters
+- farmersdelight:stove
 
 #tfc:snow_layer_survives_on
 - #tfc:mud
@@ -12764,6 +12506,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:barrels
 - #forge:barrels/wooden
+- lootr:lootr_barrel
 
 #forge:ores/lapis
 - #minecraft:lapis_ores
@@ -12866,6 +12609,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:bamboo_sapling
 - minecraft:gravel
 - #tfc:grass
+- farmersdelight:rich_soil
 
 #tfc:berry_bushes
 - tfc:plant/blackberry_bush
@@ -12885,10 +12629,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:heavy_weighted_pressure_plate
 - #minecraft:wooden_pressure_plates
 - #minecraft:stone_pressure_plates
-
-#quark:vertical_slabs/chocolate
-- neapolitan:chocolate_brick_vertical_slab?
-- neapolitan:chocolate_tile_vertical_slab?
 
 #forge:ores/nickel
 - #tfc:ores/nickel/poor
@@ -14109,23 +13849,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:stripped_jungle_log
 - minecraft:stripped_jungle_wood
 
-#forge:flywheels/brass_painted_flywheels
-- extendedflywheels:black_brass_flywheel
-- extendedflywheels:gray_brass_flywheel
-- extendedflywheels:light_gray_brass_flywheel
-- extendedflywheels:white_brass_flywheel
-- extendedflywheels:red_brass_flywheel
-- extendedflywheels:orange_brass_flywheel
-- extendedflywheels:yellow_brass_flywheel
-- extendedflywheels:lime_brass_flywheel
-- extendedflywheels:green_brass_flywheel
-- extendedflywheels:cyan_brass_flywheel
-- extendedflywheels:light_blue_brass_flywheel
-- extendedflywheels:blue_brass_flywheel
-- extendedflywheels:magenta_brass_flywheel
-- extendedflywheels:purple_brass_flywheel
-- extendedflywheels:pink_brass_flywheel
-
 #forge:chests/ender
 - minecraft:ender_chest
 
@@ -14188,6 +13911,16 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:storage_blocks/raw_copper
 - minecraft:raw_copper_block
+
+#vs_eureka:ship_helms
+- vs_eureka:oak_ship_helm
+- vs_eureka:spruce_ship_helm
+- vs_eureka:birch_ship_helm
+- vs_eureka:jungle_ship_helm
+- vs_eureka:acacia_ship_helm
+- vs_eureka:dark_oak_ship_helm
+- vs_eureka:crimson_ship_helm
+- vs_eureka:warped_ship_helm
 
 #minecraft:mineable/axe
 - minecraft:note_block
@@ -14269,7 +14002,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - #minecraft:wooden_slabs
 - #minecraft:wooden_stairs
 - #minecraft:wooden_trapdoors
-- railways:semaphore
 - tfc:pumpkin
 - tfc:melon
 - tfc:powderkeg
@@ -14846,30 +14578,24 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tfc:burning_log_pile
 - tfc:composter
 - tfc:nest_box
-- extendedflywheels:oak_flywheel
-- extendedflywheels:oak_plated_flywheel
-- extendedflywheels:large_oak_flywheel
-- extendedflywheels:dark_oak_flywheel
-- extendedflywheels:dark_oak_plated_flywheel
-- extendedflywheels:large_dark_oak_flywheel
-- extendedflywheels:spruce_flywheel
-- extendedflywheels:spruce_plated_flywheel
-- extendedflywheels:large_spruce_flywheel
-- extendedflywheels:birch_flywheel
-- extendedflywheels:birch_plated_flywheel
-- extendedflywheels:large_birch_flywheel
-- extendedflywheels:jungle_flywheel
-- extendedflywheels:jungle_plated_flywheel
-- extendedflywheels:large_jungle_flywheel
-- extendedflywheels:acacia_flywheel
-- extendedflywheels:acacia_plated_flywheel
-- extendedflywheels:large_acacia_flywheel
-- extendedflywheels:crimson_flywheel
-- extendedflywheels:crimson_plated_flywheel
-- extendedflywheels:large_crimson_flywheel
-- extendedflywheels:warped_flywheel
-- extendedflywheels:warped_plated_flywheel
-- extendedflywheels:large_warped_flywheel
+- farmersdelight:basket
+- farmersdelight:cutting_board
+- farmersdelight:carrot_crate
+- farmersdelight:potato_crate
+- farmersdelight:beetroot_crate
+- farmersdelight:cabbage_crate
+- farmersdelight:tomato_crate
+- farmersdelight:onion_crate
+- farmersdelight:oak_cabinet
+- farmersdelight:birch_cabinet
+- farmersdelight:spruce_cabinet
+- farmersdelight:jungle_cabinet
+- farmersdelight:acacia_cabinet
+- farmersdelight:dark_oak_cabinet
+- farmersdelight:crimson_cabinet
+- farmersdelight:warped_cabinet
+- farmersdelight:sandy_shrub
+- farmersdelight:stuffed_pumpkin_block
 - create:schematic_table
 - create:cogwheel
 - create:large_cogwheel
@@ -14973,52 +14699,25 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - create:redstone_link
 - create:analog_lever
 - create:lectern_controller
-- extendedgears:dark_oak_cogwheel
-- extendedgears:oak_cogwheel
-- extendedgears:birch_cogwheel
-- extendedgears:jungle_cogwheel
-- extendedgears:acacia_cogwheel
-- extendedgears:warped_cogwheel
-- extendedgears:crimson_cogwheel
-- extendedgears:large_dark_oak_cogwheel
-- extendedgears:large_oak_cogwheel
-- extendedgears:large_birch_cogwheel
-- extendedgears:large_jungle_cogwheel
-- extendedgears:large_acacia_cogwheel
-- extendedgears:large_warped_cogwheel
-- extendedgears:large_crimson_cogwheel
-- extendedgears:shaftless_dark_oak_cogwheel
-- extendedgears:shaftless_oak_cogwheel
-- extendedgears:shaftless_birch_cogwheel
-- extendedgears:shaftless_jungle_cogwheel
-- extendedgears:shaftless_acacia_cogwheel
-- extendedgears:shaftless_warped_cogwheel
-- extendedgears:shaftless_crimson_cogwheel
-- extendedgears:large_shaftless_dark_oak_cogwheel
-- extendedgears:large_shaftless_oak_cogwheel
-- extendedgears:large_shaftless_birch_cogwheel
-- extendedgears:large_shaftless_jungle_cogwheel
-- extendedgears:large_shaftless_acacia_cogwheel
-- extendedgears:large_shaftless_warped_cogwheel
-- extendedgears:large_shaftless_crimson_cogwheel
-- extendedgears:half_shaft_dark_oak_cogwheel
-- extendedgears:half_shaft_oak_cogwheel
-- extendedgears:half_shaft_birch_cogwheel
-- extendedgears:half_shaft_jungle_cogwheel
-- extendedgears:half_shaft_acacia_cogwheel
-- extendedgears:half_shaft_warped_cogwheel
-- extendedgears:half_shaft_crimson_cogwheel
-- extendedgears:large_half_shaft_dark_oak_cogwheel
-- extendedgears:large_half_shaft_oak_cogwheel
-- extendedgears:large_half_shaft_birch_cogwheel
-- extendedgears:large_half_shaft_jungle_cogwheel
-- extendedgears:large_half_shaft_acacia_cogwheel
-- extendedgears:large_half_shaft_warped_cogwheel
-- extendedgears:large_half_shaft_crimson_cogwheel
-- extendedgears:half_shaft_spruce_cogwheel
-- extendedgears:large_half_shaft_spruce_cogwheel
-- extendedgears:shaftless_spruce_cogwheel
-- extendedgears:large_shaftless_spruce_cogwheel
+- lootr:lootr_chest
+- lootr:lootr_trapped_chest
+- lootr:lootr_barrel
+- vs_eureka:floater
+- #vs_eureka:ship_helms
+- toms_storage:ts.crafting_terminal
+- toms_storage:ts.inventory_cable_connector_filtered
+- toms_storage:ts.inventory_cable_connector_framed
+- toms_storage:ts.inventory_cable_connector
+- toms_storage:ts.inventory_cable_framed
+- toms_storage:ts.inventory_cable
+- toms_storage:ts.inventory_connector
+- toms_storage:ts.inventory_hopper_basic
+- toms_storage:ts.inventory_proxy
+- toms_storage:ts.level_emitter
+- toms_storage:ts.open_crate
+- toms_storage:ts.painted_trim
+- toms_storage:ts.storage_terminal
+- toms_storage:ts.trim
 
 #tfc:fruit_tree_leaves
 - tfc:plant/cherry_leaves
@@ -15119,6 +14818,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tfc:crop/carrot
 - tfc:crop/cabbage
 - minecraft:carrots
+
+#sereneseasons:spring_crops
+- farmersdelight:onions
 
 #tfc:ores/zinc/rich
 - tfc:ore/rich_sphalerite/granite

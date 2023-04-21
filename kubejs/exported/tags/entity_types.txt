@@ -1,4 +1,4 @@
-To refresh this file, delete it and run /reload command again! Last updated: Apr 17, 2023, 12:19:04 PM
+To refresh this file, delete it and run /reload command again! Last updated: Apr 21, 2023, 1:35:16 PM
 
 #minecraft:axolotl_always_hostiles
 - minecraft:drowned
@@ -169,6 +169,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - #tfc:pests
 - minecraft:player
 
+#farmersdelight:horse_feed_users
+- minecraft:horse
+- minecraft:skeleton_horse
+- minecraft:zombie_horse
+- minecraft:donkey
+- minecraft:mule
+- minecraft:llama
+
 #tfc:creepers
 - minecraft:creeper
 
@@ -201,6 +209,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:squid
 - minecraft:glow_squid
 
+#farmersdelight:dog_food_users
+- minecraft:wolf
+
 #tfc:hunted_by_ocean_predators
 - tfc:isopod
 - tfc:lobster
@@ -230,6 +241,15 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tfc:horse
 - tfc:mule
 - tfc:donkey
+
+#wearablebackpacks:backpack
+- minecraft:drowned
+- minecraft:husk
+- minecraft:piglin
+- minecraft:skeleton
+- minecraft:wither_skeleton
+- minecraft:zombie
+- minecraft:zombified_piglin
 
 #minecraft:impact_projectiles
 - #minecraft:arrows

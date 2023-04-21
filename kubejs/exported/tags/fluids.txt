@@ -1,4 +1,4 @@
-To refresh this file, delete it and run /reload command again! Last updated: Apr 17, 2023, 12:19:04 PM
+To refresh this file, delete it and run /reload command again! Last updated: Apr 21, 2023, 1:35:16 PM
 
 #tfc:cider
 - tfc:cider
@@ -56,16 +56,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - create:honey
 - create:flowing_chocolate
 - create:chocolate
-- create_central_kitchen:flowing_sap?
-- create_central_kitchen:sap?
-- create_central_kitchen:flowing_syrup?
-- create_central_kitchen:syrup?
-- create_central_kitchen:flowing_tomato_sauce?
-- create_central_kitchen:tomato_sauce?
 - create_enchantment_industry:flowing_ink
 - create_enchantment_industry:ink
-- createaddition:flowing_seed_oil
-- createaddition:seed_oil
 
 #forge:milk
 - minecraft:milk?
@@ -149,8 +141,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #tfc:spring_water
 - tfc:spring_water
 - tfc:flowing_spring_water
-
-#forge:crude_oil
 
 #tfc:light_blue_dye
 - tfc:light_blue_dye
@@ -366,8 +356,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tfc:vodka
 - tfc:flowing_vodka
 
-#forge:creosote
-
 #tfc:black_dye
 - tfc:black_dye
 - tfc:flowing_black_dye
@@ -398,14 +386,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - #tfc:any_fresh_water
 - tfc:salt_water
 - tfc:flowing_salt_water
-
-#forge:biofuel
-- createaddition:flowing_bioethanol
-- createaddition:bioethanol
-
-#forge:plantoil
-- createaddition:flowing_seed_oil
-- createaddition:seed_oil
 
 #create_enchantment_industry:printer_input
 - create_enchantment_industry:flowing_experience

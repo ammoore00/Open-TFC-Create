@@ -31,10 +31,10 @@ onEvent('jei.hide.items', event => {
 })
 
 onEvent('jei.remove.categories', event => {
-    //event.remove('create:haunting')
+    event.remove('create:haunting')
 })
 
-let MysteriousItemConversionCategory = java('com.simibubi.create.compat.jei.category.MysteriousItemConversionCategory')
-let ConversionRecipe = java('com.simibubi.create.compat.jei.ConversionRecipe')
+//let MysteriousItemConversionCategory = java('com.simibubi.create.compat.jei.category.MysteriousItemConversionCategory')
+//let ConversionRecipe = java('com.simibubi.create.compat.jei.ConversionRecipe')
 
-MysteriousItemConversionCategory.RECIPES.remove(0) // Blaze burner mysterious conversion
+//MysteriousItemConversionCategory.RECIPES.remove(0) // Blaze burner mysterious conversion

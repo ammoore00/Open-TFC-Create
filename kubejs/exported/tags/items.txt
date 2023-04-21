@@ -1,4 +1,4 @@
-To refresh this file, delete it and run /reload command again! Last updated: Apr 17, 2023, 12:19:04 PM
+To refresh this file, delete it and run /reload command again! Last updated: Apr 21, 2023, 1:35:16 PM
 
 #forge:double_ingots/black_bronze
 - tfc:metal/double_ingot/black_bronze
@@ -34,13 +34,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - create:brass_sheet
 - create:iron_sheet
 - create:golden_sheet
-- createaddition:zinc_sheet
 
 #tfc:pig_food
 - #tfc:foods
 
 #forge:dyes/gray
 - minecraft:gray_dye
+- chalk:gray_chalk
 
 #forge:ingots/weak_steel
 - tfc:metal/ingot/weak_steel
@@ -61,9 +61,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - create:layered_veridium
 - create:veridium_pillar
 
-#forge:wires/gold
-- createaddition:gold_wire
-
 #forge:storage_blocks/netherite
 - minecraft:netherite_block
 
@@ -74,6 +71,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tfc:food/cheese
 
 #forge:dough/wheat
+- farmersdelight:wheat_dough
 - create:dough
 
 #tfc:compost_greens_low
@@ -180,6 +178,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tfc:ore/cryolite/gneiss
 - tfc:ore/cryolite/marble
 
+#forge:salad_ingredients
+- #forge:salad_ingredients/cabbage
+
 #tfc:colored_stained_glass_pane
 - minecraft:orange_stained_glass_pane
 - minecraft:magenta_stained_glass_pane
@@ -243,10 +244,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tfc:ore/poor_native_silver/gneiss
 - tfc:ore/poor_native_silver/marble
 
-#railways:internal/dyes/magenta_dyes
-- #c:magenta_dyes?
-- #forge:dyes/magenta?
-
 #forge:ingots/pig_iron
 - tfc:metal/ingot/pig_iron
 
@@ -296,11 +293,17 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:storage_blocks/copper
 - minecraft:copper_block
 
+#forge:milk/milk
+- minecraft:milk_bucket
+
 #minecraft:coals
 - minecraft:coal
 - minecraft:charcoal
 - tfc:ore/bituminous_coal
 - tfc:ore/lignite
+
+#forge:bread/wheat
+- minecraft:bread
 
 #tfc:ores/gold/poor
 - tfc:ore/poor_native_gold/granite
@@ -330,72 +333,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:ingots/nether_brick
 - minecraft:nether_brick
 
-#extendedgears:cogwheel
-- extendedgears:dark_oak_cogwheel
-- extendedgears:oak_cogwheel
-- extendedgears:birch_cogwheel
-- extendedgears:jungle_cogwheel
-- extendedgears:acacia_cogwheel
-- extendedgears:warped_cogwheel
-- extendedgears:crimson_cogwheel
-- extendedgears:large_dark_oak_cogwheel
-- extendedgears:large_oak_cogwheel
-- extendedgears:large_birch_cogwheel
-- extendedgears:large_jungle_cogwheel
-- extendedgears:large_acacia_cogwheel
-- extendedgears:large_warped_cogwheel
-- extendedgears:large_crimson_cogwheel
-- extendedgears:shaftless_dark_oak_cogwheel
-- extendedgears:shaftless_oak_cogwheel
-- extendedgears:shaftless_birch_cogwheel
-- extendedgears:shaftless_jungle_cogwheel
-- extendedgears:shaftless_acacia_cogwheel
-- extendedgears:shaftless_warped_cogwheel
-- extendedgears:shaftless_crimson_cogwheel
-- extendedgears:large_shaftless_dark_oak_cogwheel
-- extendedgears:large_shaftless_oak_cogwheel
-- extendedgears:large_shaftless_birch_cogwheel
-- extendedgears:large_shaftless_jungle_cogwheel
-- extendedgears:large_shaftless_acacia_cogwheel
-- extendedgears:large_shaftless_warped_cogwheel
-- extendedgears:large_shaftless_crimson_cogwheel
-- extendedgears:half_shaft_dark_oak_cogwheel
-- extendedgears:half_shaft_oak_cogwheel
-- extendedgears:half_shaft_birch_cogwheel
-- extendedgears:half_shaft_jungle_cogwheel
-- extendedgears:half_shaft_acacia_cogwheel
-- extendedgears:half_shaft_warped_cogwheel
-- extendedgears:half_shaft_crimson_cogwheel
-- extendedgears:large_half_shaft_dark_oak_cogwheel
-- extendedgears:large_half_shaft_oak_cogwheel
-- extendedgears:large_half_shaft_birch_cogwheel
-- extendedgears:large_half_shaft_jungle_cogwheel
-- extendedgears:large_half_shaft_acacia_cogwheel
-- extendedgears:large_half_shaft_warped_cogwheel
-- extendedgears:large_half_shaft_crimson_cogwheel
-- extendedgears:iron_cogwheel
-- extendedgears:steel_cogwheel
-- extendedgears:copper_cogwheel
-- extendedgears:large_iron_cogwheel
-- extendedgears:large_steel_cogwheel
-- extendedgears:large_copper_cogwheel
-- extendedgears:shaftless_iron_cogwheel
-- extendedgears:shaftless_steel_cogwheel
-- extendedgears:shaftless_copper_cogwheel
-- extendedgears:large_shaftless_iron_cogwheel
-- extendedgears:large_shaftless_steel_cogwheel
-- extendedgears:large_shaftless_copper_cogwheel
-- extendedgears:half_shaft_iron_cogwheel
-- extendedgears:half_shaft_steel_cogwheel
-- extendedgears:half_shaft_copper_cogwheel
-- extendedgears:large_half_shaft_iron_cogwheel
-- extendedgears:large_half_shaft_steel_cogwheel
-- extendedgears:large_half_shaft_copper_cogwheel
-- extendedgears:half_shaft_spruce_cogwheel
-- extendedgears:large_half_shaft_spruce_cogwheel
-- extendedgears:shaftless_spruce_cogwheel
-- extendedgears:large_shaftless_spruce_cogwheel
-- create:cogwheel?
+#forge:pickaxes
+- minecraft:wooden_pickaxe
+- minecraft:stone_pickaxe
+- minecraft:iron_pickaxe
+- minecraft:golden_pickaxe
+- minecraft:diamond_pickaxe
+- minecraft:netherite_pickaxe
 
 #forge:cobblestone/infested
 - minecraft:infested_cobblestone
@@ -503,15 +447,16 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:dyes/orange
 - minecraft:orange_dye
+- chalk:orange_chalk
+
+#bookshelf:clocks
+- #forge:clocks
 
 #tfc:acacia_logs
 - tfc:wood/log/acacia
 - tfc:wood/wood/acacia
 - tfc:wood/stripped_log/acacia
 - tfc:wood/stripped_wood/acacia
-
-#forge:rods/iron
-- createaddition:iron_rod
 
 #tfc:metal_item/wrought_iron
 - tfc:metal/ingot/wrought_iron
@@ -579,8 +524,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - create:layered_granite
 - create:granite_pillar
 
+#forge:shields
+- minecraft:shield
+
 #tfc:usable_in_powder_keg
 - minecraft:gunpowder
+
+#forge:pasta/raw_pasta
+- farmersdelight:raw_pasta
 
 #tfc:pickaxes
 - tfc:metal/pickaxe/bismuth_bronze
@@ -596,8 +547,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:glass/white
 - minecraft:white_stained_glass
 
+#bookshelf:swords
+- #forge:swords
+
 #forge:glass_panes/red
 - minecraft:red_stained_glass_pane
+
+#bookshelf:axes
+- #forge:axes
 
 #tfc:metal_item/bismuth_bronze_tools
 - tfc:metal/chisel/bismuth_bronze
@@ -720,11 +677,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:nuggets/brass
 - create:brass_nugget
-
-#forge:walls/chocolate
-- neapolitan:chocolate_brick_wall?
-- neapolitan:chocolate_tile_wall?
-- create_confectionary:chocolate_bricks_wall?
 
 #forge:gems/diamond
 - minecraft:diamond
@@ -949,7 +901,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tfc:mud_bricks/loam_wall
 - tfc:mud_bricks/sandy_loam_wall
 - tfc:mud_bricks/silty_loam_wall
-- alloyed:steel_bars
 - create:cut_granite_wall
 - create:polished_cut_granite_wall
 - create:cut_granite_brick_wall
@@ -1006,7 +957,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - create:polished_cut_veridium_wall
 - create:cut_veridium_brick_wall
 - create:small_veridium_brick_wall
-- #forge:walls/chocolate
 
 #tfc:holds_small_fishing_bait
 - tfc:metal/fishing_rod/bismuth_bronze
@@ -1174,8 +1124,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tfc:sand/green
 - tfc:sand/pink
 
-#forge:plates/bronze
-- alloyed:bronze_sheet
+#forge:raw_chicken
+- minecraft:chicken
+- farmersdelight:chicken_cuts
+
+#forge:berries
+- minecraft:sweet_berries
+- minecraft:glow_berries
 
 #create:stone_types/diorite
 - create:cut_diorite
@@ -1195,13 +1150,19 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:dyes/light_gray
 - minecraft:light_gray_dye
+- chalk:light_gray_chalk
 
 #forge:rods/black_steel
 - tfc:metal/rod/black_steel
 
 #forge:ingots/bronze
 - tfc:metal/ingot/bronze
-- alloyed:bronze_ingot
+
+#toolstats:ignore_enchantability
+
+#forge:milk
+- #forge:milk/milk
+- #forge:milk/milk_bottle
 
 #forge:ingots/copper
 - minecraft:copper_ingot
@@ -1330,51 +1291,15 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - create:red_valve_handle
 - create:black_valve_handle
 
+#forge:cooked_pork
+- minecraft:cooked_porkchop
+- farmersdelight:cooked_bacon
+
 #forge:storage_blocks/coal
 - minecraft:coal_block
 
 #forge:glass/light_blue
 - minecraft:light_blue_stained_glass
-
-#extendedgears:small_cogwheel
-- extendedgears:dark_oak_cogwheel
-- extendedgears:oak_cogwheel
-- extendedgears:birch_cogwheel
-- extendedgears:jungle_cogwheel
-- extendedgears:acacia_cogwheel
-- extendedgears:warped_cogwheel
-- extendedgears:crimson_cogwheel
-- extendedgears:shaftless_dark_oak_cogwheel
-- extendedgears:shaftless_oak_cogwheel
-- extendedgears:shaftless_birch_cogwheel
-- extendedgears:shaftless_jungle_cogwheel
-- extendedgears:shaftless_acacia_cogwheel
-- extendedgears:shaftless_warped_cogwheel
-- extendedgears:shaftless_crimson_cogwheel
-- extendedgears:half_shaft_dark_oak_cogwheel
-- extendedgears:half_shaft_oak_cogwheel
-- extendedgears:half_shaft_birch_cogwheel
-- extendedgears:half_shaft_jungle_cogwheel
-- extendedgears:half_shaft_acacia_cogwheel
-- extendedgears:half_shaft_warped_cogwheel
-- extendedgears:half_shaft_crimson_cogwheel
-- extendedgears:iron_cogwheel
-- extendedgears:steel_cogwheel
-- extendedgears:copper_cogwheel
-- extendedgears:shaftless_iron_cogwheel
-- extendedgears:shaftless_steel_cogwheel
-- extendedgears:shaftless_copper_cogwheel
-- extendedgears:half_shaft_iron_cogwheel
-- extendedgears:half_shaft_steel_cogwheel
-- extendedgears:half_shaft_copper_cogwheel
-- extendedgears:half_shaft_spruce_cogwheel
-- extendedgears:shaftless_spruce_cogwheel
-- create:cogwheel?
-
-#forge:wires
-- createaddition:copper_wire
-- createaddition:iron_wire
-- createaddition:gold_wire
 
 #forge:ingots/brass
 - tfc:metal/ingot/brass
@@ -1390,6 +1315,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:storage_blocks/amethyst
 - minecraft:amethyst_block
 
+#forge:cooked_bacon
+- farmersdelight:cooked_bacon
+
 #tfc:firepit_logs
 - #minecraft:logs
 
@@ -1403,6 +1331,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tfc:metal/tuyere/black_steel
 - tfc:metal/tuyere/blue_steel
 - tfc:metal/tuyere/red_steel
+
+#lootr:shulkers
+- lootr:lootr_shulker
 
 #forge:double_sheets/steel
 - tfc:metal/double_sheet/steel
@@ -1480,16 +1411,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:glass/purple
 - minecraft:purple_stained_glass
 
-#forge:stairs/chocolate
-- neapolitan:chocolate_brick_stairs?
-- neapolitan:chocolate_tile_stairs?
-- create_confectionary:chocolate_bricks_stairs?
-
 #forge:rods/bismuth_bronze
 - tfc:metal/rod/bismuth_bronze
 
 #forge:dyes/magenta
 - minecraft:magenta_dye
+- chalk:magenta_chalk
 
 #minecraft:crimson_stems
 - minecraft:crimson_stem
@@ -1502,6 +1429,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:sheets/unknown
 
+#toolstats:ignore_dig_speed
+
 #minecraft:stone_tool_materials
 - minecraft:cobblestone
 - minecraft:blackstone
@@ -1509,6 +1438,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:dyes/cyan
 - minecraft:cyan_dye
+- chalk:cyan_chalk
 
 #minecraft:terracotta
 - minecraft:terracotta
@@ -1557,8 +1487,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tfc:rock/raw/gneiss
 - tfc:rock/raw/marble
 
+#forge:crops/rice
+- farmersdelight:rice
+
 #forge:dyes/purple
 - minecraft:purple_dye
+- chalk:purple_chalk
 
 #tfc:inefficient_logging_axes
 - tfc:stone/axe/sedimentary
@@ -1596,6 +1530,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - #tfc:unfired_molds
 - #tfc:fired_molds
 
+#chalk:glowing
+- minecraft:glow_ink_sac
+- minecraft:glowstone_dust
+
 #forge:fishing_rods/bismuth_bronze
 - tfc:metal/fishing_rod/bismuth_bronze
 
@@ -1614,11 +1552,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tfc:metal/sword/black_steel
 - tfc:metal/axe/black_steel
 
-#forge:storage_blocks/chocolate
-- neapolitan:chocolate_block?
-- neapolitan:chocolate_bricks?
-- neapolitan:chocolate_tiles?
-- create_confectionary:chocolate_bricks?
+#bookshelf:shovels
+- #forge:shovels
 
 #forge:sheets/black_bronze
 - tfc:metal/sheet/black_bronze
@@ -1653,10 +1588,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - #forge:sheets/high_carbon_red_steel
 - #forge:sheets/unknown
 
-#railways:internal/dyes/gray_dyes
-- #c:gray_dyes?
-- #forge:dyes/gray?
-
 #tfc:metal_item/silver
 - tfc:metal/ingot/silver
 - tfc:metal/double_ingot/silver
@@ -1682,11 +1613,26 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:storage_blocks/raw_gold
 - minecraft:raw_gold_block
 
+#bookshelf:crossbows
+- #forge:crossbows
+
 #forge:double_sheets/bismuth_bronze
 - tfc:metal/double_sheet/bismuth_bronze
 
 #forge:gems/prismarine
 - minecraft:prismarine_crystals
+
+#farmersdelight:cabbage_roll_ingredients
+- #forge:raw_pork
+- #forge:raw_fishes
+- #forge:raw_chicken
+- #forge:raw_beef
+- #forge:raw_mutton
+- #forge:eggs
+- #forge:mushrooms
+- minecraft:carrot
+- minecraft:potato
+- minecraft:beetroot
 
 #forge:stripped_wood
 - #create:vanilla_stripped_wood
@@ -1719,6 +1665,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - #tfc:ores/gold/poor
 - #tfc:ores/gold/normal
 - #tfc:ores/gold/rich
+
+#lootr:chests
+- lootr:lootr_chest
+- lootr:lootr_inventory
 
 #forge:raw_materials
 - #forge:raw_materials/copper
@@ -1766,6 +1716,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tfc:rock/anvil/andesite
 - tfc:rock/anvil/dacite
 
+#forge:cooked_eggs
+- farmersdelight:fried_egg
+
 #forge:nuggets/zinc
 - create:zinc_nugget
 
@@ -1775,6 +1728,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #tfc:small_fishing_bait
 - tfc:food/shellfish
 - #tfc:seeds
+
+#forge:grain/wheat
+- minecraft:wheat
 
 #forge:glass/lime
 - minecraft:lime_stained_glass
@@ -1897,9 +1853,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:green_carpet
 - minecraft:red_carpet
 - minecraft:black_carpet
+- farmersdelight:full_tatami_mat
+- farmersdelight:half_tatami_mat
 
 #forge:tools
 - #forge:tools/axes
+- #forge:tools/knives
 - #forge:tools/pickaxes
 - #forge:tools/shovels
 
@@ -1915,22 +1874,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:glass/orange
 - minecraft:orange_stained_glass
 
-#forge:flywheels/steel_painted_flywheels
-- extendedflywheels:black_steel_flywheel
-- extendedflywheels:gray_steel_flywheel
-- extendedflywheels:light_gray_steel_flywheel
-- extendedflywheels:white_steel_flywheel
-- extendedflywheels:red_steel_flywheel
-- extendedflywheels:orange_steel_flywheel
-- extendedflywheels:yellow_steel_flywheel
-- extendedflywheels:lime_steel_flywheel
-- extendedflywheels:green_steel_flywheel
-- extendedflywheels:cyan_steel_flywheel
-- extendedflywheels:light_blue_steel_flywheel
-- extendedflywheels:blue_steel_flywheel
-- extendedflywheels:magenta_steel_flywheel
-- extendedflywheels:purple_steel_flywheel
-- extendedflywheels:pink_steel_flywheel
+#forge:raw_mutton
+- minecraft:mutton
+- farmersdelight:mutton_chops
 
 #forge:plates/gold
 - create:golden_sheet
@@ -2200,7 +2146,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tfc:mud_bricks/loam_slab
 - tfc:mud_bricks/sandy_loam_slab
 - tfc:mud_bricks/silty_loam_slab
-- alloyed:steel_sheet_slab
 - create:cut_granite_slab
 - create:polished_cut_granite_slab
 - create:cut_granite_brick_slab
@@ -2257,10 +2202,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - create:polished_cut_veridium_slab
 - create:cut_veridium_brick_slab
 - create:small_veridium_brick_slab
-- #forge:slabs/chocolate
-
-#forge:plates/steel
-- alloyed:steel_sheet
 
 #tfc:foods/usable_in_sandwich
 - #tfc:foods/vegetables
@@ -2301,15 +2242,21 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:stone_button
 - minecraft:polished_blackstone_button
 
+#forge:raw_pork
+- minecraft:porkchop
+- farmersdelight:bacon
+
+#lootr:containers
+- #lootr:barrels
+- #lootr:chests
+- #lootr:trapped_chests
+- #lootr:shulkers
+
 #minecraft:rails
 - minecraft:rail
 - minecraft:powered_rail
 - minecraft:detector_rail
 - minecraft:activator_rail
-
-#railways:internal/dyes/white_dyes
-- #c:white_dyes?
-- #forge:dyes/white?
 
 #tfc:ore_pieces
 - tfc:ore/poor_native_copper
@@ -2617,6 +2564,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tfc:wood/stripped_log/sycamore
 - tfc:wood/stripped_wood/sycamore
 
+#bookshelf:leggings
+- #forge:leggings
+
 #create:create_ingots
 - create:andesite_alloy
 - create:zinc_ingot
@@ -2624,6 +2574,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #tfc:starts_fires_with_durability
 - minecraft:flint_and_steel
+
+#forge:bows
+- minecraft:bow
 
 #minecraft:gold_ores
 - minecraft:gold_ore
@@ -2660,11 +2613,23 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #create:pressurized_air_sources
 - create:copper_backtank
 
+#farmersdelight:offhand_equipment
+- minecraft:shield
+- create:extendo_grip?
+
 #tfc:mud_bricks
 - tfc:mud_bricks/loam
 - tfc:mud_bricks/silt
 - tfc:mud_bricks/sandy_loam
 - tfc:mud_bricks/silty_loam
+
+#forge:hoes
+- minecraft:wooden_hoe
+- minecraft:stone_hoe
+- minecraft:iron_hoe
+- minecraft:golden_hoe
+- minecraft:diamond_hoe
+- minecraft:netherite_hoe
 
 #forge:fishing_rods/red_steel
 - tfc:metal/fishing_rod/red_steel
@@ -2744,6 +2709,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:double_ingots/rose_gold
 - tfc:metal/double_ingot/rose_gold
+
+#forge:crossbows
+- minecraft:crossbow
 
 #tfc:metamorphic_rock
 - tfc:rock/loose/quartzite
@@ -2842,6 +2810,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:dyes/black
 - minecraft:black_dye
+- chalk:black_chalk
 
 #tfc:ores/tin/rich
 - tfc:ore/rich_cassiterite/granite
@@ -2864,6 +2833,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tfc:ore/rich_cassiterite/schist
 - tfc:ore/rich_cassiterite/gneiss
 - tfc:ore/rich_cassiterite/marble
+
+#forge:cooked_fishes/cod
+- minecraft:cooked_cod
+- farmersdelight:cooked_cod_slice
 
 #tfc:metal_item/high_carbon_black_steel
 - tfc:metal/ingot/high_carbon_black_steel
@@ -2942,9 +2915,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:double_ingots/blue_steel
 - tfc:metal/double_ingot/blue_steel
 
-#railways:internal/dyes/green_dyes
-- #c:green_dyes?
-- #forge:dyes/green?
+#forge:leggings
+- minecraft:leather_leggings
+- minecraft:chainmail_leggings
+- minecraft:iron_leggings
+- minecraft:golden_leggings
+- minecraft:diamond_leggings
+- minecraft:netherite_leggings
 
 #minecraft:warped_stems
 - minecraft:warped_stem
@@ -2974,8 +2951,17 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tfc:ore/rich_garnierite/gneiss
 - tfc:ore/rich_garnierite/marble
 
+#forge:shovels
+- minecraft:wooden_shovel
+- minecraft:stone_shovel
+- minecraft:iron_shovel
+- minecraft:golden_shovel
+- minecraft:diamond_shovel
+- minecraft:netherite_shovel
+
 #forge:dyes/blue
 - minecraft:blue_dye
+- chalk:blue_chalk
 
 #forge:storage_blocks/iron
 - minecraft:iron_block
@@ -3018,7 +3004,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #create:sandpaper
 - create:sand_paper
 - create:red_sand_paper
-- createaddition:diamond_grit_sandpaper
 
 #forge:heads
 - minecraft:creeper_head
@@ -3079,6 +3064,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:golden_axe
 - minecraft:netherite_axe
 
+#bookshelf:stones
+- #forge:stone
+
 #forge:ores/pyrite
 - tfc:ore/pyrite/granite
 - tfc:ore/pyrite/diorite
@@ -3107,8 +3095,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:stripped_dark_oak_log
 - minecraft:stripped_dark_oak_wood
 
-#forge:storage_blocks/steel
-- alloyed:steel_block
+#forge:spyglasses
+- minecraft:spyglass
 
 #create:stone_types/limestone
 - create:cut_limestone
@@ -3126,7 +3114,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - create:layered_limestone
 - create:limestone_pillar
 
+#toolstats:ignored
+
 #forge:sheets/weak_blue_steel
+
+#forge:raw_bacon
+- farmersdelight:bacon
 
 #forge:rods/sterling_silver
 - tfc:metal/rod/sterling_silver
@@ -3199,20 +3192,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:double_ingots/brass
 - tfc:metal/double_ingot/brass
 
-#forge:bars/chocolate
-- create:bar_of_chocolate
-- neapolitan:chocolate_bar?
-
 #forge:ingots/weak_red_steel
 - tfc:metal/ingot/weak_red_steel
-
-#forge:storage_blocks/bronze
-- alloyed:bronze_block
-- alloyed:waxed_bronze_block
-
-#railways:internal/dyes/pink_dyes
-- #c:pink_dyes?
-- #forge:dyes/pink?
 
 #tfc:fired_molds
 - tfc:ceramic/ingot_mold
@@ -3230,12 +3211,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tfc:ceramic/knife_blade_mold
 - tfc:ceramic/scythe_blade_mold
 - tfc:ceramic/bell_mold
-
-#forge:rods/all_metal
-- createaddition:iron_rod
-- createaddition:copper_rod
-- createaddition:gold_rod
-- createaddition:brass_rod
 
 #minecraft:fences
 - #minecraft:wooden_fences
@@ -3347,6 +3322,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:red_shulker_box
 - minecraft:black_shulker_box
 
+#bookshelf:spyglasses
+- #forge:spyglasses
+
 #forge:ore_rates/singular
 - minecraft:ancient_debris
 - minecraft:coal_ore
@@ -3370,7 +3348,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:rods/brass
 - tfc:metal/rod/brass
-- createaddition:brass_rod
 
 #forge:ores/graphite
 - tfc:ore/graphite/granite
@@ -3502,14 +3479,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tfc:wood/stripped_log/douglas_fir
 - tfc:wood/stripped_wood/douglas_fir
 
-#railways:internal/dyes/orange_dyes
-- #c:orange_dyes?
-- #forge:dyes/orange?
+#forge:pasta
+- #forge:pasta/raw_pasta
 
 #minecraft:trapdoors
 - #minecraft:wooden_trapdoors
 - minecraft:iron_trapdoor
-- alloyed:steel_trapdoor
 - create:train_trapdoor
 - create:framed_glass_trapdoor
 
@@ -3519,6 +3494,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:glass/cyan
 - minecraft:cyan_stained_glass
+
+#lootr:barrels
+- lootr:lootr_barrel
 
 #forge:leather
 - minecraft:leather
@@ -3530,6 +3508,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - #forge:glass/colorless
 - #forge:stained_glass
 - #forge:glass/tinted
+
+#forge:mob_buckets
+- minecraft:pufferfish_bucket
+- minecraft:salmon_bucket
+- minecraft:cod_bucket
+- minecraft:tropical_fish_bucket
+- minecraft:axolotl_bucket
 
 #minecraft:boats
 - minecraft:oak_boat
@@ -3560,15 +3545,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:nuggets/iron
 - minecraft:iron_nugget
-
-#createaddition:plant_foods
-- minecraft:apple
-- minecraft:melon_slice
-- minecraft:potato
-- minecraft:sweet_berries
-- minecraft:beetroot
-- minecraft:glow_berries
-- minecraft:carrot
 
 #tfc:pileable_ingots
 - #forge:ingots/bismuth
@@ -3609,55 +3585,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #tfc:donkey_food
 - #tfc:horse_food
-
-#extendedgears:wooden_cogwheel
-- extendedgears:dark_oak_cogwheel
-- extendedgears:oak_cogwheel
-- extendedgears:birch_cogwheel
-- extendedgears:jungle_cogwheel
-- extendedgears:acacia_cogwheel
-- extendedgears:warped_cogwheel
-- extendedgears:crimson_cogwheel
-- extendedgears:large_dark_oak_cogwheel
-- extendedgears:large_oak_cogwheel
-- extendedgears:large_birch_cogwheel
-- extendedgears:large_jungle_cogwheel
-- extendedgears:large_acacia_cogwheel
-- extendedgears:large_warped_cogwheel
-- extendedgears:large_crimson_cogwheel
-- extendedgears:shaftless_dark_oak_cogwheel
-- extendedgears:shaftless_oak_cogwheel
-- extendedgears:shaftless_birch_cogwheel
-- extendedgears:shaftless_jungle_cogwheel
-- extendedgears:shaftless_acacia_cogwheel
-- extendedgears:shaftless_warped_cogwheel
-- extendedgears:shaftless_crimson_cogwheel
-- extendedgears:large_shaftless_dark_oak_cogwheel
-- extendedgears:large_shaftless_oak_cogwheel
-- extendedgears:large_shaftless_birch_cogwheel
-- extendedgears:large_shaftless_jungle_cogwheel
-- extendedgears:large_shaftless_acacia_cogwheel
-- extendedgears:large_shaftless_warped_cogwheel
-- extendedgears:large_shaftless_crimson_cogwheel
-- extendedgears:half_shaft_dark_oak_cogwheel
-- extendedgears:half_shaft_oak_cogwheel
-- extendedgears:half_shaft_birch_cogwheel
-- extendedgears:half_shaft_jungle_cogwheel
-- extendedgears:half_shaft_acacia_cogwheel
-- extendedgears:half_shaft_warped_cogwheel
-- extendedgears:half_shaft_crimson_cogwheel
-- extendedgears:large_half_shaft_dark_oak_cogwheel
-- extendedgears:large_half_shaft_oak_cogwheel
-- extendedgears:large_half_shaft_birch_cogwheel
-- extendedgears:large_half_shaft_jungle_cogwheel
-- extendedgears:large_half_shaft_acacia_cogwheel
-- extendedgears:large_half_shaft_warped_cogwheel
-- extendedgears:large_half_shaft_crimson_cogwheel
-- extendedgears:half_shaft_spruce_cogwheel
-- extendedgears:large_half_shaft_spruce_cogwheel
-- extendedgears:shaftless_spruce_cogwheel
-- extendedgears:large_shaftless_spruce_cogwheel
-- create:cogwheel?
 
 #forge:ores_in_ground/netherrack
 - minecraft:nether_gold_ore
@@ -3786,6 +3713,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:tools/wrench
 - create:wrench
+- littlelogistics:conductors_wrench
 
 #forge:stained_glass_panes
 - minecraft:white_stained_glass_pane
@@ -3869,18 +3797,18 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tfc:food/rabbit
 - minecraft:flint
 
-#railways:internal/dyes/brown_dyes
-- #c:brown_dyes?
-- #forge:dyes/brown?
-
 #forge:glass/gray
 - minecraft:gray_stained_glass
 
 #forge:dyes/light_blue
 - minecraft:light_blue_dye
+- chalk:light_blue_chalk
 
 #forge:rods/silver
 - tfc:metal/rod/silver
+
+#forge:milk/milk_bottle
+- farmersdelight:milk_bottle
 
 #forge:sheets/gold
 - tfc:metal/sheet/gold
@@ -3934,6 +3862,15 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tfc:metal/anvil/blue_steel
 - tfc:metal/anvil/red_steel
 
+#farmersdelight:wild_crops
+- farmersdelight:wild_carrots
+- farmersdelight:wild_potatoes
+- farmersdelight:wild_beetroots
+- farmersdelight:wild_cabbages
+- farmersdelight:wild_tomatoes
+- farmersdelight:wild_onions
+- farmersdelight:wild_rice
+
 #forge:ingots/sterling_silver
 - tfc:metal/ingot/sterling_silver
 
@@ -3945,6 +3882,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:dyes/pink
 - minecraft:pink_dye
+- chalk:pink_chalk
 
 #minecraft:axolotl_tempt_items
 - minecraft:tropical_fish_bucket
@@ -3996,6 +3934,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tfc:metal/sword/red_steel
 
 #forge:dough
+- farmersdelight:wheat_dough
 - create:dough
 
 #forge:stone
@@ -4075,6 +4014,16 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #tfc:extinguisher
 - #tfc:shovels
+
+#farmersdelight:cabinets/wooden
+- farmersdelight:acacia_cabinet
+- farmersdelight:birch_cabinet
+- farmersdelight:crimson_cabinet
+- farmersdelight:dark_oak_cabinet
+- farmersdelight:jungle_cabinet
+- farmersdelight:oak_cabinet
+- farmersdelight:spruce_cabinet
+- farmersdelight:warped_cabinet
 
 #tfc:ores/iron/rich
 - tfc:ore/rich_hematite/granite
@@ -4168,6 +4117,16 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - #forge:crops/nether_wart
 - #forge:crops/potato
 - #forge:crops/wheat
+- #forge:crops/cabbage
+- #forge:crops/onion
+- #forge:crops/rice
+- #forge:crops/tomato
+
+#forge:armor
+- #forge:helmets
+- #forge:chestplates
+- #forge:leggings
+- #forge:boots
 
 #forge:ore_bearing_ground/netherrack
 - minecraft:netherrack
@@ -4186,6 +4145,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tfc:metal/shovel/bronze
 - tfc:metal/sword/bronze
 - tfc:metal/axe/bronze
+
+#farmersdelight:straw_harvesters
+- #farmersdelight:tools/knives
 
 #tfc:rock/bricks
 - tfc:rock/bricks/granite
@@ -4393,6 +4355,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - #forge:seeds/melon
 - #forge:seeds/pumpkin
 - #forge:seeds/wheat
+- #forge:seeds/cabbage
+- #forge:seeds/rice
+- #forge:seeds/tomato
 
 #minecraft:oak_logs
 - minecraft:oak_log
@@ -4506,6 +4471,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tfc:ore/poor_limonite/gneiss
 - tfc:ore/poor_limonite/marble
 
+#forge:bread
+- #forge:bread/wheat
+
+#curios:belt
+- toolbelt:belt
+- toms_storage:ts.adv_wireless_terminal
+
 #tfc:palm_logs
 - tfc:wood/log/palm
 - tfc:wood/wood/palm
@@ -4514,10 +4486,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:slimeballs
 - minecraft:slime_ball
-
-#quark:vertical_slabs/chocolate
-- neapolitan:chocolate_brick_vertical_slab?
-- neapolitan:chocolate_tile_vertical_slab?
 
 #forge:ores/nickel
 - #tfc:ores/nickel/poor
@@ -4573,24 +4541,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tfc:metal/chain/black_bronze
 - tfc:metal/lamp/black_bronze
 - tfc:metal/trapdoor/black_bronze
-
-#railways:conductor_caps
-- railways:white_conductor_cap
-- railways:orange_conductor_cap
-- railways:magenta_conductor_cap
-- railways:light_blue_conductor_cap
-- railways:yellow_conductor_cap
-- railways:lime_conductor_cap
-- railways:pink_conductor_cap
-- railways:gray_conductor_cap
-- railways:light_gray_conductor_cap
-- railways:cyan_conductor_cap
-- railways:purple_conductor_cap
-- railways:blue_conductor_cap
-- railways:brown_conductor_cap
-- railways:green_conductor_cap
-- railways:red_conductor_cap
-- railways:black_conductor_cap
 
 #minecraft:jungle_logs
 - minecraft:jungle_log
@@ -4730,6 +4680,16 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #tfc:log_pile_logs
 - tfc:stick_bundle
 - #minecraft:logs
+
+#sereneseasons:spring_crops
+- farmersdelight:onion
+
+#wearablebackpacks:backpack/blacklist
+- wearablebackpacks:backpack
+
+#forge:grain
+- #forge:grain/wheat
+- #forge:grain/rice
 
 #forge:ores/borax
 - tfc:ore/borax/granite
@@ -4895,6 +4855,35 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:rotten_flesh
 - tfc:rotten_pumpkin
 - tfc:rotten_melon
+- farmersdelight:minced_beef
+- farmersdelight:beef_patty
+- farmersdelight:chicken_cuts
+- farmersdelight:cooked_chicken_cuts
+- farmersdelight:bacon
+- farmersdelight:cooked_bacon
+- farmersdelight:mutton_chops
+- farmersdelight:cooked_mutton_chops
+- farmersdelight:ham
+- farmersdelight:smoked_ham
+- farmersdelight:barbecue_stick
+- farmersdelight:cod_slice
+- farmersdelight:salmon_slice
+- farmersdelight:cooked_cod_slice
+- farmersdelight:cooked_salmon_slice
+- farmersdelight:salmon_roll
+- farmersdelight:cod_roll
+- farmersdelight:kelp_roll
+- farmersdelight:kelp_roll_slice
+- farmersdelight:cabbage_rolls
+- farmersdelight:cooked_rice
+- farmersdelight:egg_sandwich
+- farmersdelight:chicken_sandwich
+- farmersdelight:hamburger
+- farmersdelight:mutton_wrap
+- farmersdelight:beef_stew
+- farmersdelight:chicken_soup
+- farmersdelight:mixed_salad
+- farmersdelight:fruit_salad
 
 #minecraft:flowers
 - #minecraft:small_flowers
@@ -4904,6 +4893,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:double_ingots/steel
 - tfc:metal/double_ingot/steel
+
+#forge:vegetables/potato
+- minecraft:potato
 
 #tfc:ores/silver/normal
 - tfc:ore/normal_native_silver/granite
@@ -4926,10 +4918,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tfc:ore/normal_native_silver/schist
 - tfc:ore/normal_native_silver/gneiss
 - tfc:ore/normal_native_silver/marble
-
-#railways:internal/nuggets/zinc_nuggets
-- #c:zinc_nuggets?
-- #forge:nuggets/zinc?
 
 #minecraft:diamond_ores
 - minecraft:diamond_ore
@@ -4965,6 +4953,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:dyes/brown
 - minecraft:brown_dye
+- chalk:brown_chalk
+
+#forge:raw_fishes/cod
+- minecraft:cod
+- farmersdelight:cod_slice
 
 #forge:ores
 - #forge:ores/coal
@@ -5002,10 +4995,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:rods/steel
 - tfc:metal/rod/steel
-
-#railways:internal/nuggets/iron_nuggets
-- #c:iron_nuggets?
-- #forge:nuggets/iron?
 
 #forge:rods/wooden
 - minecraft:stick
@@ -5075,10 +5064,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - #tfc:foods/vegetables
 - #tfc:seeds
 - #tfc:foods/breads
-
-#railways:internal/string
-- #c:string?
-- #forge:string?
 
 #forge:cobblestone/mossy
 - minecraft:mossy_cobblestone
@@ -5166,9 +5151,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #tfc:mortar
 - tfc:mortar
 
-#forge:plates/zinc
-- createaddition:zinc_sheet
-
 #minecraft:occludes_vibration_signals
 - #minecraft:wool
 
@@ -5177,7 +5159,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:rods/gold
 - tfc:metal/rod/gold
-- createaddition:gold_rod
+
+#forge:axes
+- minecraft:wooden_axe
+- minecraft:stone_axe
+- minecraft:iron_axe
+- minecraft:golden_axe
+- minecraft:diamond_axe
+- minecraft:netherite_axe
 
 #forge:rods/blaze
 - minecraft:blaze_rod
@@ -5195,6 +5184,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:bucket
 
 #create:upright_on_belt
+- farmersdelight:milk_bottle
+- farmersdelight:hot_cocoa
+- farmersdelight:pie_crust
+- farmersdelight:apple_pie
+- farmersdelight:sweet_berry_cheesecake
+- farmersdelight:chocolate_pie
 - create:blaze_cake_base
 - create:blaze_cake
 - create:creative_blaze_cake
@@ -5205,18 +5200,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:lingering_potion
 - minecraft:honey_bottle
 - minecraft:cake
-- minecraft:bowl
-- minecraft:bucket
-- minecraft:powder_snow_bucket
 - create_enchantment_industry:hyper_experience_bottle
 - minecraft:experience_bottle
-- createaddition:cake_base
-- createaddition:cake_base_baked
-- createaddition:chocolate_cake
-- createaddition:honey_cake
-- minecraft:cake
-- createaddition:seed_oil_bucket
-- createaddition:bioethanol_bucket
+
+#toolstats:ignore_durability
 
 #tfc:plants
 - tfc:plant/athyrium_fern
@@ -5328,44 +5315,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:fishing_rods/steel
 - tfc:metal/fishing_rod/steel
 
-#extendedgears:large_cogwheel
-- extendedgears:large_dark_oak_cogwheel
-- extendedgears:large_oak_cogwheel
-- extendedgears:large_birch_cogwheel
-- extendedgears:large_jungle_cogwheel
-- extendedgears:large_acacia_cogwheel
-- extendedgears:large_warped_cogwheel
-- extendedgears:large_crimson_cogwheel
-- extendedgears:large_shaftless_dark_oak_cogwheel
-- extendedgears:large_shaftless_oak_cogwheel
-- extendedgears:large_shaftless_birch_cogwheel
-- extendedgears:large_shaftless_jungle_cogwheel
-- extendedgears:large_shaftless_acacia_cogwheel
-- extendedgears:large_shaftless_warped_cogwheel
-- extendedgears:large_shaftless_crimson_cogwheel
-- extendedgears:large_half_shaft_dark_oak_cogwheel
-- extendedgears:large_half_shaft_oak_cogwheel
-- extendedgears:large_half_shaft_birch_cogwheel
-- extendedgears:large_half_shaft_jungle_cogwheel
-- extendedgears:large_half_shaft_acacia_cogwheel
-- extendedgears:large_half_shaft_warped_cogwheel
-- extendedgears:large_half_shaft_crimson_cogwheel
-- extendedgears:large_iron_cogwheel
-- extendedgears:large_steel_cogwheel
-- extendedgears:large_copper_cogwheel
-- extendedgears:large_shaftless_iron_cogwheel
-- extendedgears:large_shaftless_steel_cogwheel
-- extendedgears:large_shaftless_copper_cogwheel
-- extendedgears:large_half_shaft_iron_cogwheel
-- extendedgears:large_half_shaft_steel_cogwheel
-- extendedgears:large_half_shaft_copper_cogwheel
-- extendedgears:large_half_shaft_spruce_cogwheel
-- extendedgears:large_shaftless_spruce_cogwheel
-- create:large_cogwheel?
-- create:large_cogwheel?
+#forge:vegetables/carrot
+- minecraft:carrot
 
-#forge:nuggets/bronze
-- alloyed:bronze_nugget
+#bookshelf:armor
+- #forge:armor
 
 #forge:ingots/bismuth_bronze
 - tfc:metal/ingot/bismuth_bronze
@@ -5544,6 +5498,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tfc:metal/sword/red_steel
 - tfc:metal/axe/red_steel
 
+#forge:raw_fishes
+- #forge:raw_fishes/cod
+- #forge:raw_fishes/salmon
+- #forge:raw_fishes/tropical_fish
+
 #tfc:compost_browns_low
 - tfc:plant/hanging_vines
 - tfc:plant/spanish_moss
@@ -5555,6 +5514,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tfc:plant/jungle_vines
 - #tfc:fallen_leaves
 - minecraft:hanging_roots
+
+#toolstats:ignore_repair_cost
 
 #minecraft:beds
 - minecraft:red_bed
@@ -5626,6 +5587,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #tfc:metal_item/high_carbon_red_steel
 - tfc:metal/ingot/high_carbon_red_steel
 
+#toms_storage:trims
+- toms_storage:ts.trim
+- toms_storage:ts.painted_trim
+
 #forge:ores/tin
 - #tfc:ores/tin/poor
 - #tfc:ores/tin/normal
@@ -5674,15 +5639,22 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tfc:wood/sign/white_cedar
 - tfc:wood/sign/willow
 
-#railways:internal/dyes/lime_dyes
-- #c:lime_dyes?
-- #forge:dyes/lime?
+#forge:cooked_beef
+- minecraft:cooked_beef
+- farmersdelight:beef_patty
 
 #tfc:metal_item/weak_blue_steel
 - tfc:metal/ingot/weak_blue_steel
 
+#bookshelf:slime_balls
+- #forge:slimeballs
+
 #forge:tools/knives
-- alloyed:steel_knife
+- farmersdelight:flint_knife
+- farmersdelight:iron_knife
+- farmersdelight:diamond_knife
+- farmersdelight:golden_knife
+- farmersdelight:netherite_knife
 
 #forge:ingots/blue_steel
 - tfc:metal/ingot/blue_steel
@@ -5761,9 +5733,23 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tfc:medium_scraped_hide
 - tfc:large_scraped_hide
 
-#railways:internal/dyes/black_dyes
-- #c:black_dyes?
-- #forge:dyes/black?
+#bookshelf:shields
+- #forge:shields
+
+#forge:boots
+- minecraft:leather_boots
+- minecraft:chainmail_boots
+- minecraft:iron_boots
+- minecraft:golden_boots
+- minecraft:diamond_boots
+- minecraft:netherite_boots
+
+#bookshelf:pickaxes
+- #forge:pickaxes
+
+#forge:crops/cabbage
+- farmersdelight:cabbage
+- farmersdelight:cabbage_leaf
 
 #create:vanilla_stripped_logs
 - minecraft:stripped_acacia_log
@@ -5922,6 +5908,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - blue_skies:stripped_cherry_wood?
 - byg:stripped_bulbis_wood?
 
+#forge:swords
+- minecraft:wooden_sword
+- minecraft:stone_sword
+- minecraft:iron_sword
+- minecraft:golden_sword
+- minecraft:diamond_sword
+- minecraft:netherite_sword
+
 #forge:double_sheets/blue_steel
 - tfc:metal/double_sheet/blue_steel
 
@@ -5956,6 +5950,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tfc:ceramic/large_vessel/green
 - tfc:ceramic/large_vessel/red
 - tfc:ceramic/large_vessel/black
+
+#forge:clocks
+- minecraft:clock
 
 #forge:double_sheets/rose_gold
 - tfc:metal/double_sheet/rose_gold
@@ -6036,12 +6033,15 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tfc:ore/sulfur/gneiss
 - tfc:ore/sulfur/marble
 
-#railways:internal/dyes/cyan_dyes
-- #c:cyan_dyes?
-- #forge:dyes/cyan?
-
 #forge:fences/wooden
 - #minecraft:wooden_fences
+
+#sereneseasons:summer_crops
+- farmersdelight:tomato_seeds
+- farmersdelight:rice
+
+#bookshelf:mob_buckets
+- #forge:mob_buckets
 
 #forge:storage_blocks
 - #forge:storage_blocks/amethyst
@@ -6061,7 +6061,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - create:raw_zinc_block
 - create:zinc_block
 - create:brass_block
-- #forge:storage_blocks/chocolate
 
 #forge:sheets/black_steel
 - tfc:metal/sheet/black_steel
@@ -6089,6 +6088,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #minecraft:coal_ores
 - minecraft:coal_ore
 - minecraft:deepslate_coal_ore
+
+#forge:raw_beef
+- minecraft:beef
+- farmersdelight:minced_beef
 
 #tfc:rock/gravel
 - tfc:rock/gravel/granite
@@ -6123,6 +6126,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:storage_blocks/redstone
 - minecraft:redstone_block
+
+#forge:cooked_mutton
+- minecraft:cooked_mutton
+- farmersdelight:cooked_mutton_chops
 
 #minecraft:stairs
 - #minecraft:wooden_stairs
@@ -6382,7 +6389,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tfc:mud_bricks/loam_stairs
 - tfc:mud_bricks/sandy_loam_stairs
 - tfc:mud_bricks/silty_loam_stairs
-- alloyed:steel_sheet_stairs
 - create:cut_granite_stairs
 - create:polished_cut_granite_stairs
 - create:cut_granite_brick_stairs
@@ -6439,7 +6445,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - create:polished_cut_veridium_stairs
 - create:cut_veridium_brick_stairs
 - create:small_veridium_brick_stairs
-- #forge:stairs/chocolate
+
+#forge:vegetables/tomato
+- farmersdelight:tomato
 
 #forge:rods/red_steel
 - tfc:metal/rod/red_steel
@@ -6520,10 +6528,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:sheets/pig_iron
 
-#railways:internal/dyes/light_gray_dyes
-- #c:light_gray_dyes?
-- #forge:dyes/light_gray?
-
 #create:vanilla_stripped_wood
 - minecraft:stripped_acacia_wood
 - minecraft:stripped_birch_wood
@@ -6546,6 +6550,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tfc:groundcover/driftwood
 
 #forge:sheets/high_carbon_red_steel
+
+#forge:seeds/rice
+- farmersdelight:rice
 
 #forge:ores/sylvite
 - tfc:ore/sylvite/granite
@@ -6582,6 +6589,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:emerald_ore
 - minecraft:deepslate_emerald_ore
 
+#sereneseasons:autumn_crops
+- farmersdelight:cabbage_seeds
+- farmersdelight:onion
+- farmersdelight:rice
+
 #create:stone_types/deepslate
 - create:cut_deepslate
 - create:cut_deepslate_stairs
@@ -6605,6 +6617,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:diamond_shovel
 - minecraft:golden_shovel
 - minecraft:netherite_shovel
+
+#farmersdelight:cabinets
+- #farmersdelight:cabinets/wooden
 
 #forge:sheets/bismuth
 - tfc:metal/sheet/bismuth
@@ -6653,6 +6668,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tfc:wood/wood/birch
 - tfc:wood/stripped_log/birch
 - tfc:wood/stripped_wood/birch
+
+#forge:raw_fishes/salmon
+- minecraft:salmon
+- farmersdelight:salmon_slice
 
 #tfc:books
 - minecraft:book
@@ -6759,6 +6778,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:dyes/yellow
 - minecraft:yellow_dye
+- chalk:yellow_chalk
 
 #tfc:deals_piercing_damage
 - #tfc:javelins
@@ -6834,18 +6854,33 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #tfc:firepit_sticks
 - #forge:rods/wooden
 
-#create:upright_on_deployer
-- #forge:tools
+#farmersdelight:canvas_signs
+- farmersdelight:canvas_sign
+- farmersdelight:white_canvas_sign
+- farmersdelight:orange_canvas_sign
+- farmersdelight:magenta_canvas_sign
+- farmersdelight:light_blue_canvas_sign
+- farmersdelight:yellow_canvas_sign
+- farmersdelight:lime_canvas_sign
+- farmersdelight:pink_canvas_sign
+- farmersdelight:gray_canvas_sign
+- farmersdelight:light_gray_canvas_sign
+- farmersdelight:cyan_canvas_sign
+- farmersdelight:purple_canvas_sign
+- farmersdelight:blue_canvas_sign
+- farmersdelight:brown_canvas_sign
+- farmersdelight:green_canvas_sign
+- farmersdelight:red_canvas_sign
+- farmersdelight:black_canvas_sign
 
 #forge:glass/black
 - minecraft:black_stained_glass
 
-#railways:internal/dyes/red_dyes
-- #c:red_dyes?
-- #forge:dyes/red?
-
 #forge:fences/nether_brick
 - minecraft:nether_brick_fence
+
+#bookshelf:books
+- #forge:books
 
 #forge:rods
 - #forge:rods/blaze
@@ -6869,10 +6904,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - #forge:rods/black_steel
 - #forge:rods/blue_steel
 - #forge:rods/red_steel
-- createaddition:iron_rod
-- createaddition:copper_rod
-- createaddition:gold_rod
-- createaddition:brass_rod
 
 #forge:ores/iron
 - #minecraft:iron_ores
@@ -6880,11 +6911,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - #tfc:ores/iron/normal
 - #tfc:ores/iron/rich
 
+#bookshelf:fence_gates
+- #forge:fence_gates
+
 #tfc:metal_item/weak_red_steel
 - tfc:metal/ingot/weak_red_steel
-
-#forge:wires/iron
-- createaddition:iron_wire
 
 #tfc:wild_fruits
 - tfc:plant/banana_sapling
@@ -7023,6 +7054,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:dyes/green
 - minecraft:green_dye
+- chalk:green_chalk
 
 #tfc:chestnut_logs
 - tfc:wood/log/chestnut
@@ -7031,6 +7063,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tfc:wood/stripped_wood/chestnut
 
 #forge:sheets/weak_red_steel
+
+#forge:crops/onion
+- farmersdelight:onion
 
 #forge:double_sheets/any_bronze
 - #forge:double_sheets/bismuth_bronze
@@ -7111,6 +7146,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:dyes/lime
 - minecraft:lime_dye
+- chalk:lime_chalk
 
 #tfc:sandwiches
 - tfc:food/barley_bread_sandwich
@@ -7119,9 +7155,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tfc:food/rice_bread_sandwich
 - tfc:food/rye_bread_sandwich
 - tfc:food/wheat_bread_sandwich
-
-#forge:dusts/diamond
-- createaddition:diamond_grit
 
 #tfc:rock_knapping
 - tfc:rock/loose/granite
@@ -7148,8 +7181,16 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:plates/iron
 - create:iron_sheet
 
+#toolstats:ignore_harvest_level
+
+#bookshelf:hoes
+- #forge:hoes
+
 #forge:double_ingots/silver
 - tfc:metal/double_ingot/silver
+
+#bookshelf:bows
+- #forge:bows
 
 #forge:barrels/wooden
 - minecraft:barrel
@@ -7229,28 +7270,20 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - blue_skies:stripped_cherry_log?
 - byg:stripped_bulbis_stem?
 
-#forge:flywheels/iron_painted_flywheels
-- extendedflywheels:black_iron_flywheel
-- extendedflywheels:gray_iron_flywheel
-- extendedflywheels:light_gray_iron_flywheel
-- extendedflywheels:white_iron_flywheel
-- extendedflywheels:red_iron_flywheel
-- extendedflywheels:orange_iron_flywheel
-- extendedflywheels:yellow_iron_flywheel
-- extendedflywheels:lime_iron_flywheel
-- extendedflywheels:green_iron_flywheel
-- extendedflywheels:cyan_iron_flywheel
-- extendedflywheels:light_blue_iron_flywheel
-- extendedflywheels:blue_iron_flywheel
-- extendedflywheels:magenta_iron_flywheel
-- extendedflywheels:purple_iron_flywheel
-- extendedflywheels:pink_iron_flywheel
+#forge:books
+- minecraft:book
+- minecraft:writable_book
+- minecraft:written_book
+- minecraft:enchanted_book
 
 #forge:storage_blocks/raw_iron
 - minecraft:raw_iron_block
 
 #tfc:daub
 - tfc:daub
+
+#forge:seeds/cabbage
+- farmersdelight:cabbage_seeds
 
 #minecraft:tall_flowers
 - minecraft:sunflower
@@ -7262,6 +7295,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tfc:plant/lilac
 - tfc:plant/toquilla_palm
 - tfc:plant/marigold
+- farmersdelight:wild_rice
 
 #forge:double_sheets/black_steel
 - tfc:metal/double_sheet/black_steel
@@ -7380,9 +7414,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #tfc:pit_kiln_logs
 - #minecraft:logs
 
-#forge:dusts/obsidian
-- create:powdered_obsidian
-
 #minecraft:dirt
 - minecraft:dirt
 - minecraft:grass_block
@@ -7400,31 +7431,28 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:soul_sand
 - minecraft:soul_soil
 
+#bookshelf:shears
+- #forge:shears
+
 #forge:rods/copper
 - tfc:metal/rod/copper
-- createaddition:copper_rod
 
 #tfc:prepared_hides
 - tfc:small_prepared_hide
 - tfc:medium_prepared_hide
 - tfc:large_prepared_hide
 
-#railways:internal/dyes/light_blue_dyes
-- #c:light_blue_dyes?
-- #forge:dyes/light_blue?
-
 #forge:eggs
+- minecraft:egg
 - minecraft:egg
 
 #tfc:compost_browns
 - tfc:powder/wood_ash
 - tfc:jute
 
-#forge:wires/copper
-- createaddition:copper_wire
-
 #forge:dyes/red
 - minecraft:red_dye
+- chalk:red_chalk
 
 #forge:double_sheets
 - #forge:double_sheets/bismuth
@@ -7468,10 +7496,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tfc:wood/scribing_table/white_cedar
 - tfc:wood/scribing_table/willow
 
-#railways:internal/dyes/blue_dyes
-- #c:blue_dyes?
-- #forge:dyes/blue?
-
 #forge:glass_panes/cyan
 - minecraft:cyan_stained_glass_pane
 
@@ -7491,6 +7515,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:green_terracotta
 - minecraft:red_terracotta
 - minecraft:black_terracotta
+
+#forge:raw_fishes/tropical_fish
+- minecraft:tropical_fish
 
 #tfc:gem_powders
 - tfc:powder/amethyst
@@ -7531,6 +7558,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - create:horizontal_framed_glass
 - create:vertical_framed_glass
 
+#forge:vegetables/beetroot
+- minecraft:beetroot
+
 #forge:ingots/cast_iron
 - minecraft:iron_ingot
 - tfc:metal/ingot/cast_iron
@@ -7553,6 +7583,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:red_stained_glass
 - minecraft:black_stained_glass
 
+#forge:salad_ingredients/cabbage
+- farmersdelight:cabbage
+- farmersdelight:cabbage_leaf
+
 #forge:nuggets/gold
 - minecraft:gold_nugget
 
@@ -7561,6 +7595,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tfc:wood/wood/kapok
 - tfc:wood/stripped_log/kapok
 - tfc:wood/stripped_wood/kapok
+
+#bookshelf:helmets
+- #forge:helmets
 
 #forge:double_sheets/brass
 - tfc:metal/double_sheet/brass
@@ -7670,6 +7707,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:bones
 - minecraft:bone
 
+#bookshelf:chestplates
+- #forge:chestplates
+
 #tfc:metal_item/cast_iron
 - tfc:metal/ingot/cast_iron
 - tfc:metal/double_ingot/cast_iron
@@ -7752,37 +7792,15 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:double_sheets/black_bronze
 - tfc:metal/double_sheet/black_bronze
 
-#railways:internal/dyes/purple_dyes
-- #c:purple_dyes?
-- #forge:dyes/purple?
+#forge:vegetables/onion
+- farmersdelight:onion
 
 #minecraft:lapis_ores
 - minecraft:lapis_ore
 - minecraft:deepslate_lapis_ore
 
-#extendedgears:metal_cogwheel
-- extendedgears:iron_cogwheel
-- extendedgears:steel_cogwheel
-- extendedgears:copper_cogwheel
-- extendedgears:large_iron_cogwheel
-- extendedgears:large_steel_cogwheel
-- extendedgears:large_copper_cogwheel
-- extendedgears:shaftless_iron_cogwheel
-- extendedgears:shaftless_steel_cogwheel
-- extendedgears:shaftless_copper_cogwheel
-- extendedgears:large_shaftless_iron_cogwheel
-- extendedgears:large_shaftless_steel_cogwheel
-- extendedgears:large_shaftless_copper_cogwheel
-- extendedgears:half_shaft_iron_cogwheel
-- extendedgears:half_shaft_steel_cogwheel
-- extendedgears:half_shaft_copper_cogwheel
-- extendedgears:large_half_shaft_iron_cogwheel
-- extendedgears:large_half_shaft_steel_cogwheel
-- extendedgears:large_half_shaft_copper_cogwheel
-
 #forge:ingots/steel
 - tfc:metal/ingot/steel
-- alloyed:steel_ingot
 
 #forge:sheets/wrought_iron
 - tfc:metal/sheet/wrought_iron
@@ -7855,31 +7873,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tfc:wood/planks/white_cedar_tool_rack
 - tfc:wood/planks/willow_tool_rack
 
-#createaddition:plants
-- minecraft:cactus
-- minecraft:bamboo
-- minecraft:kelp
-- minecraft:vine
-- minecraft:lily_pad
-- minecraft:weeping_vines
-- minecraft:twisting_vines
-- minecraft:grass
-- minecraft:fern
-- minecraft:tall_grass
-- minecraft:large_fern
-- minecraft:seagrass
-- minecraft:warped_roots
-- minecraft:crimson_roots
-- minecraft:hanging_roots
-- minecraft:nether_sprouts
-- minecraft:chorus_plant
-- minecraft:chorus_flower
-- minecraft:brown_mushroom
-- minecraft:red_mushroom
-- minecraft:crimson_fungus
-- minecraft:warped_fungus
-- minecraft:sugar_cane
-
 #forge:stripped_logs
 - tfc:wood/stripped_log/acacia
 - tfc:wood/stripped_wood/acacia
@@ -7951,6 +7944,19 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #tfc:sheep_food
 - #tfc:foods/grains
 
+#forge:chestplates
+- minecraft:leather_chestplate
+- minecraft:chainmail_chestplate
+- minecraft:iron_chestplate
+- minecraft:golden_chestplate
+- minecraft:diamond_chestplate
+- minecraft:netherite_chestplate
+- minecraft:elytra
+
+#forge:cooked_fishes
+- #forge:cooked_fishes/cod
+- #forge:cooked_fishes/salmon
+
 #tfc:metal_item/high_carbon_steel
 - tfc:metal/ingot/high_carbon_steel
 
@@ -7975,6 +7981,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tfc:alabaster/polished/red
 - tfc:alabaster/polished/black
 
+#forge:compasses
+- minecraft:compass
+
 #tfc:colored_glazed_terracotta
 - minecraft:orange_glazed_terracotta
 - minecraft:magenta_glazed_terracotta
@@ -7992,6 +8001,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:red_glazed_terracotta
 - minecraft:black_glazed_terracotta
 
+#forge:cooked_chicken
+- minecraft:cooked_chicken
+- farmersdelight:cooked_chicken_cuts
+
 #forge:fishing_rods
 - #forge:fishing_rods/bismuth_bronze
 - #forge:fishing_rods/black_bronze
@@ -8002,6 +8015,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - #forge:fishing_rods/black_steel
 - #forge:fishing_rods/blue_steel
 - #forge:fishing_rods/red_steel
+- minecraft:fishing_rod
 
 #tfc:forge_fuel
 - #minecraft:coals
@@ -8009,24 +8023,27 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:feathers
 - minecraft:feather
 
-#quark:vertical_slabs
-- #quark:vertical_slabs/chocolate
-
 #tfc:bronze_anvils
 - tfc:metal/anvil/bismuth_bronze
 - tfc:metal/anvil/black_bronze
 - tfc:metal/anvil/bronze
 
-#alloyed:bronze_instruments
-- alloyed:bronze_bell
-
 #forge:string
-- minecraft:string
 - minecraft:string
 - tfc:wool_yarn
 
+#forge:grain/rice
+- farmersdelight:rice
+
 #forge:double_ingots/black_steel
 - tfc:metal/double_ingot/black_steel
+
+#forge:cooked_fishes/salmon
+- minecraft:cooked_salmon
+- farmersdelight:cooked_salmon_slice
+
+#bookshelf:fishing_rods
+- #forge:fishing_rods
 
 #tfc:foods/apples
 - tfc:food/green_apple
@@ -8101,9 +8118,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tfc:rock/aqueduct/gneiss
 - tfc:rock/aqueduct/marble
 
-#c:string
-- minecraft:string
-
 #forge:ores/amethyst
 - tfc:ore/amethyst/granite
 - tfc:ore/amethyst/diorite
@@ -8162,11 +8176,15 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:golden_hoe
 - minecraft:raw_gold
 - minecraft:raw_gold_block
+- farmersdelight:golden_knife
 - create:golden_sheet
 - create:crushed_gold_ore
 
 #forge:fishing_rods/bronze
 - tfc:metal/fishing_rod/bronze
+
+#bookshelf:compasses
+- #forge:compasses
 
 #tfc:mob_helmet_armor
 - tfc:metal/helmet/copper
@@ -8287,6 +8305,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:glass/brown
 - minecraft:brown_stained_glass
 
+#forge:vegetables
+- #forge:vegetables/beetroot
+- #forge:vegetables/carrot
+- #forge:vegetables/onion
+- #forge:vegetables/potato
+- #forge:vegetables/tomato
+
 #minecraft:logs_that_burn
 - #minecraft:dark_oak_logs
 - #minecraft:oak_logs
@@ -8294,11 +8319,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - #minecraft:birch_logs
 - #minecraft:jungle_logs
 - #minecraft:spruce_logs
-
-#forge:slabs/chocolate
-- neapolitan:chocolate_brick_slab?
-- neapolitan:chocolate_tile_slab?
-- create_confectionary:chocolate_bricks_slab?
 
 #tfc:blackwood_logs
 - tfc:wood/log/blackwood
@@ -8366,6 +8386,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:dyes/white
 - minecraft:white_dye
+- chalk:white_chalk
 
 #minecraft:small_flowers
 - minecraft:dandelion
@@ -8424,6 +8445,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tfc:plant/vriesea
 - tfc:plant/water_lily
 - tfc:plant/yucca
+- farmersdelight:wild_carrots
+- farmersdelight:wild_potatoes
+- farmersdelight:wild_beetroots
+- farmersdelight:wild_cabbages
+- farmersdelight:wild_tomatoes
+- farmersdelight:wild_onions
 
 #forge:seeds/pumpkin
 - minecraft:pumpkin_seeds
@@ -8431,8 +8458,29 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:ore_bearing_ground/stone
 - minecraft:stone
 
+#lootr:trapped_chests
+- lootr:lootr_trapped_chest
+
 #forge:dusts/redstone
 - minecraft:redstone
+
+#chalk:chalk
+- chalk:cyan_chalk
+- chalk:orange_chalk
+- chalk:green_chalk
+- chalk:yellow_chalk
+- chalk:magenta_chalk
+- chalk:light_blue_chalk
+- chalk:blue_chalk
+- chalk:light_gray_chalk
+- chalk:purple_chalk
+- chalk:white_chalk
+- chalk:red_chalk
+- chalk:lime_chalk
+- chalk:brown_chalk
+- chalk:gray_chalk
+- chalk:pink_chalk
+- chalk:black_chalk
 
 #tfc:metal_item/zinc
 - tfc:metal/ingot/zinc
@@ -8443,6 +8491,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:gems/quartz
 - minecraft:quartz
+
+#sereneseasons:winter_crops
+- farmersdelight:cabbage_seeds
 
 #tfc:rosewood_logs
 - tfc:wood/log/rosewood
@@ -8592,6 +8643,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tfc:metal/lamp/bismuth_bronze
 - tfc:metal/trapdoor/bismuth_bronze
 
+#forge:crops/tomato
+- farmersdelight:tomato
+
 #tfc:ores/bismuth/rich
 - tfc:ore/rich_bismuthinite/granite
 - tfc:ore/rich_bismuthinite/diorite
@@ -8707,10 +8761,16 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:sheets/cast_iron
 - tfc:metal/sheet/cast_iron
 
+#bookshelf:strings
+- #forge:string
+
 #forge:ores/silver
 - #tfc:ores/silver/poor
 - #tfc:ores/silver/normal
 - #tfc:ores/silver/rich
+
+#bookshelf:boots
+- #forge:boots
 
 #forge:fishing_rods/black_steel
 - tfc:metal/fishing_rod/black_steel
@@ -8724,15 +8784,18 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - #forge:dusts/glowstone
 - #forge:dusts/prismarine
 - #forge:dusts/redstone
-- createaddition:diamond_grit
-- create:powdered_obsidian
-
-#railways:internal/dyes/yellow_dyes
-- #c:yellow_dyes?
-- #forge:dyes/yellow?
 
 #forge:glass/yellow
 - minecraft:yellow_stained_glass
+
+#forge:helmets
+- minecraft:leather_helmet
+- minecraft:chainmail_helmet
+- minecraft:iron_helmet
+- minecraft:golden_helmet
+- minecraft:diamond_helmet
+- minecraft:netherite_helmet
+- minecraft:turtle_helmet
 
 #create:stone_types/asurine
 - create:cut_asurine
@@ -8872,23 +8935,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tfc:ore/rich_native_gold/gneiss
 - tfc:ore/rich_native_gold/marble
 
-#forge:flywheels/brass_painted_flywheels
-- extendedflywheels:black_brass_flywheel
-- extendedflywheels:gray_brass_flywheel
-- extendedflywheels:light_gray_brass_flywheel
-- extendedflywheels:white_brass_flywheel
-- extendedflywheels:red_brass_flywheel
-- extendedflywheels:orange_brass_flywheel
-- extendedflywheels:yellow_brass_flywheel
-- extendedflywheels:lime_brass_flywheel
-- extendedflywheels:green_brass_flywheel
-- extendedflywheels:cyan_brass_flywheel
-- extendedflywheels:light_blue_brass_flywheel
-- extendedflywheels:blue_brass_flywheel
-- extendedflywheels:magenta_brass_flywheel
-- extendedflywheels:purple_brass_flywheel
-- extendedflywheels:pink_brass_flywheel
-
 #forge:chests/ender
 - minecraft:ender_chest
 
@@ -8972,7 +9018,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:shears
 - minecraft:shears
 - #tfc:shears
-- alloyed:steel_shears
 
 #tfc:ores/zinc/rich
 - tfc:ore/rich_sphalerite/granite
@@ -8995,9 +9040,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tfc:ore/rich_sphalerite/schist
 - tfc:ore/rich_sphalerite/gneiss
 - tfc:ore/rich_sphalerite/marble
-
-#forge:nuggets/steel
-- alloyed:steel_nugget
 
 #tfc:holds_large_fishing_bait
 - tfc:metal/fishing_rod/wrought_iron
@@ -9037,7 +9079,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tfc:food/cooked_rice
 
 #farmersdelight:tools/knives
-- alloyed:steel_knife
+- farmersdelight:flint_knife
+- farmersdelight:iron_knife
+- farmersdelight:diamond_knife
+- farmersdelight:golden_knife
+- farmersdelight:netherite_knife
+- #tfc:knives
 
 #create:stone_types/ochrum
 - create:cut_ochrum
@@ -9101,6 +9148,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - #tfc:unfired_vessels
 - #tfc:fired_vessels
 
+#forge:seeds/tomato
+- farmersdelight:tomato_seeds
+
 #forge:storage_blocks/gold
 - minecraft:gold_block
 
@@ -9116,6 +9166,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:stone_bricks
 - #tfc:rock/bricks
+
+#farmersdelight:wolf_prey
+- #forge:raw_chicken
+- #forge:raw_mutton
+- minecraft:rabbit
 
 #minecraft:candles
 - minecraft:candle
@@ -9272,13 +9327,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:ore_bearing_ground/deepslate
 - minecraft:deepslate
-
-#create:ignored_in_automatic_shapeless
-- minecraft:bucket
-- minecraft:bowl
-- minecraft:glass_bottle
-- minecraft:potion
-- minecraft:milk_bucket
 
 #tfc:colored_bricks_alabaster
 - tfc:alabaster/bricks/white

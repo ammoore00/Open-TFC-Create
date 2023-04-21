@@ -1,0 +1,55 @@
+{
+    "_": "->----------] Andesite Rename [----------<-",
+
+	"block.create.andesite_belt_funnel": "Sturdy Belt Funnel",
+	"block.create.andesite_casing": "Sturdy Casing",
+	"block.create.andesite_encased_cogwheel": "Sturdy Encased Cogwheel",
+	"block.create.andesite_encased_large_cogwheel": "Sturdy Encased Large Cogwheel",
+	"block.create.andesite_encased_shaft": "Sturdy Encased Shaft",
+	"block.create.andesite_funnel": "Sturdy Funnel",
+	"block.create.andesite_ladder": "Sturdy Ladder",
+	"block.create.andesite_tunnel": "Sturdy Tunnel",
+
+	"item.create.andesite_alloy": "Mafic Alloy",
+
+	"create.ponder.andesite_tunnel.header": "Using Sturdy Tunnels",
+	"create.ponder.andesite_tunnel.text_1": "Sturdy Tunnels can be used to cover up your belts",
+	"create.ponder.andesite_tunnel.text_2": "Whenever an Sturdy Tunnel has connections to the sides...",
+
+	"create.ponder.belt_casing.text_1": "Brass or Sturdy Casing can be used to decorate Mechanical Belts",
+
+	"create.ponder.brass_funnel.text_1": "Sturdy Funnels can only ever extract single items.",
+
+	"create.ponder.cogwheel_casing.text_1": "Brass or Sturdy Casing can be used to decorate Cogwheels",
+
+	"create.ponder.shaft_casing.text_1": "Brass or Sturdy Casing can be used to decorate Shafts",
+
+    "__": "->----------] Blaze Burner Rename [----------<-",
+
+	"block.create.blaze_burner": "Advanced Forge",
+	"block.create.lit_blaze_burner": "Lit Advanced Forge",
+
+	"item.create.blaze_cake": "Coke",
+
+	"create.subtitle.blaze_munch": "Advanced Forge ignites",
+
+	"item.create.blaze_cake.tooltip": "COKE",
+	"item.create.blaze_cake.tooltip.summary": "A powerful fuel for use in an _Advanced Forge_",
+
+	"create.ponder.blaze_burner.header": "Fueling Advanced Forges",
+	"create.ponder.blaze_burner.text_1": "Advanced Forges can provide Heat to Items processed in a Basin",
+	"create.ponder.blaze_burner.text_2": "For this, the Forge has to be fed with flammable items",
+	"create.ponder.blaze_burner.text_3": "Using Coke as a fuel, the Forge can reach an even stronger level of heat",
+
+	"create.ponder.mechanical_mixer.text_3": "Some of those recipes may require the heat of a Charcoal Forge or Advanced Forge",
+
+	"create.ponder.mechanical_press_compacting.text_3": "Some of those recipes may require the heat of a Charcoal Forge or Advanced Forge",
+
+	"create.ponder.steam_engine.text_6": "With the help of Advanced Forges, the power output can be increased",
+
+	"create.ponder.train_schedule.text_4": "Any mob sitting in front of Train Controls is an eligible conductor. Advanced Forges also work for automatic operation.",
+
+    "___": "->----------] Other Renames [----------<-",
+
+	"item.create.sturdy_sheet": "Reinforced Sheet"
+}

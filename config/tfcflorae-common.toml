@@ -1,0 +1,14 @@
+
+[general]
+	#Toggles debug mode
+	enableDebug = false
+	#Heighest Y-value the Nether Fortress can generate at.
+	#Range: -256 ~ 512
+	maxFortressHeight = -170
+	#Lowest Y-value the Nether Fortress can generate at.
+	#Range: -256 ~ 512
+	minFortressHeight = -220
+	#How often minerals can generate near hot springs and lava.
+	#Range: 0 ~ 1000000
+	mineralGenFrequency = 32
+

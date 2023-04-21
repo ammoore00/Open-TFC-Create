@@ -1,0 +1,11 @@
+{
+    "__comment__": "This file was automatically created by mcresources",
+    "name": "TerraFirmaCreate",
+    "landing_text": "Welcome traveller! This book will be the source of all you need to know as you explore the world of TerraFirmaCreate.$(br2)If you ever need a hint on what to do next, check the Advancements!",
+    "subtitle": "2.2.15",
+    "model": "kubejs:field_guide",
+    "dont_generate_book": false,
+    "show_progress": false,
+    "pause_game": true,
+    "macros": {}
+  }

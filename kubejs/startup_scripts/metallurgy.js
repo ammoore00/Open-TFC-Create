@@ -1,7 +1,7 @@
 onEvent('item.registry', event => {
     let weldingItems = (material) => {
-        event.create('incomplete_' + material + '_double_ingot', 'create:sequenced_assembly')
-        event.create('incomplete_' + material + '_double_sheet', 'create:sequenced_assembly')
+        event.create('unwelded_' + material + '_double_ingot', 'create:sequenced_assembly')
+        event.create('unwelded_' + material + '_double_sheet', 'create:sequenced_assembly')
     }
 
     weldingItems('bismuth')
@@ -33,4 +33,19 @@ onEvent('item.registry', event => {
     event.create('cassiterite_powder')
     event.create('garnierite_powder')
     event.create('bismuthinite_powder')
+
+    event.create('partially_refined_iron_bloom', 'create:sequenced_assembly')
+    event.create('unworked_wrought_iron_ingot', 'create:sequenced_assembly')
+    
+    event.create('unworked_high_carbon_steel_ingot', 'create:sequenced_assembly')
+    event.create('unworked_steel_ingot', 'create:sequenced_assembly')
+    
+    event.create('unwelded_black_steel_ingot', 'create:sequenced_assembly')
+    event.create('unworked_black_steel_ingot', 'create:sequenced_assembly')
+    
+    event.create('unwelded_blue_steel_ingot', 'create:sequenced_assembly')
+    event.create('unworked_blue_steel_ingot', 'create:sequenced_assembly')
+    
+    event.create('unwelded_red_steel_ingot', 'create:sequenced_assembly')
+    event.create('unworked_red_steel_ingot', 'create:sequenced_assembly')
 })

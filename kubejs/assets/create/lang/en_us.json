@@ -51,5 +51,6 @@
 
     "___": "->----------] Other Renames [----------<-",
 
-	"item.create.sturdy_sheet": "Reinforced Sheet"
+	"item.create.sturdy_sheet": "Reinforced Sheet",
+	"item.create.unprocessed_obsidian_sheet": "Unwelded Reinforced Sheet"
 }

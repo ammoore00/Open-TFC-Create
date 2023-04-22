@@ -1,4 +1,14 @@
 onEvent('recipes', event => {
+    event.remove({output: 'create:rose_quartz'})
+    event.recipes.createMixing(
+        'create:rose_quartz',
+        [
+            'kubejs:quartz_powder',
+            '4x minecraft:redstone'
+        ]
+    )
+
+    event.remove({output: 'create:electron_tube'})
     event.recipes.createSequencedAssembly(
         [
             'create:electron_tube'
@@ -23,6 +33,7 @@ onEvent('recipes', event => {
     ).transitionalItem('kubejs:incomplete_electron_tube')
     .loops(1)
     
+    event.remove({output: 'createaddition:capacitor'})
     event.recipes.createSequencedAssembly(
         [
             'createaddition:capacitor'

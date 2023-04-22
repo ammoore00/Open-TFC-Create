@@ -5,6 +5,8 @@ onEvent('recipes', event => {
     }
 
     let weldingRecipe = (material, type) => {
+        let transitionalItem = 'kubejs:unwelded_' + material + '_double_' + type
+        
         event.recipes.createSequencedAssembly(
             [
                 'tfc:metal/double_' + type + '/' + material
@@ -12,27 +14,27 @@ onEvent('recipes', event => {
             'tfc:metal/' + type + '/' + material,
             [
                 event.recipes.createDeploying(
-                    'kubejs:incomplete_' + material + '_double_' + type,
+                    transitionalItem,
                     [
-                        'kubejs:incomplete_' + material + '_double_' + type,
+                        transitionalItem,
                         'tfc:metal/' + type + '/' + material
                     ]
                 ),
                 event.recipes.createDeploying(
-                    'kubejs:incomplete_' + material + '_double_' + type,
+                    transitionalItem,
                     [
-                        'kubejs:incomplete_' + material + '_double_' + type,
+                        transitionalItem,
                         'tfc:powder/flux'
                     ]
                 ),
                 event.recipes.createPressing(
-                    'kubejs:incomplete_' + material + '_double_' + type,
+                    transitionalItem,
                     [
-                        'kubejs:incomplete_' + material + '_double_' + type
+                        transitionalItem
                     ]
                 )
             ]
-        ).transitionalItem('kubejs:incomplete_' + material + '_double_' + type)
+        ).transitionalItem(transitionalItem)
         .loops(1)
         .id('kubejs:welding/double_' + type + '/' + material)
     }

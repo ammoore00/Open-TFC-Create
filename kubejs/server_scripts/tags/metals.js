@@ -19,4 +19,7 @@ onEvent('item.tags', event => {
         'kubejs:sphalerite_powder',
         'kubejs:garnierite_powder'
     ])
+
+    event.removeAll('tfc:blast_furnace_fuels')
+    event.add('tfc:blast_furnace_fuels', 'create:blaze_cake')
 })

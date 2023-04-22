@@ -14,8 +14,8 @@ onEvent('item.tags', event => {
             'tfc:rock/raw/' + rockType,
             'tfc:rock/hardened/' + rockType,
             'tfc:rock/smooth/' + rockType,
-            'tfc:rock/cobble/' + rockType,
-            'tfc:rock/bricks/' + rockType,
+            //'tfc:rock/cobble/' + rockType,
+            //'tfc:rock/bricks/' + rockType,
         ])
 
         event.add('kubejs:magma', 'tfc:rock/magma/' + rockType)
@@ -24,6 +24,25 @@ onEvent('item.tags', event => {
         event.add('create:sleepers', [
             'tfc:rock/raw/' + rockType + '_slab',
             'tfc:rock/smooth/' + rockType + '_slab'
+        ])
+    }
+    
+    let felsicRocks = [
+        'granite',
+        'diorite',
+        'rhyolite',
+        'andesite',
+        'dacite',
+        'quartzite'
+    ]
+    
+    for (const rockType of felsicRocks) {
+        event.add('kubejs:felsic_rocks', [
+            'tfc:rock/raw/' + rockType,
+            'tfc:rock/hardened/' + rockType,
+            'tfc:rock/smooth/' + rockType,
+            //'tfc:rock/cobble/' + rockType,
+            //'tfc:rock/bricks/' + rockType,
         ])
     }
 })

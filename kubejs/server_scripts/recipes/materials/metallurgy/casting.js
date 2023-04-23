@@ -29,11 +29,19 @@ onEvent('recipes', event => {
 
     let castingWithMold = (material, type) => {
         event.recipes.createFilling(
-            'tfc:metal/' + type + '/' + material,
+            Item.of('tfc:ceramic/' + type + '_mold', '{tank:{Amount:100,FluidName:"tfc:metal/' + material + '"}}'),
             [
                 Fluid.of('tfc:metal/' + material, 100),
-                'tfc:ceramic/' + type + '_mold'
+                Item.of('tfc:ceramic/' + type + '_mold', '{tank:{Amount:0}}')
             ]
+        )
+
+        event.recipes.createPressing(
+            [
+                'tfc:metal/' + type + '/' + material,
+                'tfc:ceramic/' + type + '_mold'
+            ],
+            Item.of('tfc:ceramic/' + type + '_mold', '{tank:{Amount:100,FluidName:"tfc:metal/' + material + '"}}')
         )
     }
 

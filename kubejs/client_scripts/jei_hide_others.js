@@ -25,6 +25,8 @@ onEvent('jei.hide.items', event => {
     event.hide('create:cinder_flour')
     event.hide('create:blaze_cake_base')
 
+    event.hide('create:red_sand_paper')
+
     event.hide('create:wheat_flour')
     event.hide('create:dough')
     event.hide('farmersdelight:wheat_dough')

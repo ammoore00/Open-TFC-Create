@@ -36,7 +36,7 @@ onEvent('recipes', event => {
             ]
         ).transitionalItem(transitionalItem)
         .loops(1)
-        .id('kubejs:welding/double_' + type + '/' + material)
+        .id('kubejs:automatic_welding/double_' + type + '/' + material)
     }
 
     welding('bismuth')

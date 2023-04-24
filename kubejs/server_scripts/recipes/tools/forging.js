@@ -91,8 +91,8 @@ onEvent('recipes', event => {
         toolForging(metal, 'hammer_head', 'ingot', true)
         toolForging(metal, 'saw_blade', 'ingot', true)
         toolForging(metal, 'javelin_head', 'ingot', true)
-        toolForging(metal, 'sword_blade', 'ingot', true)
-        toolForging(metal, 'mace_head', 'ingot', true)
+        toolForging(metal, 'sword_blade', 'double_ingot', true)
+        toolForging(metal, 'mace_head', 'double_ingot', true)
         toolForging(metal, 'knife_blade', 'ingot', true)
         toolForging(metal, 'scythe_blade', 'ingot', true)
         toolForging(metal, 'fish_hook', 'sheet', true)
@@ -220,7 +220,89 @@ onEvent('recipes', event => {
         }).id('kubejs:rolling/ingot/' + metal)
     }
 
-    // Bars (Iron, all steels, gold)
+    let bars = (bars, metal, temperature, tier) => {
+        event.recipes.tfc.welding(
+            '10x ' + bars,
+            [
+                'tfc:metal/rod/' + metal,
+                'tfc:metal/rod/' + metal
+            ]
+        ).tier(tier)
+        .id('kubejs:welding/' + metal + '_bars')
+
+        let transitionalItem = 'kubejs:unwelded_' + metal + '_bars'
+
+        event.recipes.createSequencedAssembly(
+            [
+                '10x ' + bars
+            ],
+            'tfc:metal/rod/' + metal,
+            [
+                event.recipes.createDeploying(
+                    transitionalItem,
+                    [
+                        transitionalItem,
+                        'tfc:metal/rod/' + metal
+                    ]
+                ),
+                event.recipes.createDeploying(
+                    transitionalItem,
+                    [
+                        transitionalItem,
+                        'tfc:powder/flux'
+                    ]
+                ),
+                event.recipes.createPressing(
+                    transitionalItem,
+                    [
+                        transitionalItem
+                    ]
+                )
+            ]
+        ).transitionalItem(transitionalItem)
+        .loops(1)
+        .id('kubejs:automatic_welding/' + metal + '_bars')
+        
+        event.remove({input: bars, type: 'tfc:heating'})
+
+        event.recipes.tfc.heating(
+            Fluid.of('tfc:metal/' + metal, 10),
+            bars,
+            temperature
+        )
+
+        let recipe = event.recipes.createMixing(
+            Fluid.of('tfc:metal/' + metal, 10),
+            bars
+        )
+
+        if (temperature > 1100) {
+            recipe.superheated()
+        }
+        else {
+            recipe.heated()
+        }
+    }
+
+    event.remove({id: 'tfc:anvil/iron_bars'})
+    event.remove({id: 'tfc:anvil/iron_bars_double'})
+    event.remove({id: 'tfc:anvil/steel_bars'})
+    event.remove({id: 'tfc:anvil/steel_bars_double'})
+    event.remove({id: 'tfc:anvil/black_steel_bars'})
+    event.remove({id: 'tfc:anvil/black_steel_bars_double'})
+    event.remove({id: 'tfc:anvil/blue_steel_bars'})
+    event.remove({id: 'tfc:anvil/blue_steel_bars_double'})
+    event.remove({id: 'tfc:anvil/red_steel_bars'})
+    event.remove({id: 'tfc:anvil/red_steel_bars_double'})
+    event.remove({id: 'quark:building/crafting/gold_bars'})
+
+    bars('quark:gold_bars', 'gold', 1060, 2)
+    bars('minecraft:iron_bars', 'wrought_iron', 1535, 3)
+    bars('tfc:steel_bars', 'steel', 1540, 4)
+    bars('tfc:black_steel_bars', 'black_steel', 1485, 5)
+    bars('tfc:blue_steel_bars', 'blue_steel', 1540, 6)
+    bars('tfc:red_steel_bars', 'red_steel', 1540, 6)
+
     // Grill
     // Trowel
 })

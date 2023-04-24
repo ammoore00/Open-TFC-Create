@@ -8,30 +8,30 @@ onEvent('recipes', event => {
     }
 
     let casting = (material, hasTools) => {
-        castingWithMold(material, 'ingot')
+        castingWithMold(material, 'ingot', 100)
 
         if (hasTools) {
-            castingWithMold(material, 'pickaxe_head')
-            castingWithMold(material, 'propick_head')
-            castingWithMold(material, 'axe_head')
-            castingWithMold(material, 'shovel_head')
-            castingWithMold(material, 'hoe_head')
-            castingWithMold(material, 'chisel_head')
-            castingWithMold(material, 'hammer_head')
-            castingWithMold(material, 'saw_blade')
-            castingWithMold(material, 'javelin_head')
-            castingWithMold(material, 'sword_blade')
-            castingWithMold(material, 'mace_head')
-            castingWithMold(material, 'knife_blade')
-            castingWithMold(material, 'scythe_blade')
+            castingWithMold(material, 'pickaxe_head', 100)
+            castingWithMold(material, 'propick_head', 100)
+            castingWithMold(material, 'axe_head', 100)
+            castingWithMold(material, 'shovel_head', 100)
+            castingWithMold(material, 'hoe_head', 100)
+            castingWithMold(material, 'chisel_head', 100)
+            castingWithMold(material, 'hammer_head', 100)
+            castingWithMold(material, 'saw_blade', 100)
+            castingWithMold(material, 'javelin_head', 100)
+            castingWithMold(material, 'sword_blade', 200)
+            castingWithMold(material, 'mace_head', 200)
+            castingWithMold(material, 'knife_blade', 100)
+            castingWithMold(material, 'scythe_blade', 100)
         }
     }
 
-    let castingWithMold = (material, type) => {
+    let castingWithMold = (material, type, amount) => {
         event.recipes.createFilling(
             Item.of('tfc:ceramic/' + type + '_mold', '{tank:{Amount:100,FluidName:"tfc:metal/' + material + '"}}'),
             [
-                Fluid.of('tfc:metal/' + material, 100),
+                Fluid.of('tfc:metal/' + material, amount),
                 Item.of('tfc:ceramic/' + type + '_mold', '{tank:{Amount:0}}')
             ]
         )
@@ -41,7 +41,7 @@ onEvent('recipes', event => {
                 'tfc:metal/' + type + '/' + material,
                 'tfc:ceramic/' + type + '_mold'
             ],
-            Item.of('tfc:ceramic/' + type + '_mold', '{tank:{Amount:100,FluidName:"tfc:metal/' + material + '"}}')
+            Item.of('tfc:ceramic/' + type + '_mold', '{tank:{Amount:' + amount + ',FluidName:"tfc:metal/' + material + '"}}')
         )
     }
 
@@ -49,7 +49,7 @@ onEvent('recipes', event => {
     castingWithTools('black_bronze')
     castingWithTools('bronze')
     castingWithTools('copper')
-    
+
     castingNoTools('wrought_iron')
     castingNoTools('steel')
     castingNoTools('black_steel')

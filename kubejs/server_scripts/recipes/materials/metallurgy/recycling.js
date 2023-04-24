@@ -125,6 +125,14 @@ onEvent('recipes', event => {
         }
     }
 
+    let basicMelting = (output, outputCount, input) => {
+        event.recipes.tfc.heating(
+            Fluid.of('tfc:metal/' + output, outputCount),
+            input,
+            temperatures[output]
+        )
+    }
+
     for (const [metal, hasTools] of Object.entries(hasToolsList)) {
         if (metal == 'wrought_iron') {
             recycleWithAlternateOutput('cast_iron', 'wrought_iron', hasTools)
@@ -143,4 +151,14 @@ onEvent('recipes', event => {
     createMelting('weak_steel', 100, 'tfc:metal/ingot/high_carbon_black_steel')
     createMelting('weak_blue_steel', 100, 'tfc:metal/ingot/high_carbon_blue_steel')
     createMelting('weak_red_steel', 100, 'tfc:metal/ingot/high_carbon_red_steel')
+
+    createMelting('copper', 25, 'createaddition:copper_wire')
+    basicMelting('copper', 25, 'createaddition:copper_wire')
+    createMelting('copper', 100, 'createaddition:copper_spool')
+    basicMelting('copper', 100, 'createaddition:copper_spool')
+
+    createMelting('gold', 25, 'createaddition:gold_wire')
+    basicMelting('gold', 25, 'createaddition:gold_wire')
+    createMelting('gold', 100, 'createaddition:gold_spool')
+    basicMelting('gold', 100, 'createaddition:gold_spool')
 })

@@ -44,7 +44,9 @@ onEvent('item.registry', event => {
     ]
 
     for (const type of smithingTypes) {
-        event.create('kubejs:' + type + '_smithing_plan').texture('kubejs:smithing_plans/' + type)
+        if (type != 'shears') {
+            event.create('kubejs:' + type + '_smithing_plan').texture('kubejs:smithing_plans/' + type)
+        }
 
         for (const metal of toolMetals) {
             event.create('kubejs:incomplete_' + metal + '_' + type, 'create:sequenced_assembly').texture('kubejs:item/incomplete_tools/' + type + '/' + metal)

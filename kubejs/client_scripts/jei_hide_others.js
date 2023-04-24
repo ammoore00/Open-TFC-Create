@@ -30,10 +30,16 @@ onEvent('jei.hide.items', event => {
     event.hide('create:wheat_flour')
     event.hide('create:dough')
     event.hide('farmersdelight:wheat_dough')
-})
 
-onEvent('jei.remove.categories', event => {
-    event.remove('create:haunting')
+    event.hide('createaddition:iron_wire')
+    event.hide('createaddition:barbed_wire')
+
+    event.hide('toms_storage:ts.wireless_terminal')
+    event.hide('toms_storage:ts.adv_wireless_terminal')
+    event.hide('toms_storage:ts.open_crate')
+
+    event.hide('tfc:water')
+    event.hide('tfc:spring_water')
 })
 
 //let MysteriousItemConversionCategory = java('com.simibubi.create.compat.jei.category.MysteriousItemConversionCategory')

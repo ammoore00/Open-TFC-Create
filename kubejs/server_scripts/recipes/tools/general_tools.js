@@ -16,7 +16,27 @@ onEvent('recipes', event => {
             H: 'kubejs:trowel_head',
             W: '#forge:rods/wooden'
         }
-    )
+    ).id('kubejs:trowel')
 
     event.replaceInput({output: 'create:sand_paper'}, 'minecraft:sand', '#minecraft:sand')
+
+    event.replaceInput({output: 'create:filter'}, 'minecraft:iron_nugget', 'tfc:metal/rod/brass')
+    event.replaceInput({output: 'create:attribute_filter'}, 'create:brass_nugget', 'tfc:metal/rod/wrought_iron')
+
+    event.remove({output: 'create:super_glue'})
+    event.shapeless(
+        'create:super_glue',
+        [
+            'tfc:metal/sheet/zinc',
+            'tfc:glue'
+        ]
+    ).id('kubejs:super_glue')
+
+    event.shapeless(
+        'toms_storage:ts.paint_kit',
+        [
+            'tfc:metal/sheet/zinc',
+            '#forge:dyes'
+        ]
+    ).id('kubejs:paint_kit')
 })

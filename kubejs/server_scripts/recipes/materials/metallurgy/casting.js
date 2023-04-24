@@ -49,11 +49,12 @@ onEvent('recipes', event => {
     castingWithTools('black_bronze')
     castingWithTools('bronze')
     castingWithTools('copper')
-    castingWithTools('wrought_iron')
-    castingWithTools('steel')
-    castingWithTools('black_steel')
-    castingWithTools('blue_steel')
-    castingWithTools('red_steel')
+    
+    castingNoTools('wrought_iron')
+    castingNoTools('steel')
+    castingNoTools('black_steel')
+    castingNoTools('blue_steel')
+    castingNoTools('red_steel')
     
     castingNoTools('bismuth')
     castingNoTools('brass')

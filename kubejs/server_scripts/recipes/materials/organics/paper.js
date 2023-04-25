@@ -25,18 +25,40 @@ onEvent('recipes', event => {
         ]
     ).id('kubejs:mixing/soaked_papyrus_strip')
 
-    //------ Paper from wood ------//
-
-    
-    
-    //------ Refining ------//
-
     event.recipes.createCompacting(
         'tfc:unrefined_paper',
         [
             '4x tfc:soaked_papyrus_strip'
         ]
     ).id('kubejs:compacting/unrefined_paper')
+
+    //------ Paper from wood ------//
+
+    event.recipes.tfc.barrel_sealed(
+        'kubejs:wood_pulp',
+        [
+            Fluid.of('minecraft:water', 200),
+            'kubejs:sawdust'
+        ],
+        8000
+    )
+
+    event.recipes.createMixing(
+        'kubejs:wood_pulp',
+        [
+            Fluid.of('minecraft:water', 200),
+            'kubejs:sawdust'
+        ]
+    ).id('kubejs:mixing/wood_pulp')
+
+    event.recipes.createCompacting(
+        'tfc:unrefined_paper',
+        [
+            '4x kubejs:wood_pulp'
+        ]
+    ).id('kubejs:compacting/wood_pulp')
+    
+    //------ Refining ------//
 
     event.recipes.createDeploying(
         'minecraft:paper',

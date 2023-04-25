@@ -728,7 +728,7 @@ onEvent('jei.hide.items', event => {
 	event.hide("minecraft:netherite_pickaxe")
 	event.hide("minecraft:netherite_axe")
 	event.hide("minecraft:netherite_hoe")
-	event.hide("minecraft:stick")
+	//event.hide("minecraft:stick")
 	//event.hide("minecraft:bowl")
 	event.hide("minecraft:mushroom_stew")
 	//event.hide("minecraft:string")

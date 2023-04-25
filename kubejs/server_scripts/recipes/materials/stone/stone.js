@@ -44,4 +44,17 @@ onEvent('recipes', event => {
         ],
         '#kubejs:felsic_rocks'
     )
+
+    event.recipes.createMilling(
+        'kubejs:quartz_powder',
+        '#minecraft:sand'
+    )
+
+    event.recipes.createCrushing(
+        [
+            'kubejs:quartz_powder',
+            Item.of('kubejs:quartz_powder').withChance(0.5)
+        ],
+        '#minecraft:sand'
+    )
 })

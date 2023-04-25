@@ -22,4 +22,6 @@ onEvent('recipes', event => {
             'minecraft:bone_meal'
         ]
     )
+
+    event.remove({id: 'farmersdelight:canvas'})
 })

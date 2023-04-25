@@ -1,5 +1,6 @@
 {
   "modPriorities": [
+    "quark",
     "tfc",
     "create",
     "createaddition",
@@ -22,15 +23,15 @@
     "forge:ingots/{material}",
     "forge:sheets/{material}",
     "forge:raw_materials/{material}",
-    "forge:plates/{material}",
     "forge:rods/{material}",
     "forge:wires/{material}",
     "forge:storage_blocks/{material}",
     "forge:storage_blocks/raw_{material}",
 
-    "kubejs:gold_sheets",
-    "kubejs:brass_sheets",
-    "kubejs:copper_sheets"
+    "kubejs:unification/straw",
+    "kubejs:unification/rope",
+    "kubejs:unification/burlap",
+    "kubejs:unification/glass_shard"
   ],
   "materials": [
     "aeternium",

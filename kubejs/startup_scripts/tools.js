@@ -1,6 +1,6 @@
 onEvent('item.registry', event => {
     event.create('trowel_head')
-    event.create('incomplete_trowel_head', 'create:sequenced_assembly').texture('trowel_head')
+    event.create('incomplete_trowel_head', 'create:sequenced_assembly').texture('kubejs:item/trowel_head')
 
     let smithingTypes = [
         'pickaxe_head',
@@ -45,7 +45,7 @@ onEvent('item.registry', event => {
 
     for (const type of smithingTypes) {
         if (type != 'shears') {
-            event.create('kubejs:' + type + '_smithing_plan').texture('kubejs:smithing_plans/' + type)
+            event.create('kubejs:' + type + '_smithing_plan').texture('kubejs:item/smithing_plan')
         }
 
         for (const metal of toolMetals) {

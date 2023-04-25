@@ -31,4 +31,6 @@ onEvent('recipes', event => {
     event.replaceInput({output: 'create:deployer'}, 'create:electron_tube', 'create:polished_rose_quartz')
     
     event.replaceInput({output: 'create:crushing_wheel'}, '#minecraft:planks', '#tfc:lumber')
+
+    event.replaceInput({output: 'create:rope_pulley'}, '#minecraft:wool', 'quark:rope')
 })

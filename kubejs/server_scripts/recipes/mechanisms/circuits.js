@@ -25,7 +25,7 @@ onEvent('recipes', event => {
         [
             'create:electron_tube'
         ],
-        'tfc:metal/sheet/wrought_iron',
+        'tfc:metal/sheet/nickel',
         [
             event.recipes.createDeploying(
                 'kubejs:incomplete_electron_tube',
@@ -51,7 +51,7 @@ onEvent('recipes', event => {
         [
             'createaddition:capacitor'
         ],
-        'tfc:metal/sheet/wrought_iron',
+        'tfc:metal/sheet/nickel',
         [
             event.recipes.createDeploying(
                 'kubejs:incomplete_capacitor',

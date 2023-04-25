@@ -220,6 +220,44 @@ onEvent('recipes', event => {
         }).id('kubejs:rolling/ingot/' + metal)
     }
 
+    let smithingTypes = [
+        'pickaxe_head',
+        'propick_head',
+        'axe_head',
+        'shovel_head',
+        'hoe_head',
+        'chisel_head',
+        'hammer_head',
+        'saw_blade',
+        'javelin_head',
+        'sword_blade',
+        'mace_head',
+        'knife_blade',
+        'scythe_blade',
+        'fish_hook',
+        'tuyere',
+
+        'helmet',
+        'chestplate',
+        'greaves',
+        'boots',
+        'shield',
+
+        'chain',
+        'lamp',
+        'trapdoor'
+    ]
+
+    for (const type of smithingTypes) {
+        event.shapeless(
+            'kubejs:' + type + '_smithing_plan',
+            [
+                '#kubejs:' + type + 's'
+            ]
+        ).keepIngredient('#kubejs:' + type + 's') // This actually makes all items keep - paper ingredient was removed due to this as ignoreNBT() did not work on tool heads
+        .id('kubejs:' + type + '_smithing_plan_manual_only')
+    }
+
     let bars = (bars, metal, temperature, tier) => {
         event.recipes.tfc.welding(
             '10x ' + bars,

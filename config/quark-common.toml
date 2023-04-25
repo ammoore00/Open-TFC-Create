@@ -1550,12 +1550,12 @@
 		"Vertical Shift" = 0
 
 [oddities]
-	"Totem Of Holding" = true
-	"Tiny Potato" = true
-	Pipes = true
-	"Matrix Enchanting" = true
-	Magnets = true
-	Crate = true
+	"Totem Of Holding" = false
+	"Tiny Potato" = false
+	Pipes = false
+	"Matrix Enchanting" = false
+	Magnets = false
+	Crate = false
 	Backpack = true
 
 	[oddities.totem_of_holding]

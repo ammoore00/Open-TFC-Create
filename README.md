@@ -1,6 +1,7 @@
 # Open-TFC-Create
 
 - Integrate Create into TFC progression
+- Overhauled the look of TFC to bring it closer to vanilla
 - Entirely open source - all mods and texture included, as well as the pack itself, are provided under an open license
 
 # Modlist
@@ -20,8 +21,8 @@
 - Farmer's Delight - https://www.curseforge.com/minecraft/mc-mods/farmers-delight
 - Little Contraptions: 
 - Medieval Paintings: 
-- Nyf's Wearable Backpacks: 
 - Quark: 
+- Quark Oddities: 
 - TFC Create: 
 - TFC Delight: 
 - Tool Belt: 
@@ -43,6 +44,7 @@
 - Cherished Worlds: 
 - Controlling: 
 - Cosmetic Armor Reworked: 
+- Curious Quark Oddities Backpack: 
 - Enigmatic Graves: 
 - Game Menu Remove GFARB: 
 - Inventory Sorter: 
@@ -78,6 +80,7 @@
 ## Utility
 - Alomst Unified: 
 - Catalogue: 
+- CobbleGenRandomizer: 
 - Configured: 
 - Cyanide: 
 - KubeJS: 
@@ -85,3 +88,11 @@
 - KubeJS TFC: 
 - Packet Size Doubler: 
 - Paxi: 
+
+# Included Resourcepacks
+- Create Simple Storage: 
+- Eureka + Create: 
+- Medieval Paintings: 
+- TFC Simple status: 
+- Vanilla Themed TFCNG: 
+- Vexxed Visuals TFCNG: 

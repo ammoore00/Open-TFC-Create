@@ -25,7 +25,9 @@ tfc:fluid/flowing_spring_water tfc:fluid/flowing_river_water tfc:fluid/flowing_s
 ## Content
 - Chalk: 
 - Create Central Kitchen: 
+- Create Chunkloading: 
 - Create Crafts and Additions: 
+- Create Crystal Clear: 
 - Create Enchantment Industry: 
 - Farmer's Delight - https://www.curseforge.com/minecraft/mc-mods/farmers-delight
 - Little Contraptions: 
@@ -77,6 +79,7 @@ tfc:fluid/flowing_spring_water tfc:fluid/flowing_river_water tfc:fluid/flowing_s
 - Tool Stats: 
 
 ## Performance
+- Alternate Current: 
 - Clumps: 
 - Entity Collision FPS fix: 
 - Entity Culling: 
@@ -96,6 +99,8 @@ tfc:fluid/flowing_spring_water tfc:fluid/flowing_river_water tfc:fluid/flowing_s
 - KubeJS: 
 - KubeJS Create: 
 - KubeJS TFC: 
+- MoreCrashInfo: 
+- Not Enough Crashes: 
 - Packet Size Doubler: 
 - Paxi: 
 

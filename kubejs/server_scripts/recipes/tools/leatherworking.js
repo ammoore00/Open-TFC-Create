@@ -35,7 +35,99 @@ onEvent('recipes', event => {
         'tfc:metal/rod/wrought_iron'
     ).id('kubejs:pressing/iron_sewing_needle')
 
-    event.replaceInput({id: 'toolbelt:pouch_via_sewing'}, 'minecraft:gold_ingot', '')
+    event.remove({id: 'sewingkit:leather_chestplate_via_sewing'})
+    event.remove({id: 'sewingkit:leather_leggings_via_sewing'})
+    event.remove({id: 'sewingkit:leather_horse_armor_via_sewing'})
+
+    let sewing = (output, inputs) => {
+        return event.custom({
+            type: 'sewingkit:sewing',
+            materials: inputs,
+            tool: {
+                type: 'sewingkit:tool_ingredient',
+                tool_type: 'sewingkit_sew'
+            },
+            result: Item.of(output).toResultJson()
+        })
+    }
+
+    sewing(
+        'minecraft:leather_chestplate',
+        [
+            {ingredient: {item: 'sewingkit:leather_sheet'}, count: 4},
+            {ingredient: {item: 'sewingkit:leather_strip'}, count: 2},
+            {ingredient: {tag: 'bookshelf:strings'}, count: 1},
+        ]
+    ).id('kubejs:sewing/leather_chestplate')
+
+    sewing(
+        'minecraft:leather_leggings',
+        [
+            {ingredient: {item: 'sewingkit:leather_sheet'}, count: 3},
+            {ingredient: {item: 'sewingkit:leather_strip'}, count: 2},
+            {ingredient: {tag: 'bookshelf:strings'}, count: 1},
+        ]
+    ).id('kubejs:sewing/leather_leggings')
+
+    sewing(
+        'minecraft:leather_horse_armor',
+        [
+            {ingredient: {item: 'sewingkit:leather_sheet'}, count: 8},
+            {ingredient: {item: 'sewingkit:leather_strip'}, count: 4},
+            {ingredient: {tag: 'bookshelf:strings'}, count: 1},
+        ]
+    ).id('kubejs:sewing/leather_horse_armor')
+
+    event.remove({id: 'toolbelt:belt_via_sewing'})
+    event.remove({id: 'toolbelt:pouch_via_sewing'})
 
     event.remove({output: 'quark:backpack'})
+
+    sewing(
+        'toolbelt:belt',
+        [
+            {ingredient: {item: 'sewingkit:leather_sheet'}, count: 2},
+            {ingredient: {item: 'sewingkit:leather_strip'}, count: 3},
+            {ingredient: {tag: 'bookshelf:strings'}, count: 2},
+            {ingredient: {tag: 'kubejs:sheets_for_belt'}, count: 1},
+        ]
+    ).id('kubejs:sewing/belt')
+
+    sewing(
+        'toolbelt:pouch',
+        [
+            {ingredient: {item: 'sewingkit:leather_sheet'}, count: 1},
+            {ingredient: {item: 'sewingkit:leather_strip'}, count: 1},
+            {ingredient: {tag: 'bookshelf:strings'}, count: 1},
+            {ingredient: {tag: 'kubejs:rods_for_belt'}, count: 1},
+        ]
+    ).id('kubejs:sewing/pouch')
+
+    sewing(
+        'quark:backpack',
+        [
+            {ingredient: {item: 'sewingkit:leather_sheet'}, count: 4},
+            {ingredient: {item: 'sewingkit:leather_strip'}, count: 2},
+            {ingredient: {item: 'toolbelt:pouch'}, count: 2},
+            {ingredient: {tag: 'bookshelf:strings'}, count: 2},
+        ]
+    ).id('kubejs:sewing/backpack')
+
+    for (let i = 1; i < 8; i++) {
+        event.remove({id: 'toolbelt:pouch_upgrade_' + i + '_via_sewing'})
+
+        event.custom({
+            type: 'sewingkit:sewing',
+            materials: [
+                {ingredient: {type: 'toolbelt:belt_upgrade_level', upgrade_level: i - 1}, count: 1},
+                {ingredient: {item: 'toolbelt:pouch'}, count: 1},
+                {ingredient: {tag: 'bookshelf:strings'}, count: 1},
+            ],
+            tool: {
+                type: 'sewingkit:tool_ingredient',
+                tool_type: 'sewingkit_sew'
+            },
+            result: {item: "toolbelt:belt", nbt: {Size: i + 2}}
+        }).id('kubejs:sewing/tool_belt_upgrade_' + i)
+    }
 })

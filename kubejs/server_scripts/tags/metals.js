@@ -15,4 +15,18 @@ onEvent('item.tags', event => {
 
     event.removeAll('tfc:blast_furnace_fuels')
     event.add('tfc:blast_furnace_fuels', 'create:blaze_cake')
+
+    event.add('kubejs:sheets_for_belt', [
+        'tfc:metal/sheet/bismuth_bronze',
+        'tfc:metal/sheet/black_bronze',
+        'tfc:metal/sheet/bronze',
+        'tfc:metal/sheet/wrought_iron'
+    ])
+
+    event.add('kubejs:rods_for_belt', [
+        'tfc:metal/rod/bismuth_bronze',
+        'tfc:metal/rod/black_bronze',
+        'tfc:metal/rod/bronze',
+        'tfc:metal/rod/wrought_iron'
+    ])
 })

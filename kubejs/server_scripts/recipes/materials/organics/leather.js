@@ -3,7 +3,6 @@ onEvent('recipes', event => {
     event.remove({output: 'minecraft:leather', type: 'farmersdelight:cutting'})
     event.remove({output: 'minecraft:leather', type: 'create:milling'})
     event.remove({output: 'minecraft:leather', type: 'create:crushing'})
-    event.remove({id: 'sewingkit:leather_sheet_from_rabbit_hide'})
 
     let fluidCounts = {
         small: 300,
@@ -61,4 +60,44 @@ onEvent('recipes', event => {
             ]
         )
     }
+
+    event.remove({id: 'sewingkit:leather_sheet_from_rabbit_hide'})
+    event.remove({id: 'sewingkit:leather_sheet_from_leather'})
+    event.remove({id: 'sewingkit:leather_strip_from_leather'})
+    
+    event.custom({
+        type: 'farmersdelight:cutting',
+        ingredients: [
+            Ingredient.of('minecraft:leather').toJson()
+        ],
+        tool: Ingredient.of('#forge:shears').toJson(),
+        result: [
+            Item.of('2x sewingkit:leather_sheet').toResultJson()
+        ]
+    }).id('kubejs:cutting/leather')
+    
+    event.custom({
+        type: 'farmersdelight:cutting',
+        ingredients: [
+            Ingredient.of('sewingkit:leather_sheet').toJson()
+        ],
+        tool: Ingredient.of('#forge:shears').toJson(),
+        result: [
+            Item.of('2x sewingkit:leather_strip').toResultJson()
+        ]
+    }).id('kubejs:cutting/leather_sheet')
+
+    event.recipes.createCutting(
+        [
+            '3x sewingkit:leather_sheet'
+        ],
+        'minecraft:leather'
+    ).id('kubejs:create_cutting/leather')
+
+    event.recipes.createCutting(
+        [
+            '3x sewingkit:leather_strip'
+        ],
+        'sewingkit:leather_sheet'
+    ).id('kubejs:create_cutting/leather_sheet')
 })

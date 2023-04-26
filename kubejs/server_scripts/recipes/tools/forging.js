@@ -110,7 +110,7 @@ onEvent('recipes', event => {
         // Shears
         event.recipes.createSequencedAssembly(
             [
-                'tfc:metal/shears/' + metal
+                Item.of('tfc:metal/shears/' + metal, '{"tfc:forging_bonus":2}')
             ],
             'tfc:metal/knife_blade/' + metal,
             [

@@ -39,7 +39,25 @@ onEvent('jei.hide.items', event => {
     event.hide('toms_storage:ts.open_crate')
 
     event.hide('tfc:water')
-    event.hide('tfc:spring_water')
+    //event.hide('tfc:spring_water')
+
+    event.hide('farmersdelight:flint_knife')
+    event.hide('farmersdelight:iron_knife')
+    event.hide('farmersdelight:golden_knife')
+    event.hide('farmersdelight:diamond_knife')
+    event.hide('farmersdelight:netherite_knife')
+
+    event.hide('sewingkit:storing_sewing_station')
+    event.hide('sewingkit:wood_sewing_needle')
+    event.hide('sewingkit:stone_sewing_needle')
+    event.hide('sewingkit:gold_sewing_needle')
+    event.hide('sewingkit:diamond_sewing_needle')
+    event.hide('sewingkit:netherite_sewing_needle')
+    event.hide('sewingkit:common_pattern')
+    event.hide('sewingkit:uncommon_pattern')
+    event.hide('sewingkit:rare_pattern')
+    event.hide('sewingkit:legendary_pattern')
+    event.hide('sewingkit:file')
 })
 
 //let MysteriousItemConversionCategory = java('com.simibubi.create.compat.jei.category.MysteriousItemConversionCategory')

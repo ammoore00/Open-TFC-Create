@@ -3,6 +3,7 @@ onEvent('recipes', event => {
     event.remove({output: 'minecraft:leather', type: 'farmersdelight:cutting'})
     event.remove({output: 'minecraft:leather', type: 'create:milling'})
     event.remove({output: 'minecraft:leather', type: 'create:crushing'})
+    event.remove({id: 'sewingkit:leather_sheet_from_rabbit_hide'})
 
     let fluidCounts = {
         small: 300,

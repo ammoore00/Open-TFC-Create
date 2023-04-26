@@ -5,6 +5,9 @@ onEvent('recipes', event => {
     event.replaceInput({output: 'quark:abacus'}, '#minecraft:planks', '#tfc:lumber')
     event.replaceInput({output: 'quark:abacus'}, 'minecraft:iron_ingot', 'tfc:metal/ingot/wrought_iron')
 
+    event.replaceInput({output: 'create:engineers_goggles'}, 'tfc:metal/sheet/gold', 'tfc:metal/rod/gold')
+    event.replaceInput({output: 'create:engineers_goggles'}, '#bookshelf:strings', 'minecraft:leather')
+
     event.remove({output: 'quark:trowel'})
     event.shaped(
         'quark:trowel',
@@ -39,4 +42,10 @@ onEvent('recipes', event => {
             '#forge:dyes'
         ]
     ).id('kubejs:paint_kit')
+    
+    event.remove({output: 'farmersdelight:flint_knife'})
+    event.remove({output: 'farmersdelight:iron_knife'})
+    event.remove({output: 'farmersdelight:golden_knife'})
+    event.remove({output: 'farmersdelight:diamond_knife'})
+    event.remove({output: 'farmersdelight:netherite_knife'})
 })

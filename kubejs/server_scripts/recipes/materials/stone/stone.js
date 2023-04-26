@@ -38,7 +38,7 @@ onEvent('recipes', event => {
     event.recipes.createMilling(
         'kubejs:quartz_powder',
         '#minecraft:sand'
-    )
+    ).id('kubejs:milling/sand')
 
     event.recipes.createCrushing(
         [
@@ -46,10 +46,21 @@ onEvent('recipes', event => {
             Item.of('kubejs:quartz_powder').withChance(0.5)
         ],
         '#minecraft:sand'
-    )
+    ).id('kubejs:crushing/sand')
 
-    const always = 1
-    const common = 0.2
+    event.recipes.createSplashing(
+        Item.of('minecraft:clay_ball').withChance(0.125),
+        '#minecraft:sand'
+    ).id('kubejs:splashing/sand')
+
+    event.recipes.createCompacting(
+        'tfc:rock/raw/quartzite',
+        [
+            '8x kubejs:quartz_powder'
+        ]
+    ).heated()
+    .id('kubejs:compacting/quartzite')
+
     const uncommon = 0.04
     const rare = 0.02
     const ultraRare = 0.01
@@ -59,7 +70,7 @@ onEvent('recipes', event => {
     let rhyolite = {
         'tfc:ore/small_native_copper': uncommon,
         'tfc:ore/small_native_gold': uncommon,
-        'tfc:powder/hematite': uncommon,
+        'tfc:ore/small_hematite': uncommon,
         'tfc:ore/cinnabar': uncommon,
         'tfc:ore/sulfur': uncommon,
     }
@@ -67,7 +78,7 @@ onEvent('recipes', event => {
     let basalt = {
         'tfc:ore/small_native_copper': uncommon,
         'tfc:ore/small_native_gold': uncommon,
-        'tfc:powder/hematite': uncommon,
+        'tfc:ore/small_hematite': uncommon,
         'tfc:ore/cinnabar': uncommon,
         'tfc:ore/sulfur': uncommon,
     }
@@ -75,7 +86,7 @@ onEvent('recipes', event => {
     let andesite = {
         'tfc:ore/small_native_copper': uncommon,
         'tfc:ore/small_native_gold': uncommon,
-        'tfc:powder/hematite': uncommon,
+        'tfc:ore/small_hematite': uncommon,
         'tfc:ore/cinnabar': uncommon,
         'tfc:ore/sulfur': uncommon,
     }
@@ -83,7 +94,7 @@ onEvent('recipes', event => {
     let dacite = {
         'tfc:ore/small_native_copper': uncommon,
         'tfc:ore/small_native_gold': uncommon,
-        'tfc:powder/hematite': uncommon,
+        'tfc:ore/small_hematite': uncommon,
         'tfc:ore/cinnabar': uncommon,
         'tfc:ore/sulfur': uncommon,
     }
@@ -127,7 +138,7 @@ onEvent('recipes', event => {
     let shale = {
         'tfc:ore/small_bismuthinite': uncommon,
         'tfc:ore/small_magnetite': uncommon,
-        'tfc:powder/limonite': uncommon,
+        'tfc:ore/small_limonite': uncommon,
         'tfc:ore/lignite': uncommon,
         'tfc:ore/kaolinite': uncommon,
         'tfc:ore/cinnabar': uncommon,
@@ -142,7 +153,7 @@ onEvent('recipes', event => {
     let claystone = {
         'tfc:ore/small_bismuthinite': uncommon,
         'tfc:ore/small_magnetite': uncommon,
-        'tfc:powder/limonite': uncommon,
+        'tfc:ore/small_limonite': uncommon,
         'tfc:ore/lignite': uncommon,
         'tfc:ore/kaolinite': uncommon,
         'tfc:ore/saltpeter': uncommon,
@@ -154,7 +165,7 @@ onEvent('recipes', event => {
         'tfc:ore/small_bismuthinite': uncommon,
         'tfc:ore/small_malachite': uncommon,
         'tfc:ore/small_magnetite': uncommon,
-        'tfc:powder/limonite': uncommon,
+        'tfc:ore/small_limonite': uncommon,
         'tfc:ore/lignite': uncommon,
         'tfc:ore/kaolinite': uncommon,
         'tfc:ore/saltpeter': uncommon,
@@ -169,7 +180,7 @@ onEvent('recipes', event => {
     let conglomerate = {
         'tfc:ore/small_bismuthinite': uncommon,
         'tfc:ore/small_magnetite': uncommon,
-        'tfc:powder/limonite': uncommon,
+        'tfc:ore/small_limonite': uncommon,
         'tfc:ore/lignite': uncommon,
         'tfc:ore/kaolinite': uncommon,
         'tfc:ore/saltpeter': uncommon,
@@ -179,7 +190,7 @@ onEvent('recipes', event => {
     let dolomite = {
         'tfc:ore/small_bismuthinite': uncommon,
         'tfc:ore/small_magnetite': uncommon,
-        'tfc:powder/limonite': uncommon,
+        'tfc:ore/small_limonite': uncommon,
         'tfc:ore/lignite': uncommon,
         'tfc:ore/kaolinite': uncommon,
         'tfc:ore/saltpeter': uncommon,
@@ -191,7 +202,7 @@ onEvent('recipes', event => {
     let chert = {
         'tfc:ore/small_bismuthinite': uncommon,
         'tfc:ore/small_magnetite': uncommon,
-        'tfc:powder/limonite': uncommon,
+        'tfc:ore/small_limonite': uncommon,
         'tfc:ore/lignite': uncommon,
         'tfc:ore/kaolinite': uncommon,
         'tfc:ore/saltpeter': uncommon,
@@ -202,7 +213,7 @@ onEvent('recipes', event => {
     let chalk = {
         'tfc:ore/small_bismuthinite': uncommon,
         'tfc:ore/small_magnetite': uncommon,
-        'tfc:powder/limonite': uncommon,
+        'tfc:ore/small_limonite': uncommon,
         'tfc:ore/lignite': uncommon,
         'tfc:ore/kaolinite': uncommon,
         'tfc:ore/saltpeter': uncommon,
@@ -348,5 +359,15 @@ onEvent('recipes', event => {
             outputs,
             gravel
         ).id('kubejs:washing/' + name + '_gravel')
+
+        event.recipes.createCompacting(
+            'tfc:rock/raw/' + name,
+            '8x tfc:rock/loose/' + name
+        ).superheated()
+        .id('kubejs:compacting/' + name)
     }
+
+    event.remove({id: 'create:compacting/granite_from_flint'})
+    event.remove({id: 'create:compacting/diorite_from_flint'})
+    event.remove({id: 'create:compacting/andesite_from_flint'})
 })

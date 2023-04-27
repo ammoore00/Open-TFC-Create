@@ -1,0 +1,132 @@
+{
+    "variants": {
+        "count=1": [
+            {
+                "model": "firmalife:block/jar/cranberry_1"
+            },
+            {
+                "model": "firmalife:block/jar/cranberry_1",
+                "y": 90
+            },
+            {
+                "model": "firmalife:block/jar/cranberry_1",
+                "y": 180
+            },
+            {
+                "model": "firmalife:block/jar/cranberry_1",
+                "y": 270
+            },
+            {
+                "model": "firmalife:block/jar/cranberry_1b"
+            },
+            {
+                "model": "firmalife:block/jar/cranberry_1b",
+                "y": 90
+            },
+            {
+                "model": "firmalife:block/jar/cranberry_1b",
+                "y": 180
+            },
+            {
+                "model": "firmalife:block/jar/cranberry_1b",
+                "y": 270
+            }
+    	],
+    	"count=2": [
+            {
+                "model": "firmalife:block/jar/cranberry_2"
+            },
+            {
+                "model": "firmalife:block/jar/cranberry_2",
+                "y": 90
+            },
+            {
+                "model": "firmalife:block/jar/cranberry_2",
+                "y": 180
+            },
+            {
+                "model": "firmalife:block/jar/cranberry_2",
+                "y": 270
+            },
+            {
+                "model": "firmalife:block/jar/cranberry_2b"
+            },
+            {
+                "model": "firmalife:block/jar/cranberry_2b",
+                "y": 90
+            },
+            {
+                "model": "firmalife:block/jar/cranberry_2b",
+                "y": 180
+            },
+            {
+                "model": "firmalife:block/jar/cranberry_2b",
+                "y": 270
+            }
+    	],
+        "count=3": [
+            {
+                "model": "firmalife:block/jar/cranberry_3"
+            },
+            {
+                "model": "firmalife:block/jar/cranberry_3",
+                "y": 90
+            },
+            {
+                "model": "firmalife:block/jar/cranberry_3",
+                "y": 180
+            },
+            {
+                "model": "firmalife:block/jar/cranberry_3",
+                "y": 270
+            },
+            {
+                "model": "firmalife:block/jar/cranberry_3b"
+            },
+            {
+                "model": "firmalife:block/jar/cranberry_3b",
+                "y": 90
+            },
+            {
+                "model": "firmalife:block/jar/cranberry_3b",
+                "y": 180
+            },
+            {
+                "model": "firmalife:block/jar/cranberry_3b",
+                "y": 270
+            }
+    	],
+        "count=4": [
+            {
+                "model": "firmalife:block/jar/cranberry_4"
+            },
+            {
+                "model": "firmalife:block/jar/cranberry_4",
+                "y": 90
+            },
+            {
+                "model": "firmalife:block/jar/cranberry_4",
+                "y": 180
+            },
+            {
+                "model": "firmalife:block/jar/cranberry_4",
+                "y": 270
+            },
+            {
+                "model": "firmalife:block/jar/cranberry_4b"
+            },
+            {
+                "model": "firmalife:block/jar/cranberry_4b",
+                "y": 90
+            },
+            {
+                "model": "firmalife:block/jar/cranberry_4b",
+                "y": 180
+            },
+            {
+                "model": "firmalife:block/jar/cranberry_4b",
+                "y": 270
+            }
+    	]
+	}
+}

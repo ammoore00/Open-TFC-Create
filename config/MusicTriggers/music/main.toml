@@ -1,8 +1,4 @@
 [triggers]
-    [triggers.universal]
-	    fade_in = "100"
-	    fade_out = "100"
-        
     [triggers.menu]
 	[triggers.loading]
 
@@ -21,7 +17,7 @@
     [[triggers.time]]
         identifier = "day"
         start_hour = 0
-        end_hour = 12
+        end_hour = 13
         priority = 10
 
     [[triggers.time]]

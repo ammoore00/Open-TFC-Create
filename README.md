@@ -30,6 +30,7 @@ tfc:fluid/flowing_spring_water tfc:fluid/flowing_river_water tfc:fluid/flowing_s
 - Create Crystal Clear - 
 - Create Enchantment Industry - 
 - Farmer's Delight - https://www.curseforge.com/minecraft/mc-mods/farmers-delight
+- FirmaLife - https://www.curseforge.com/minecraft/mc-mods/firmalife
 - Little Contraptions - 
 - Medieval Paintings - 
 - Quark - 
@@ -37,13 +38,16 @@ tfc:fluid/flowing_spring_water tfc:fluid/flowing_river_water tfc:fluid/flowing_s
 - Sewing Kit - 
 - TFC Create - 
 - TFC Delight - 
-- TFC Item Barrels
+- TFC Item Barrels - 
+- TFCGyres-OreHints - https://www.curseforge.com/minecraft/mc-mods/tfcgyres-orehints
+- TFCGyres-RockLayerSize - https://www.curseforge.com/minecraft/mc-mods/tfcgyres-rocklayersize
 - Tool Belt - 
 
 ## Environment
 - Ambient Sounds - 
 - Clear Skies - 
 - ItemPhysic Lite - 
+- Magnesium/Rubidium Dynamic Lights - https://www.curseforge.com/minecraft/mc-mods/dynamiclights-reforged
 - Nyf's Spiders - 
 - Oculus - 
 - Sound Physics Remastered - 
@@ -77,6 +81,7 @@ tfc:fluid/flowing_spring_water tfc:fluid/flowing_river_water tfc:fluid/flowing_s
 - NBT Tool - 
 - Patchouli - 
 - Raised - 
+- ShulkerBoxTooltip - 
 - Tool Stats - 
 
 ## Performance

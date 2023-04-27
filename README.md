@@ -101,6 +101,7 @@ tfc:fluid/flowing_spring_water tfc:fluid/flowing_river_water tfc:fluid/flowing_s
 - KubeJS Create - 
 - KubeJS TFC - 
 - MoreCrashInfo - 
+- MusicTriggers - 
 - Not Enough Crashes - 
 - Packet Size Doubler - 
 - Paxi - 
@@ -115,5 +116,51 @@ tfc:fluid/flowing_spring_water tfc:fluid/flowing_river_water tfc:fluid/flowing_s
 
 ## Additional Textures Used
 
-# Shaders
+## Shaders
 - MakeUp Ultra Fast - https://www.curseforge.com/minecraft/customization/makeup-ultra-fast-shader
+
+# Music
+Music has been sourced from the following - Royalty free for non-commercial projects
+- Enderal by SureAI - Music composed by Marvin Kopp, Simon W. Autenrieth, Nicolas Samuel Lietzau, Andreas Makusev, and Sebastian Löbbers
+    - https://store.steampowered.com/app/933480/Enderal_Forgotten_Stories/
+    - License References:
+        - https://www.reddit.com/r/enderal/comments/52b5fr/using_the_music/d7iyx5z/
+        - https://www.reddit.com/r/enderal/comments/svtfpl/what_is_the_license_of_the_games_assets_could/hxi83dx/
+
+The full list of songs used is as follows:
+
+## Caves
+- cave1: Numinos - Marvin Kopp
+- cave2: Among Leaves - Marvin Kopp
+- cave3: Decay - Marvin Kopp
+- cave4: The Trees Have Eyes - Marvin Kopp
+- cave5: Paths of the Dead - Andreas Makusev
+- cave6: Magic Contamination - Marvin Kopp
+
+## Forest
+- day1: In the Sunlight - Marvin Kopp
+- day2: Path-Abidingness - Marvin Kopp
+- day3: Trade Roads - Marvin Kopp
+- day4: Until Dawn - Marvin Kopp
+- day5: In the Twilight - Marvin Kopp
+- day6: Empire by the Sea - Simon W. Autenrieth
+- day7: Nightshade - Simon W. Autenrieth
+- day8: Every Day like the Last - Marvin Kopp
+- day9: The Bright Side - Marvin Kopp
+- day10: Traveller's Path - Marvin Kopp
+
+## Snowy
+- night1: Spark of Hope - Marvin Kopp, Andreas Makusev
+- night2: Forgotten Homeland - Marvin Kopp
+- night3: Mistwalker - Marvin Kopp
+- night4: Walk Blessed - Marvin Kopp
+- night5: Path-Abidingness (old) - Marvin Kopp
+- night6: The Old and Forgotten - Simon W. Autenrieth
+- night7: Enchanted - Simon W. Autenrieth
+
+## Other
+- menu1: Heading for New Shores - Marvin Kopp
+- rain1: White Land - Marvin Kopp
+- rain2: Thunderfrost - Marvin Kopp
+- snow1: Snow Nomad - Marvin Kopp
+- storm1: Goetterdaemmerung - Marvin Kopp

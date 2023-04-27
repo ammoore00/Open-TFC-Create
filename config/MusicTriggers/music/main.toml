@@ -1,0 +1,84 @@
+[triggers]
+    [triggers.universal]
+	    fade_in = "100"
+	    fade_out = "100"
+        
+    [triggers.menu]
+	[triggers.loading]
+
+    [triggers.height]
+		identifier = "underground"
+		level = 55
+		priority = 30
+
+    [triggers.storming]
+		priority = 20
+	[triggers.snowing]
+		priority = 20
+	[triggers.raining]
+		priority = 20
+
+    [[triggers.time]]
+        identifier = "day"
+        start_hour = 0
+        end_hour = 12
+        priority = 10
+
+    [[triggers.time]]
+        identifier = "night"
+        start_hour = 13
+        end_hour = 24
+        priority = 10
+
+[songs]
+    [songs.day1]
+        triggers = [ "time-day" ]
+    [songs.day2]
+        triggers = [ "time-day" ]
+    [songs.day3]
+        triggers = [ "time-day" ]
+    [songs.day4]
+        triggers = [ "time-day" ]
+    [songs.day5]
+        triggers = [ "time-day" ]
+    [songs.day6]
+        triggers = [ "time-day" ]
+    [songs.day7]
+        triggers = [ "time-day" ]
+    [songs.day8]
+        triggers = [ "time-day" ]
+    [songs.day9]
+        triggers = [ "time-day" ]
+    [songs.day10]
+        triggers = [ "time-day" ]
+
+    [[songs.menu1]]
+		triggers = [ "menu" ]
+	[[songs.menu1]]
+		triggers = [ "loading" ]
+        
+    [songs.night1]
+        triggers = [ "time-night" ]
+    [songs.night2]
+        triggers = [ "time-night" ]
+    [songs.night3]
+        triggers = [ "time-night" ]
+    [songs.night4]
+        triggers = [ "time-night" ]
+    [songs.night5]
+        triggers = [ "time-night" ]
+    [songs.night6]
+        triggers = [ "time-night" ]
+    [songs.night7]
+        triggers = [ "time-night" ]
+        
+    [songs.rain1]
+        triggers = [ "raining" ]
+    [songs.rain2]
+        triggers = [ "raining" ]
+        
+    [songs.snow1]
+        triggers = [ "snowing" ]
+        
+    [songs.storm1]
+        triggers = [ "storming" ]

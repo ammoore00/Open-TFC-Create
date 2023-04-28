@@ -1,6 +1,6 @@
 {
     "name": "Getting Started",
-    "description": "An introduction to surviving.",
-    "icon": "tfc:metal/ingot/copper",
-    "sortnum": 10
+    "description": "A quick start guide to getting off the ground!",
+    "icon": "tfc:rock/loose/granite",
+    "sortnum": 5
 }

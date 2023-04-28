@@ -941,7 +941,7 @@ onEvent('jei.hide.items', event => {
 	event.hide("minecraft:zombified_piglin_spawn_egg")
 	event.hide("minecraft:experience_bottle")
 	//event.hide("minecraft:fire_charge")
-	event.hide("minecraft:writable_book")
+	//event.hide("minecraft:writable_book")
 	event.hide("minecraft:written_book")
 	//event.hide("minecraft:item_frame")
 	event.hide("minecraft:glow_item_frame")

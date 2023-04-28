@@ -1,0 +1,7 @@
+{
+    "name": "Materials Processing",
+    "description": "More in depth information about material processing.",
+    "icon": "tfc:metal/ingot/wrought_iron",
+    "parent": "patchouli:mechanics",
+    "sortnum": 30
+}

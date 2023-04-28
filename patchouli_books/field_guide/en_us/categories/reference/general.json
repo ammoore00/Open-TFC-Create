@@ -1,0 +1,7 @@
+{
+    "name": "General Reference",
+    "description": "General reference information.",
+    "icon": "create:schematic_and_quill",
+    "parent": "patchouli:reference",
+    "sortnum": 0
+}

@@ -1,0 +1,7 @@
+{
+    "name": "Farming and Husbandry",
+    "description": "Cultivating crops and raising animals.",
+    "icon": "tfc:food/wheat",
+    "parent": "patchouli:mechanics",
+    "sortnum": 20
+}

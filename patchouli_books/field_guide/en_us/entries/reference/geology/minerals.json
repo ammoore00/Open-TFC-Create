@@ -1,0 +1,9 @@
+{
+    "name": "Minerals",
+    "category": "patchouli:reference/geology",
+    "icon": "tfc:ore/halite",
+    "pages": [
+
+    ],
+    "read_by_default": true
+}

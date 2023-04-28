@@ -1,0 +1,7 @@
+{
+    "name": "Fauna",
+    "description": "Animals to hunt or be hunted by.",
+    "icon": "tfc:medium_raw_hide",
+    "parent": "patchouli:reference",
+    "sortnum": 40
+}

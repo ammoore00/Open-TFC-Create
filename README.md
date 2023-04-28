@@ -1,8 +1,10 @@
-# Open-TFC-Create
+# TerraFirma - Skyward Bound
 
-- Integrate Create into TFC progression
-- Overhauled the look of TFC to bring it closer to vanilla
-- Entirely open source - all mods and texture included, as well as the pack itself, are provided under an open license
+Skyward Bound is a pack primarily focused on integrating TerraFirmaCraft and Create, while improving on both through several addons, as well a visual overhaul for TerraFirmaCraft.
+
+Start from the stone age and build up to the industrial age with airships and trains!
+
+This pack, as well as all mods and resources included, are either open source or copyleft!
 
 ## Using Shaders
 

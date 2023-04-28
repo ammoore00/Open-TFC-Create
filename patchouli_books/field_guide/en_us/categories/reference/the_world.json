@@ -1,0 +1,7 @@
+{
+    "name": "The World",
+    "description": "All about the natural world around you.",
+    "icon": "tfc:textures/gui/book/icons/biomes.png",
+    "parent": "patchouli:reference",
+    "sortnum": 10
+}

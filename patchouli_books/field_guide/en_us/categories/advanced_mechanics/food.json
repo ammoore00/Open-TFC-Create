@@ -1,0 +1,7 @@
+{
+    "name": "Food and Water",
+    "description": "Surviving and Thriving.",
+    "icon": "tfc:food/red_apple",
+    "parent": "patchouli:mechanics",
+    "sortnum": 15
+}

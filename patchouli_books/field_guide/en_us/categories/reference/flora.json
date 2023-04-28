@@ -1,0 +1,7 @@
+{
+    "name": "Flora",
+    "description": "All about plants you can find in the world.",
+    "icon": "tfc:plant/blue_ginger",
+    "parent": "patchouli:reference",
+    "sortnum": 30
+}

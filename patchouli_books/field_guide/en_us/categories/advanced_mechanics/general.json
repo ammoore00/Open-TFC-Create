@@ -1,0 +1,7 @@
+{
+    "name": "General Mechanics",
+    "description": "General information about various game mechanics.",
+    "icon": "tfc:brick/rhyolite",
+    "parent": "patchouli:mechanics",
+    "sortnum": 0
+}

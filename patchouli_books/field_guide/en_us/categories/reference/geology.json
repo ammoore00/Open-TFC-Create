@@ -1,0 +1,7 @@
+{
+    "name": "Geology",
+    "description": "Anything and everything regarding rocks and ores.",
+    "icon": "tfc:ore/rich_native_gold",
+    "parent": "patchouli:reference",
+    "sortnum": 20
+}

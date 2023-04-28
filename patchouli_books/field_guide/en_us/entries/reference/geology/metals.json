@@ -1,0 +1,9 @@
+{
+    "name": "Metals",
+    "category": "patchouli:reference/geology",
+    "icon": "tfc:ore/rich_native_gold",
+    "pages": [
+
+    ],
+    "read_by_default": true
+}

@@ -1,0 +1,9 @@
+{
+    "name": "Gems",
+    "category": "patchouli:reference/geology",
+    "icon": "tfc:gem/amethyst",
+    "pages": [
+
+    ],
+    "read_by_default": true
+}

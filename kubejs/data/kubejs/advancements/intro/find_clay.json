@@ -1,0 +1,27 @@
+{
+    "parent": "kubejs:intro/firestarter",
+    "display": {
+        "icon": {
+            "item": "minecraft:clay_ball"
+        },
+        "title": "Clay Digging",
+        "description": "Find some clay in the dirt."
+    },
+    "criteria": {
+        "has_clay": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:clay_ball"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_clay"
+        ]
+    ]
+}

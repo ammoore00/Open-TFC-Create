@@ -1,0 +1,27 @@
+{
+    "parent": "kubejs:intro/chop_tree",
+    "display": {
+        "icon": {
+            "item": "tfc:firestarter"
+        },
+        "title": "Embers",
+        "description": "Craft a firestarter from some sticks."
+    },
+    "criteria": {
+        "has_firestarter": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tfc:firestarter"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_firestarter"
+        ]
+    ]
+}

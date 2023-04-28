@@ -4,8 +4,6 @@ onEvent('item.tooltip', tooltip => {
             for (let i = 0; i < text.size(); i++) {
                 let component = text.get(i)
 
-                console.log(component)
-
                 let key = component?.key
 
                 if (key != null && key.contains(tooltipToRemove)) {

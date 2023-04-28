@@ -1,0 +1,23 @@
+{
+    "parent": "kubejs:intro/pottery",
+    "display": {
+        "icon": {
+            "item": "tfc:ceramic/vessel"
+        },
+        "title": "Fired Up",
+        "description": "Use straw and logs to light a pit kiln."
+    },
+    "criteria": {
+        "lit_pit_kiln": {
+            "trigger": "tfc:lit",
+            "conditions": {
+              "block": "tfc:pit_kiln"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "lit_pit_kiln"
+        ]
+    ]
+}

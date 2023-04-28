@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "tfc:metal/hammer/wrought_iron"
+        },
+        "title": "Introduction",
+        "description": "Getting started in the world.",
+        "background": "tfc:textures/block/rock/raw/phyllite.png"
+    },
+    "criteria": {
+        "in_game": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "requirements": [
+        [
+            "in_game"
+        ]
+    ],
+    "show_toast": false,
+    "announce_to_chat": false
+}

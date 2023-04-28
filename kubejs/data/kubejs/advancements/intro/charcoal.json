@@ -1,0 +1,27 @@
+{
+    "parent": "kubejs:intro/firestarter",
+    "display": {
+        "icon": {
+            "item": "minecraft:charcoal"
+        },
+        "title": "Getting hotter",
+        "description": "Burn log piles without access to air to get charcoal."
+    },
+    "criteria": {
+        "has_charcoal": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:charcoal"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_charcoal"
+        ]
+    ]
+}

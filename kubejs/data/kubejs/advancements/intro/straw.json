@@ -1,0 +1,27 @@
+{
+    "parent": "kubejs:intro/stone_tool",
+    "display": {
+        "icon": {
+            "item": "tfc:straw"
+        },
+        "title": "The Final Straw",
+        "description": "Cut some grass to get straw."
+    },
+    "criteria": {
+        "has_straw": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tfc:straw"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_straw"
+        ]
+    ]
+}

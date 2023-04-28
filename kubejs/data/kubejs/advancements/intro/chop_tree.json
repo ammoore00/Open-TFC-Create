@@ -1,0 +1,27 @@
+{
+    "parent": "kubejs:intro/stone_tool",
+    "display": {
+        "icon": {
+            "item": "tfc:wood/log/oak"
+        },
+        "title": "Timber!",
+        "description": "Chop down a tree with an axe to get some logs."
+    },
+    "criteria": {
+        "has_log": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "minecraft:logs"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_log"
+        ]
+    ]
+}

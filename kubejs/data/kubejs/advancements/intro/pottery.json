@@ -1,0 +1,27 @@
+{
+    "parent": "kubejs:intro/find_clay",
+    "display": {
+        "icon": {
+            "item": "tfc:ceramic/unfired_vessel"
+        },
+        "title": "Potter",
+        "description": "Form clay into pottery."
+    },
+    "criteria": {
+        "has_pottery": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "tfc:unfired_pottery"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_pottery"
+        ]
+    ]
+}

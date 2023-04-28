@@ -1,0 +1,27 @@
+{
+    "parent": "kubejs:intro/find_rock",
+    "display": {
+        "icon": {
+            "item": "tfc:stone/axe/igneous_extrusive"
+        },
+        "title": "The Stone Age",
+        "description": "Make a stone tool by knapping loose rocks."
+    },
+    "criteria": {
+        "has_stone_tool": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "tfc:stone_tools"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_stone_tool"
+        ]
+    ]
+}

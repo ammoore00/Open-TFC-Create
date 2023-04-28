@@ -1,0 +1,29 @@
+{
+    "parent": "kubejs:intro/pit_kiln",
+    "display": {
+        "icon": {
+            "item": "tfc:metal/ingot/unknown"
+        },
+        "title": "Rite of Passage",
+        "description": "You made a worthless unknown metal",
+        "frame": "goal",
+        "hidden": true
+    },
+    "criteria": {
+        "unknown_ingot": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "tfc:metal/ingot/unknown"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "unknown_ingot"
+        ]
+    ]
+}

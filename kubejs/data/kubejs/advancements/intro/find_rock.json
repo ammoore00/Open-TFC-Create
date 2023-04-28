@@ -1,0 +1,27 @@
+{
+    "parent": "kubejs:intro/root",
+    "display": {
+        "icon": {
+            "item": "tfc:rock/loose/granite"
+        },
+        "title": "Rock and Roll",
+        "description": "Pick up a loose rock from the ground."
+    },
+    "criteria": {
+        "has_rock": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "tfc:rock_knapping"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_rock"
+        ]
+    ]
+}

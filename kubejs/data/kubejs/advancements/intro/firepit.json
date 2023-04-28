@@ -1,0 +1,23 @@
+{
+    "parent": "kubejs:intro/firestarter",
+    "display": {
+        "icon": {
+            "item": "tfc:firepit"
+        },
+        "title": "Prometheus",
+        "description": "Use a firestarter on some logs and sticks to start a fire."
+    },
+    "criteria": {
+        "started_fire": {
+            "trigger": "tfc:firepit_created",
+            "conditions": {
+                "block": "tfc:firepit"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "started_fire"
+        ]
+    ]
+}

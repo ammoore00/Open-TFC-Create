@@ -1,10 +1,14 @@
 [triggers]
+    [triggers.universal]
+        trigger_delay = 50
+
     [triggers.menu]
 	[triggers.loading]
 
     [triggers.height]
 		identifier = "underground"
 		level = 55
+        check_for_sky = false
 		priority = 30
 
     [triggers.storming]
@@ -27,6 +31,19 @@
         priority = 10
 
 [songs]
+    [[songs.cave1]]
+		triggers = [ "height-underground" ]
+    [[songs.cave2]]
+		triggers = [ "height-underground" ]
+    [[songs.cave3]]
+		triggers = [ "height-underground" ]
+    [[songs.cave4]]
+		triggers = [ "height-underground" ]
+    [[songs.cave5]]
+		triggers = [ "height-underground" ]
+    [[songs.cave6]]
+		triggers = [ "height-underground" ]
+
     [songs.day1]
         triggers = [ "time-day" ]
     [songs.day2]

@@ -87,6 +87,11 @@
       "format" : "double",
       "description" : "The maximum amount extra each floater will multiply the buoyant force by, irrespective of mass"
     },
+    "maxSizeForTurnSpeedPenalty" : {
+      "type" : "number",
+      "format" : "double",
+      "description" : "The maximum distance from center of mass to one end of the ship considered by the turn speed. At it's default of 16, it ensures that really large ships will turn at the same speed as a ship with a center of mass only 16 blocks away from the farthest point in the ship. That way, large ships do not turn painfully slowly"
+    },
     "minEnginePower" : {
       "type" : "number",
       "format" : "float",

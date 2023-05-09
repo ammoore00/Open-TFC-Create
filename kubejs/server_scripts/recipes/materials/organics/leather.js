@@ -28,6 +28,7 @@ onEvent('recipes', event => {
             ]
         )
 
+        /*
         event.recipes.createMixing(
             'tfc:' + size + '_soaked_hide',
             [
@@ -35,6 +36,7 @@ onEvent('recipes', event => {
                 'tfc:' + size + '_raw_hide'
             ]
         )
+        */
 
         event.recipes.createDeploying(
             'tfc:' + size + '_scraped_hide',
@@ -44,6 +46,7 @@ onEvent('recipes', event => {
             ]
         )
 
+        /*
         event.recipes.createMixing(
             'tfc:' + size + '_prepared_hide',
             [
@@ -59,6 +62,7 @@ onEvent('recipes', event => {
                 'tfc:' + size + '_prepared_hide'
             ]
         )
+        */
     }
 
     event.remove({id: 'sewingkit:leather_sheet_from_rabbit_hide'})

@@ -15,7 +15,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "tfc:metal/ingot/unknown"
+                        "items": "tfc:metal/ingot/unknown"
                     }
                 ]
             }

@@ -17,6 +17,7 @@ onEvent('recipes', event => {
         ]
     }).id('kubejs:cutting/papyrus')
 
+    /*
     event.recipes.createMixing(
         'tfc:soaked_papyrus_strip',
         [
@@ -24,6 +25,7 @@ onEvent('recipes', event => {
             'tfc:papyrus_strip'
         ]
     ).id('kubejs:mixing/soaked_papyrus_strip')
+    */
 
     event.recipes.createCompacting(
         'tfc:unrefined_paper',

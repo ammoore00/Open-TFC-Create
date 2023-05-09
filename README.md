@@ -26,6 +26,7 @@ tfc:fluid/flowing_spring_water tfc:fluid/flowing_river_water tfc:fluid/flowing_s
 
 ## Content
 - Chalk - 
+- Comforts - 
 - Create Central Kitchen - 
 - Create Chunkloading - 
 - Create Crafts and Additions - 
@@ -66,6 +67,7 @@ tfc:fluid/flowing_spring_water tfc:fluid/flowing_river_water tfc:fluid/flowing_s
 - Curious Quark Oddities Backpack - 
 - Enigmatic Graves - 
 - Game Menu Remove GFARB - 
+- HT's Treechop
 - Inventory Sorter - 
 - Mouse Tweaks - 
 - NBT Autocomplete - 
@@ -81,6 +83,7 @@ tfc:fluid/flowing_spring_water tfc:fluid/flowing_river_water tfc:fluid/flowing_s
 - Legendary Tooltips - 
 - Mod Name Tooltip - 
 - NBT Tool - 
+- Notes - 
 - Patchouli - 
 - Raised - 
 - ShulkerBoxTooltip - 

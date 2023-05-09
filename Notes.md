@@ -1,3 +1,17 @@
+# Notable Config Changes
+## TFC
+- Disabled stone collapsing as the mechanics around it were unintuitive and clunky
+- No torch, candle, or jackolantern burnout
+- Foods takes longer to expire
+- Nutrition max health scaling is less dramatic
+- Dramatically reduced animal maturation times (8x for most, 4x for birds)
+- Slightly reduced barrel fluid capacity to match Create capacities
+- Disabled sealing and unsealing containers with redstone given that a deployer is able to do so
+
+## Create
+- Increased sails required per rpm of windmill, but also increased the power multiplier
+- Decreased hunger cost of hand crank
+
 # Advancements
 ## Intro
 Basically a copy of the base TFC advancements

@@ -13,7 +13,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:clay_ball"
+                        "items": "minecraft:clay_ball"
                     }
                 ]
             }

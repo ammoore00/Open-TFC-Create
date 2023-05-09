@@ -1,0 +1,41 @@
+{
+  "allowMovement": {
+    "net.minecraft.client.gui.screens.ReceivingLevelScreen": true,
+    "net.dries007.tfc.client.screen.KnappingScreen": true,
+    "net.dries007.tfc.client.screen.CalendarScreen": true,
+    "net.dries007.tfc.client.screen.NutritionScreen": true,
+    "net.dries007.tfc.client.screen.ClimateScreen": true,
+    "net.dries007.tfc.client.screen.FirepitScreen": true,
+    "top.theillusivec4.curios.client.gui.CuriosScreen": true,
+    "net.dries007.tfc.client.screen.SmallVesselInventoryScreen": true,
+    "net.dries007.tfc.client.screen.MoldLikeAlloyScreen": true,
+    "net.dries007.tfc.client.screen.LargeVesselScreen": true,
+    "net.dries007.tfc.client.screen.BarrelScreen": true,
+    "net.dries007.tfc.client.screen.AnvilScreen": true,
+    "net.dries007.tfc.client.screen.CharcoalForgeScreen": true,
+    "lain.mods.cos.impl.client.gui.GuiCosArmorInventory": true,
+    "net.dries007.tfc.client.screen.AnvilPlanScreen": true,
+    "net.dries007.tfc.client.screen.LogPileScreen": true,
+    "net.dries007.tfc.client.screen.CrucibleScreen": true,
+    "com.simibubi.create.content.contraptions.relays.advanced.sequencer.SequencedGearshiftScreen": true
+  },
+  "hideBackground": {
+    "net.dries007.tfc.client.screen.KnappingScreen": true,
+    "net.dries007.tfc.client.screen.CalendarScreen": true,
+    "net.dries007.tfc.client.screen.NutritionScreen": true,
+    "net.dries007.tfc.client.screen.ClimateScreen": true,
+    "net.dries007.tfc.client.screen.FirepitScreen": true,
+    "top.theillusivec4.curios.client.gui.CuriosScreen": true,
+    "net.dries007.tfc.client.screen.SmallVesselInventoryScreen": true,
+    "net.dries007.tfc.client.screen.MoldLikeAlloyScreen": true,
+    "net.dries007.tfc.client.screen.LargeVesselScreen": true,
+    "net.dries007.tfc.client.screen.BarrelScreen": true,
+    "net.dries007.tfc.client.screen.AnvilScreen": true,
+    "net.dries007.tfc.client.screen.CharcoalForgeScreen": true,
+    "lain.mods.cos.impl.client.gui.GuiCosArmorInventory": true,
+    "net.dries007.tfc.client.screen.AnvilPlanScreen": true,
+    "net.dries007.tfc.client.screen.LogPileScreen": true,
+    "net.dries007.tfc.client.screen.CrucibleScreen": true,
+    "com.simibubi.create.content.contraptions.relays.advanced.sequencer.SequencedGearshiftScreen": true
+  }
+}

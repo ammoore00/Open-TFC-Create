@@ -1,4 +1,5 @@
 onEvent('recipes', event => {
+    /*
     event.recipes.createMixing(
         '16x tfc:mortar',
         [
@@ -22,6 +23,18 @@ onEvent('recipes', event => {
             'minecraft:bone_meal'
         ]
     )
+    */
 
     event.remove({id: 'farmersdelight:canvas'})
+
+    event.shaped(
+        '4x create:framed_glass',
+        [
+            'GG',
+            'GG'
+        ],
+        {
+            G: 'minecraft:glass'
+        }
+    )
 })

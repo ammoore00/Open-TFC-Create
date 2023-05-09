@@ -1,6 +1,6 @@
 onEvent('recipes', event => {
-    event.replaceInput({output: 'create:item_vault'}, 'tfc:metal/sheet/wrought_iron', 'tfc:metal/double_sheet/steel')
-    event.replaceInput({output: 'create:item_vault'}, 'minecraft:barrel', '#forge:chests/wooden')
+    event.replaceInput({output: 'create:item_vault'}, 'tfc:metal/sheet/wrought_iron', 'tfc:metal/double_sheet/blue_steel')
+    event.replaceInput({output: 'create:item_vault'}, 'minecraft:barrel', '#tfcbarrels:barrels')
 
     event.remove({mod: 'toms_storage'})
 
@@ -85,7 +85,7 @@ onEvent('recipes', event => {
             'SCS'
         ],
         {
-            S: 'create:shaft',
+            S: 'tfc:metal/rod/steel',
             C: 'toms_storage:ts.inventory_connector'
         }
     ).id('kubejs:inventory_cable')

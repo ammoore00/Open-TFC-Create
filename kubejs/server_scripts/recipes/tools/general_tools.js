@@ -48,4 +48,16 @@ onEvent('recipes', event => {
     event.remove({output: 'farmersdelight:golden_knife'})
     event.remove({output: 'farmersdelight:diamond_knife'})
     event.remove({output: 'farmersdelight:netherite_knife'})
+
+    let nonWhiteColors = [
+        'orange', 'magenta', 'light_blue', 'yellow', 'lime', 'pink', 'gray', 'light_gray', 'cyan', 'purple', 'blue', 'brown', 'green', 'red', 'black'
+    ]
+
+    for (const color of nonWhiteColors) {
+        event.remove({id: 'comforts:sleeping_bag_' + color})
+        event.remove({id: 'comforts:hammock_' + color})
+    }
+
+    event.replaceInput({id: 'comforts:sleeping_bag_white'}, 'minecraft:white_wool', '#tfc:high_quality_cloth')
+    event.replaceInput({id: 'comforts:hammock_white'}, 'minecraft:white_wool', '#tfc:high_quality_cloth')
 })

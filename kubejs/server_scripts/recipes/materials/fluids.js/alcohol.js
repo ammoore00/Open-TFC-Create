@@ -1,4 +1,5 @@
 onEvent('recipes', event => {
+    /*
     let alcohols = {
         'beer': 'tfc:food/barley_flour',
         'cider': '#tfc:foods/apples',
@@ -34,4 +35,5 @@ onEvent('recipes', event => {
             ]
         ).id('kubejs:mixing/vinegar_from_' + alcohol)
     }
+    */
 })

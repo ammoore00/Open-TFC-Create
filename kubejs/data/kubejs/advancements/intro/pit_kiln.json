@@ -11,7 +11,7 @@
         "lit_pit_kiln": {
             "trigger": "tfc:lit",
             "conditions": {
-              "block": "tfc:pit_kiln"
+                "block": "tfc:pit_kiln"
             }
         }
     },

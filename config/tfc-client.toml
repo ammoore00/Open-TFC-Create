@@ -43,7 +43,7 @@
 	#COLOR = Approximate, color based tooltips (like Very Hot**, Brilliant White)
 	#CELSIUS = Exact degrees celsius
 	#FAHRENHEIT = Exact degrees fahrenheit
-	#Allowed Values: COLOR, CELSIUS, FAHRENHEIT
+	#Allowed Values: COLOR, CELSIUS, FAHRENHEIT, RANKINE, KELVIN
 	heatTooltipStyle = "CELSIUS"
 	#The style to display all time delta / duration tooltips in.
 	#DAYS = Display values larger than a month as a number of days, i.e. '105 day(s)'
@@ -62,7 +62,7 @@
 	#If prospect information should appear in the space above the hotbar (the actionbar). False will put them in the chat window.
 	sendProspectResultsToActionbar = true
 	#If hoe overlays (for hydration, nutrition, or temperature, shown when hovering over a plant or farmland while holding a hoe), should only be shown when the shift key is held down.
-	showHoeOverlaysOnlyWhenShifting = false
+	showHoeOverlaysOnlyWhenShifting = true
 	#If true, mods like Jade that add info when hovering on a block will add the hoe's overlay info to the tooltip, even when not holding a hoe.
 	showHoeOverlaysInInfoMods = true
 	#If familiarity is displayed as a percent rather than a heart
@@ -71,6 +71,10 @@
 	showGuideBookLinksAlways = false
 	#If a button linking to the TFC Field Guide should be added to the inventory, climate, nutrition, and calendar screens?
 	showGuideBookTabInInventory = false
+	#For items like bundles, their contents inside will be rendered using Bundle Technology to show their items.
+	displayItemContentsAsImages = true
+	#If true, for items that are hot, they will show a bar on the item like a durability bar
+	displayItemHeatBars = true
 
 [compatibility]
 	#Defines additional metal sheet textures that should be added to the block atlas, as they would be otherwise unused, for use in ingot piles and metal sheet blocks.

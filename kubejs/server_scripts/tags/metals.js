@@ -5,6 +5,8 @@ onEvent('item.tags', event => {
 	event.add('forge:sheets/brass', '#forge:plates/brass')
     event.add('forge:sheets/wrought_iron', 'create:iron_sheet')
 
+    event.add('forge:ingots/wrought_iron', 'minecraft:iron_ingot')
+
     event.remove('forge:rods/iron', 'createaddition:iron_rod')
 
     event.add('kubejs:mafic_alloy_components', [

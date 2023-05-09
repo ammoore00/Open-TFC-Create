@@ -5,7 +5,9 @@
         },
         "title": "Introduction",
         "description": "Getting started in the world.",
-        "background": "tfc:textures/block/rock/raw/phyllite.png"
+        "background": "tfc:textures/block/rock/raw/phyllite.png",
+        "show_toast": false,
+        "announce_to_chat": false
     },
     "criteria": {
         "in_game": {
@@ -16,7 +18,5 @@
         [
             "in_game"
         ]
-    ],
-    "show_toast": false,
-    "announce_to_chat": false
+    ]
 }

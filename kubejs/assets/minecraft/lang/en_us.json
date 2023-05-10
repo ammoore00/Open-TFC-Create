@@ -1,3 +1,5 @@
 {
-    "block.minecraft.iron_bars": "Wrought Iron Bars"
+    "block.minecraft.iron_bars": "Wrought Iron Bars",
+
+    "item.minecraft.bucket": "Creative Bucket"
 }

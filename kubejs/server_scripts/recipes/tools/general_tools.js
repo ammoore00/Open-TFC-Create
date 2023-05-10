@@ -60,4 +60,8 @@ onEvent('recipes', event => {
 
     event.replaceInput({id: 'comforts:sleeping_bag_white'}, 'minecraft:white_wool', '#tfc:high_quality_cloth')
     event.replaceInput({id: 'comforts:hammock_white'}, 'minecraft:white_wool', '#tfc:high_quality_cloth')
+
+    event.remove({output: 'tfc:metal/bucket/red_steel'})
+    event.remove({output: 'tfc:metal/bucket/blue_steel'})
+    event.remove({output: 'minecraft:bucket'})
 })

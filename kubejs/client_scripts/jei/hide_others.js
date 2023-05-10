@@ -58,6 +58,14 @@ onEvent('jei.hide.items', event => {
     event.hide('sewingkit:rare_pattern')
     event.hide('sewingkit:legendary_pattern')
     event.hide('sewingkit:file')
+
+    event.hide('littlelogistics:receiver_component')
+    event.hide('littlelogistics:transmitter_component')
+
+    event.hide('tfc:metal/bucket/red_steel')
+    event.hide('tfc:metal/bucket/blue_steel')
+
+    event.hide('createaddition:digital_adapter')
 })
 
 //let MysteriousItemConversionCategory = java('com.simibubi.create.compat.jei.category.MysteriousItemConversionCategory')

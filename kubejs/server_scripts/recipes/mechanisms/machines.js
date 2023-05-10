@@ -28,9 +28,24 @@ onEvent('recipes', event => {
         ['tfc:metal/sheet/brass']
     )
 
-    event.replaceInput({output: 'create:deployer'}, 'create:electron_tube', 'create:polished_rose_quartz')
+    //event.replaceInput({output: 'create:deployer'}, 'create:electron_tube', 'create:polished_rose_quartz')
     
     event.replaceInput({output: 'create:crushing_wheel'}, '#minecraft:planks', '#tfc:lumber')
 
     event.replaceInput({output: 'create:rope_pulley'}, '#minecraft:wool', 'quark:rope')
+
+    event.remove({output: 'firmalife:climate_station'})
+    event.shaped(
+        'firmalife:climate_station',
+        [
+            'LSL',
+            'LIL',
+            'LSL'
+        ],
+        {
+            L: '#tfc:lumber',
+            S: 'firmalife:metal/sheet/stainless_steel',
+            I: 'kubejs:integrated_circuit'
+        }
+    )
 })

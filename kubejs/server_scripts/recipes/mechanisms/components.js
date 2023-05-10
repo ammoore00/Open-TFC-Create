@@ -128,6 +128,19 @@ onEvent('recipes', event => {
     )
 
     event.remove({output: 'create:electron_tube'})
+    event.shaped(
+        'create:electron_tube',
+        [
+            'Q',
+            'C',
+            'N'
+        ],
+        {
+            Q: 'create:polished_rose_quartz',
+            C: 'createaddition:copper_wire',
+            N: 'tfc:metal/sheet/nickel'
+        }
+    ).id('kubejs:electron_tube_manual_only')
     event.recipes.createSequencedAssembly(
         [
             'create:electron_tube'

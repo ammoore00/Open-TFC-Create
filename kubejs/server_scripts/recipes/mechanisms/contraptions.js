@@ -8,6 +8,7 @@ onEvent('recipes', event => {
     event.replaceInput({output: 'create:windmill_bearing'}, '#minecraft:wooden_slabs', '#tfc:lumber')
     event.replaceInput({output: 'create:mechanical_bearing'}, '#minecraft:wooden_slabs', '#tfc:lumber')
     event.replaceInput({output: 'create:clockwork_bearing'}, '#minecraft:wooden_slabs', '#tfc:lumber')
+    event.replaceInput({output: 'create:clockwork_bearing'}, 'create:electron_tube', 'tfc:brass_mechanisms')
     
     event.replaceInput({output: 'create:cart_assembler'}, '#tfc:pit_kiln_logs', '#tfc:lumber')
 

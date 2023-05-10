@@ -17,7 +17,8 @@
     "net.dries007.tfc.client.screen.AnvilPlanScreen": true,
     "net.dries007.tfc.client.screen.LogPileScreen": true,
     "net.dries007.tfc.client.screen.CrucibleScreen": true,
-    "com.simibubi.create.content.contraptions.relays.advanced.sequencer.SequencedGearshiftScreen": true
+    "com.simibubi.create.content.contraptions.relays.advanced.sequencer.SequencedGearshiftScreen": true,
+    "plus.dragons.createcentralkitchen.content.logistics.item.guide.cooking.CookingGuideScreen": true
   },
   "hideBackground": {
     "net.dries007.tfc.client.screen.KnappingScreen": true,
@@ -36,6 +37,7 @@
     "net.dries007.tfc.client.screen.AnvilPlanScreen": true,
     "net.dries007.tfc.client.screen.LogPileScreen": true,
     "net.dries007.tfc.client.screen.CrucibleScreen": true,
-    "com.simibubi.create.content.contraptions.relays.advanced.sequencer.SequencedGearshiftScreen": true
+    "com.simibubi.create.content.contraptions.relays.advanced.sequencer.SequencedGearshiftScreen": true,
+    "plus.dragons.createcentralkitchen.content.logistics.item.guide.cooking.CookingGuideScreen": true
   }
 }

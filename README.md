@@ -125,6 +125,7 @@ tfc:fluid/flowing_spring_water tfc:fluid/flowing_river_water tfc:fluid/flowing_s
 - Vexxed Visuals TFCNG - 
 
 ## Additional Textures Used
+- Create Style Modden Compats - https://www.curseforge.com/minecraft/texture-packs/create-style-modded-compats
 
 ## Shaders
 - MakeUp Ultra Fast - https://www.curseforge.com/minecraft/customization/makeup-ultra-fast-shader

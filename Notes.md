@@ -1,9 +1,12 @@
-# Notable Config Changes
+# Notable Changes
 ## TFC
-- Disabled stone collapsing as the mechanics around it were unintuitive and clunky
-- No torch, candle, or jackolantern burnout
+- Disabled stone collapsing - the mechanics around it were unintuitive and clunky. It was far too easy to cause a collapse you didn't realize was possible
+- No torch, candle, or jackolantern burnout - no real interesting cost or investment, just tedium
+- Lamps require fuel but will last forever, to avoid them being strictly worse than oth4er lighting options (lava can also go in any lamp)
+- Compeltely overhauled nutrition system
 - Foods takes longer to expire
 - Nutrition max health scaling is less dramatic
+- Thirst removed - hunger already provides a stat to keep track of, thirst was just redundant
 - Dramatically reduced animal maturation times (8x for most, 4x for birds)
 - Slightly reduced barrel fluid capacity to match Create capacities
 - Disabled sealing and unsealing containers with redstone given that a deployer is able to do so
@@ -11,6 +14,19 @@
 ## Create
 - Increased sails required per rpm of windmill, but also increased the power multiplier
 - Decreased hunger cost of hand crank
+
+# Foods
+## Ingredients
+- Uncooked meat: 3
+- Cooked meat: 6
+- Fruits and vegetables: 2
+- Grain and flour: 1
+- Dough: 2
+- Flatbread: 3
+- Bread: 5
+
+## Products
+- Pies: 6
 
 # Advancements
 ## Intro

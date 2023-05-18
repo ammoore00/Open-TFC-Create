@@ -1,0 +1,34 @@
+{
+    "item.farmersdelight.minced_beef": "Hambuger Patty",
+    "item.farmersdelight.beef_patty": "Grilled Hamburger",
+    "item.farmersdelight.chicken_cuts": "Raw Poultry Cuts",
+    "item.farmersdelight.cooked_chicken_cuts": "Cooked Poultry Cuts",
+    "item.farmersdelight.cod_slice": "Raw Seafood Fillet",
+    "item.farmersdelight.cooked_cod_slice": "Cooked Seafood Fillet",
+    "item.farmersdelight.salmon_slice": "Raw Salmon Fillet",
+    "item.farmersdelight.cooked_salmon_slice": "Cooked Salmon Fillet",
+    "item.farmersdelight.mutton_chops": "Raw Wild Game Chops",
+    "item.farmersdelight.cooked_mutton_chops": "Cooked Wild Game Chops",
+    
+    "item.farmersdelight.glow_berry_custard": "Sweet Berry Custard",
+    
+    "item.farmersdelight.barbecue_stick": "Kebab",
+    "item.farmersdelight.egg_sandwich": "Egg Sandwich",
+    "item.farmersdelight.chicken_sandwich": "Poultry Sandwich",
+    "item.farmersdelight.hamburger": "Hamburger",
+    "item.farmersdelight.bacon_sandwich": "Bacon Sandwich",
+    "item.farmersdelight.mutton_wrap": "Wrap",
+    "item.farmersdelight.cod_roll": "Seafood Roll",
+
+    "item.farmersdelight.beef_stew": "Hearty Stew",
+    "item.farmersdelight.chicken_soup": "Poultry Soup",
+    "item.farmersdelight.fish_stew": "Seafood Stew",
+    "item.farmersdelight.baked_cod_stew": "Baked Fish Stew",
+  
+    "item.farmersdelight.pasta_with_mutton_chop": "Wild Game Pasta",
+    "item.farmersdelight.roasted_mutton_chops": "Roasted Wild Game",
+    "item.farmersdelight.grilled_salmon": "Grilled Fish",
+  
+    "block.farmersdelight.roast_chicken_block": "Roast Poultry",
+    "item.farmersdelight.roast_chicken": "Plate of Roast Poultry"
+}

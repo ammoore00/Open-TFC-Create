@@ -8,11 +8,11 @@
 
 [display]
 	#Replace the vanilla hunger bar with a TFC one.
-	enableHungerBar = true
+	enableHungerBar = false
 	#Replaces the vanilla health bar with a TFC one.
 	enableHealthBar = true
 	#Adds a TFC thirst bar over the hotbar.
-	enableThirstBar = true
+	enableThirstBar = false
 	#Allows the vanilla XP bar to render.
 	enableExperienceBar = true
 	#Enables squids inking your screen.
@@ -80,4 +80,7 @@
 	#Defines additional metal sheet textures that should be added to the block atlas, as they would be otherwise unused, for use in ingot piles and metal sheet blocks.
 	#For Pack Makers: When adding a Metal via a datapack, with a custom texture "domain:block/my_texture", and you get missing textures in ingot piles and sheet blocks, that texture needs to be added here
 	additionalMetalSheetTextures = []
+	#Registers additional models into forge's special model registry.
+	#For Pack Makers: this is needed if you want your custom item models to render when used for panning (if they are not already used somewhere else and added automatically in that case)
+	additionalSpecialModels = []
 

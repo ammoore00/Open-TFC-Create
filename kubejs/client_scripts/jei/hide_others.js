@@ -39,7 +39,7 @@ onEvent('jei.hide.items', event => {
     event.hide('toms_storage:ts.open_crate')
 
     event.hide('tfc:water')
-    //event.hide('tfc:spring_water')
+    event.hide('tfc:milk_vinegar')
 
     event.hide('farmersdelight:flint_knife')
     event.hide('farmersdelight:iron_knife')
@@ -64,6 +64,9 @@ onEvent('jei.hide.items', event => {
 
     event.hide('tfc:metal/bucket/red_steel')
     event.hide('tfc:metal/bucket/blue_steel')
+    event.hide('tfc:wrought_iron_grill')
+    event.hide('tfc:ceremic/unfired_pot')
+    event.hide('tfc:ceremic/pot')
 
     event.hide('createaddition:digital_adapter')
 })

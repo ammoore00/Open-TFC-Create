@@ -18,7 +18,10 @@
     "net.dries007.tfc.client.screen.LogPileScreen": true,
     "net.dries007.tfc.client.screen.CrucibleScreen": true,
     "com.simibubi.create.content.contraptions.relays.advanced.sequencer.SequencedGearshiftScreen": true,
-    "plus.dragons.createcentralkitchen.content.logistics.item.guide.cooking.CookingGuideScreen": true
+    "plus.dragons.createcentralkitchen.content.logistics.item.guide.cooking.CookingGuideScreen": true,
+    "top.theillusivec4.diet.client.DietScreen": true,
+    "vazkii.patchouli.client.book.gui.GuiBookLanding": true,
+    "vazkii.patchouli.client.book.gui.GuiBookEntry": true
   },
   "hideBackground": {
     "net.dries007.tfc.client.screen.KnappingScreen": true,
@@ -38,6 +41,10 @@
     "net.dries007.tfc.client.screen.LogPileScreen": true,
     "net.dries007.tfc.client.screen.CrucibleScreen": true,
     "com.simibubi.create.content.contraptions.relays.advanced.sequencer.SequencedGearshiftScreen": true,
-    "plus.dragons.createcentralkitchen.content.logistics.item.guide.cooking.CookingGuideScreen": true
+    "plus.dragons.createcentralkitchen.content.logistics.item.guide.cooking.CookingGuideScreen": true,
+    "top.theillusivec4.diet.client.DietScreen": true,
+    "vazkii.patchouli.client.book.gui.GuiBookLanding": true,
+    "vazkii.patchouli.client.book.gui.GuiBookCategory": true,
+    "vazkii.patchouli.client.book.gui.GuiBookEntry": true
   }
 }

@@ -25,6 +25,7 @@ tfc:fluid/flowing_spring_water tfc:fluid/flowing_river_water tfc:fluid/flowing_s
 - Valkyrien Skies - 
 
 ## Content
+- Better Combat - 
 - Chalk - 
 - Comforts - 
 - Create Central Kitchen - 
@@ -32,6 +33,7 @@ tfc:fluid/flowing_spring_water tfc:fluid/flowing_river_water tfc:fluid/flowing_s
 - Create Crafts and Additions - 
 - Create Crystal Clear - 
 - Create Enchantment Industry - 
+- Diet
 - Farmer's Delight - https://www.curseforge.com/minecraft/mc-mods/farmers-delight
 - FirmaLife - https://www.curseforge.com/minecraft/mc-mods/firmalife
 - Little Contraptions - 
@@ -47,7 +49,7 @@ tfc:fluid/flowing_spring_water tfc:fluid/flowing_river_water tfc:fluid/flowing_s
 - Tool Belt - 
 
 ## Environment
-- Ambient Sounds - 
+- AmbientSounds 5 - 
 - Clear Skies - 
 - ItemPhysic Lite - 
 - Magnesium/Rubidium Dynamic Lights - https://www.curseforge.com/minecraft/mc-mods/dynamiclights-reforged
@@ -56,10 +58,11 @@ tfc:fluid/flowing_spring_water tfc:fluid/flowing_river_water tfc:fluid/flowing_s
 - Sound Physics Remastered - 
 
 ## Quality of Life
+- Additional Placements - 
+- Barrels 2012 - 
 - Better Advancements - 
 - Better Rubidium Settings Button - 
 - Better Statistics Screen - 
-- BetterF3 - 
 - Chat Heads - 
 - Cherished Worlds - 
 - Controlling - 
@@ -117,7 +120,8 @@ tfc:fluid/flowing_spring_water tfc:fluid/flowing_river_water tfc:fluid/flowing_s
 - Paxi - 
 
 # Resourcepacks
-- Create Simple Storage - 
+- Tom's Create Storage - https://www.curseforge.com/minecraft/texture-packs/create-simple-storage
+- Tom's Better Create Storage - https://www.curseforge.com/minecraft/texture-packs/toms-better-create-storage
 - Eureka + Create - 
 - Medieval Paintings - 
 - TFC Simple status - 
@@ -148,7 +152,7 @@ The full list of songs used is as follows:
 - cave5: Paths of the Dead - Andreas Makusev
 - cave6: Magic Contamination - Marvin Kopp
 
-## Forest
+## Day
 - day1: In the Sunlight - Marvin Kopp
 - day2: Path-Abidingness - Marvin Kopp
 - day3: Trade Roads - Marvin Kopp
@@ -160,7 +164,7 @@ The full list of songs used is as follows:
 - day9: The Bright Side - Marvin Kopp
 - day10: Traveller's Path - Marvin Kopp
 
-## Snowy
+## Night
 - night1: Spark of Hope - Marvin Kopp, Andreas Makusev
 - night2: Forgotten Homeland - Marvin Kopp
 - night3: Mistwalker - Marvin Kopp

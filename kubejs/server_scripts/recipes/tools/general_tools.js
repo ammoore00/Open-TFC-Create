@@ -56,6 +56,7 @@ onEvent('recipes', event => {
     for (const color of nonWhiteColors) {
         event.remove({id: 'comforts:sleeping_bag_' + color})
         event.remove({id: 'comforts:hammock_' + color})
+        event.remove({id: 'minecraft:' + color + '_bed'})
     }
 
     event.replaceInput({id: 'comforts:sleeping_bag_white'}, 'minecraft:white_wool', '#tfc:high_quality_cloth')
@@ -64,4 +65,7 @@ onEvent('recipes', event => {
     event.remove({output: 'tfc:metal/bucket/red_steel'})
     event.remove({output: 'tfc:metal/bucket/blue_steel'})
     event.remove({output: 'minecraft:bucket'})
+
+    event.replaceInput({output: 'minecraft:lodestone'}, 'minecraft:chiseled_stone_bricks', '#tfc:rock/chiseled_bricks')
+    event.replaceInput({output: 'minecraft:lodestone'}, 'minecraft:netherite_ingot', 'tfc:ore/rich_magnetite')
 })

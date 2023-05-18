@@ -481,9 +481,9 @@ farmlandMakesTheBestRaceTracks = false
 		#A multiplier for how quickly the player gets thirsty.
 		#The player loses thirst in sync with when they lose hunger. This represents how much thirst they lose. 0 = None, 100 = the entire thirst bar.
 		#Range: 0.0 ~ 100.0
-		thirstModifier1 = 5.0
+		thirstModifier1 = 0.0
 		#Enables the player losing more thirst in hotter environments.
-		enableThirstOverheating = true
+		enableThirstOverheating = false
 		#How much thirst the player gains from drinking in the rain (standing outside in the rain and looking up) per tick.
 		#Range: 0.0 ~ 100.0
 		thirstGainedFromDrinkingInTheRain = 0.20833333333333334
@@ -508,7 +508,7 @@ farmlandMakesTheBestRaceTracks = false
 		enableOverburdening = true
 		#A multiplier for the minimum health that the player will obtain, based on their nutrition
 		#Range: 0.001 ~ 1000.0
-		nutritionMinimumHealthModifier = 0.5
+		nutritionMinimumHealthModifier = 1.0
 		#A multiplier for the default health that the player will have (this is at a average nutrition of 40%, aka the starting nutrition.
 		#Nutrition above this value will linearly scale to the maximum multiplier.
 		#Nutrition below this value will linearly scale to the minimum multiplier.
@@ -516,7 +516,7 @@ farmlandMakesTheBestRaceTracks = false
 		nutritionDefaultHealthModifier = 1.0
 		#A multiplier for the maximum health that the player will obtain, based on their nutrition
 		#Range: 0.001 ~ 1000.0
-		nutritionMaximumHealthModifier = 2.0
+		nutritionMaximumHealthModifier = 1.0
 
 	[mechanics.vanillaChanges]
 		#If vanilla bonemeal's instant-growth effect should be enabled.

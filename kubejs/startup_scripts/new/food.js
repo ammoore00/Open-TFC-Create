@@ -1,0 +1,22 @@
+onEvent('fluid.registry', event => {
+    event.create('dark_chocolate')
+        .bucketColor(0x712B1A)
+        .stillTexture('kubejs:block/dark_chocolate_still')
+        .flowingTexture('kubejs:block/dark_chocolate_flow')
+        .viscosity(1500)
+        .density(1400)
+        
+    event.create('white_chocolate')
+        .bucketColor(0xD5C0B3)
+        .stillTexture('kubejs:block/white_chocolate_still')
+        .flowingTexture('kubejs:block/white_chocolate_flow')
+        .viscosity(1500)
+        .density(1400)
+    
+    event.create('icing')
+        .bucketColor(0xD3D3D3)
+        .stillTexture('kubejs:block/icing_still')
+        .flowingTexture('kubejs:block/icing_flow')
+        .viscosity(1500)
+        .density(1400)
+})

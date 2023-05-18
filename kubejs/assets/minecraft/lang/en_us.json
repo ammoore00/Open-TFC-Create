@@ -1,5 +1,7 @@
 {
+    "block.minecraft.honeycomb_block": "Beeswax Block",
     "block.minecraft.iron_bars": "Wrought Iron Bars",
 
-    "item.minecraft.bucket": "Creative Bucket"
+    "item.minecraft.bucket": "Creative Bucket",
+    "item.minecraft.cookie": "Chocolate Cookie"
 }

@@ -87,4 +87,19 @@ onEvent('recipes', event => {
             Fluid.of('minecraft:water', 100)
         ]
     ).id('kubejs:mixing/masa')
+
+    //------ Other ------//
+
+    event.smoking(
+        'firmalife:food/toast',
+        '#firmalife:foods/slices'
+    ).id('kubejs:smoking/toast')
+
+    event.recipes.createDeploying(
+        'firmalife:food/toast_with_butter',
+        [
+            'firmalife:food/toast',
+            'firmalife:food/butter'
+        ]
+    ).id('kubejs:deploying/toast_with_butter')
 })

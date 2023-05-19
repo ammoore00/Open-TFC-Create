@@ -124,16 +124,18 @@ onEvent('recipes', event => {
     event.replaceInput({id: 'farmersdelight:roasted_mutton_chops'}, 'minecraft:tomato', '#kubejs:plate_vegetables')
     event.replaceInput({id: 'farmersdelight:roasted_mutton_chops'}, 'farmersdelight:cooked_rice', 'tfc:food/cooked_rice')
 
-    event.remove({id: 'farmersdelight:vegetable_noodles'})
-    event.shapeless(
-        'farmersdelight:vegetable_noodles',
-        [
-            'minecraft:bowl',
-            'farmersdelight:raw_pasta',
-            '#kubejs:leafy_vegetables',
-            '#kubejs:salad_vegetables'
-        ]
-    ).id('kubejs:vegetable_noodles')
+    event.remove({id: 'farmersdelight:cooking/vegetable_noodles'})
+    event.custom({
+        type: 'farmersdelight:cooking',
+        result: Item.of('farmersdelight:vegetable_noodles').toResultJson(),
+        ingredients: [
+            Ingredient.of('farmersdelight:raw_pasta').toJson(),
+            Ingredient.of('#kubejs:leafy_vegetables').toJson(),
+            Ingredient.of('#kubejs:salad_vegetables').toJson()
+        ],
+        experience: 0,
+        cooking_time: 200
+    }).id('kubejs:cooking/vegetable_noodles')
     
     event.replaceInput({id: 'farmersdelight:steak_and_potatoes'}, 'minecraft:cooked_beef', '#kubejs:steaks')
     event.replaceInput({id: 'farmersdelight:steak_and_potatoes'}, 'farmersdelight:onion', '#kubejs:plate_vegetables')

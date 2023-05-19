@@ -3,6 +3,15 @@ onEvent('recipes', event => {
     event.remove({id: 'create_central_kitchen:crafting/tomato_sauce_from_bucket'})
     event.remove({id: 'create_central_kitchen:mixing/tomato_sauce'})
 
+    event.remove({id: 'farmersdelight:cutting/wild_cabbages'})
+    event.remove({id: 'farmersdelight:cutting/wild_tomatoes'})
+    event.remove({id: 'farmersdelight:cutting/wild_onions'})
+    event.remove({id: 'farmersdelight:cutting/wild_carrots'})
+    event.remove({id: 'farmersdelight:cutting/wild_potatoes'})
+    event.remove({id: 'farmersdelight:cutting/wild_beetroots'})
+    event.remove({id: 'farmersdelight:cutting/brown_mushroom_colony'})
+    event.remove({id: 'farmersdelight:cutting/red_mushroom_colony'})
+
     event.custom({
         type: 'farmersdelight:cooking',
         result: Item.of('4x farmersdelight:tomato_sauce').toResultJson(),

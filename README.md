@@ -63,17 +63,21 @@ tfc:fluid/flowing_spring_water tfc:fluid/flowing_river_water tfc:fluid/flowing_s
 - Better Advancements - 
 - Better Rubidium Settings Button - 
 - Better Statistics Screen - 
+- Bow Infinity Fix - https://www.curseforge.com/minecraft/mc-mods/bow-infinity-fix
 - Chat Heads - 
 - Cherished Worlds - 
 - Controlling - 
 - Cosmetic Armor Reworked - 
 - Curious Quark Oddities Backpack - 
 - Enigmatic Graves - 
+- Find Me - https://www.curseforge.com/minecraft/mc-mods/findme
 - Game Menu Remove GFARB - 
 - HT's Treechop
 - Inventory Sorter - 
 - Mouse Tweaks - 
 - NBT Autocomplete - 
+- OfflineSkins - https://www.curseforge.com/minecraft/mc-mods/offlineskins
+- Skin Layers 3D - https://www.curseforge.com/minecraft/mc-mods/skin-layers-3d
 - Suggestion Tweaker - 
 
 ## Information
@@ -113,6 +117,7 @@ tfc:fluid/flowing_spring_water tfc:fluid/flowing_river_water tfc:fluid/flowing_s
 - KubeJS - 
 - KubeJS Create - 
 - KubeJS TFC - 
+- Max Health Fix - https://www.curseforge.com/minecraft/mc-mods/max-health-fix
 - MoreCrashInfo - 
 - MusicTriggers - 
 - Packet Size Doubler - 

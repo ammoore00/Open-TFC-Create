@@ -1,4 +1,7 @@
 onEvent('item.tags', event => {
+
+    //------ Meats ------//
+
     event.add('diet:special_food', [
         'minecraft:pumpkin_pie',
         'tfc:cake'
@@ -111,6 +114,11 @@ onEvent('item.tags', event => {
         'farmersdelight:cooked_salmon_slice'
     ])
 
+    event.add('tfc:foods/raw_meats', '#kubejs:cut_meats')
+    event.add('tfc:foods/cooked_meats', '#kubejs:cooked_cut_meats')
+
+    //------ Bread and Grain ------//
+
     let breadGrains = [
         'barley',
         'maize',
@@ -126,6 +134,16 @@ onEvent('item.tags', event => {
         'slice': 'firmalife'
     }
 
+    event.add('kubejs:sandwich_breads', [
+        '#firmalife:foods/flatbreads',
+        '#firmalife:foods/slices'
+    ])
+
+    event.add('kubejs:wraps', [
+        '#firmalife:foods/flatbreads',
+        'firmalife:food/corn_tortilla'
+    ])
+
     event.remove('forge:dough', [
         'create:dough',
         'farmersdelight:wheat_dough'
@@ -137,6 +155,8 @@ onEvent('item.tags', event => {
         event.add('forge:dough', 'tfc:food/' + grain + '_dough')
         event.add('forge:dough', 'firmalife:food/' + grain + '_dough')
     }
+
+    //------ Fruits ------//
 
     event.add('kubejs:berries', [
         'tfc:food/blackberry',
@@ -151,11 +171,75 @@ onEvent('item.tags', event => {
         'tfc:food/strawberry'
     ])
 
+    event.add('kubejs:fruit_salad_fruits', [
+        'tfc:food/plum',
+        'tfc:food/peach',
+        'tfc:food/orange',
+        'tfc:food/green_apple',
+        'tfc:food/red_apple',
+        'tfc:food/cherry',
+        'tfc:food/banana',
+        'firmalife:food/pineapple'
+    ])
+
+    event.add('kubejs:fruit_slices', [
+        'minecraft:melon_slice',
+        'farmersdelight:pumpkin_slice'
+    ])
+
     event.add('tfc:foods/fruits', 'farmersdelight:pumpkin_slice')
 
-    event.add('tfc:foods/raw_meats', '#kubejs:cut_meats')
-    event.add('tfc:foods/cooked_meats', '#kubejs:cooked_cut_meats')
+    //------ Vegetables ------//
+
+    event.add('kubejs:leafy_vegetables', [
+        'tfc:food/cabbage',
+        'tfc:food/dried_kelp',
+        'tfc:food/dried_seaweed'
+    ])
+
+    event.add('kubejs:sandwich_vegetables', [
+        'tfc:food/tomato',
+        'tfc:food/onion',
+        'tfc:food/carrot'
+    ])
+
+    event.add('kubejs:fried_rice_vegetables', [
+        'tfc:food/onion',
+        'tfc:food/squash',
+        'tfc:food/carrot'
+    ])
+
+    event.add('kubejs:salad_vegetables', [
+        'tfc:food/beet',
+        'tfc:food/carrot',
+        'tfc:food/onion',
+        'tfc:food/squash',
+        'tfc:food/tomato',
+        'tfc:food/cattail_root',
+        'tfc:food/taro_root'
+    ])
+
+    event.add('kubejs:stew_vegetables', [
+        '#kubejs:salad_vegetables',
+        'tfc:food/potato'
+    ])
     
+    //------ General ------//
+
+    event.add('kubejs:spices', [
+        'firmalife:spice/basil_leaves',
+        'firmalife:spice/cinnamon',
+        'firmalife:spice/ground_cinnamon',
+        'firmalife:plant/bay_laurel',
+        'firmalife:plant/cardamom',
+        'firmalife:plant/cilantro',
+        'firmalife:plant/cumin',
+        'firmalife:plant/oregano',
+        'firmalife:plant/pimento',
+        'firmalife:plant/vanilla',
+        'tfc:food/garlic'
+    ])
+
     event.add('tfc:foods', [
         'farmersdelight:pumpkin_slice',
         '#kubejs:cut_meats',

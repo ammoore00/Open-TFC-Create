@@ -12,7 +12,7 @@ onEvent('recipes', event => {
             Ingredient.of('tfc:food/tomato').toJson(),
             Ingredient.of('tfc:food/tomato').toJson(),
             Ingredient.of('tfc:powder/salt').toJson(),
-            Ingredient.of('tfc:food/garlic').toJson()
+            Ingredient.of('#kubejs:spices').toJson()
         ],
         experience: 0,
         cooking_time: 200
@@ -23,33 +23,9 @@ onEvent('recipes', event => {
         [
             '4x tfc:food/tomato',
             'tfc:powder/salt',
-            'tfc:food/garlic'
+            '#kubejs:spices'
         ]
     ).id('kubejs:mixing/tomato_sauce')
 
     event.remove({id: 'firmalife:crafting/salsa'})
-
-    event.custom({
-        type: 'farmersdelight:cooking',
-        result: Item.of('4x firmalife:food/salsa').toResultJson(),
-        ingredients: [
-            Ingredient.of('tfc:food/tomato').toJson(),
-            Ingredient.of('tfc:food/tomato').toJson(),
-            Ingredient.of('tfc:food/tomato').toJson(),
-            Ingredient.of('tfc:food/tomato').toJson(),
-            Ingredient.of('tfc:powder/salt').toJson(),
-            Ingredient.of('firmalife:plant/cilantro').toJson()
-        ],
-        experience: 0,
-        cooking_time: 200
-    }).id('kubejs:cooking/salsa')
-
-    event.recipes.createMixing(
-        '4x firmalife:food/salsa',
-        [
-            '4x tfc:food/tomato',
-            'tfc:powder/salt',
-            'firmalife:plant/cilantro'
-        ]
-    ).id('kubejs:mixing/tomato_sauce')
 })

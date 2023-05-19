@@ -10,34 +10,34 @@ onEvent('recipes', event => {
         }
     }
 
-    const milkTypes = {
-        'minecraft': 'milk',
-        'firmalife': 'goat_milk',
-        'firmalife': 'yak_milk',
-        'firmalife': 'coconut_milk'
-    }
-
     //------ Pies ------//
 
     event.remove({output: 'farmersdelight:pie_crust'})
+    event.remove({id: 'firmalife:mixing_bowl/pie_dough'})
+    event.remove({id: 'firmalife:mixing_bowl/pumpkin_pie_dough'})
+    event.remove({id: 'firmalife:crafting/raw_pumpkin_pie'})
+    event.remove({id: 'firmalife:crafting/raw_pumpkin_pie'})
+    event.remove({id: 'firmalife:crafting/filled_pie'})
+    event.remove({id: 'firmalife:oven/cooked_pie'})
+    event.remove({id: 'firmalife:oven/pumpkin_pie'})
 
     event.shapeless(
         'farmersdelight:pie_crust',
         [
-            '3x #tfc:foods/flour',
-            milk
+            '#tfc:foods/flour',
+            'firmalife:food/butter',
+            '#firmalife:sweetener'
         ]
     ).id('kubejs:pie_crust_manual_only')
 
-    for (const [mod, milkType] of Object.entries(milkTypes)) {
-        event.recipes.createCompacting(
-            'farmersdelight:pie_crust',
-            [
-                '3x #tfc:foods/flour',
-                Fluid.of(mod + ':' + milkType, 100)
-            ]
-        ).id('kubejs:compacting/pie_crust_from_' + milkType)
-    }
+    event.recipes.createCompacting(
+        'farmersdelight:pie_crust',
+        [
+            '#tfc:foods/flour',
+            'firmalife:food/butter',
+            '#firmalife:sweetener'
+        ]
+    ).id('kubejs:compacting/pie_crust')
 
     let sequencedPieAssembly = (pieOwner, pie, input1, input2, input3) => {
         event.remove({id: 'create_central_kitchen:sequenced_assembly/' + pie})
@@ -234,16 +234,14 @@ onEvent('recipes', event => {
         cooking_time: 200
     }).id('kubejs:cooking/glow_berry_custard')
 
-    for (const [mod, milkType] of Object.entries(milkTypes)) {
-        event.recipes.createMixing(
-            Fluid.of('kubejs:icing', 1000),
-            [
-                Fluid.of(mod + ':' + milkType, 1000),
-                '#firmalife:sweetener',
-                'firmalife:food/butter'
-            ]
-        ).id('kubejs:compacting/icing_from_' + milkType)
-    }
+    event.recipes.createMixing(
+        Fluid.of('kubejs:icing', 1000),
+        [
+            Fluid.of('firmalife:cream', 1000),
+            '#firmalife:sweetener',
+            'firmalife:food/butter'
+        ]
+    ).id('kubejs:compacting/icing')
 
     event.remove({id: 'create:filling/sweet_roll'})
     event.recipes.createFilling(

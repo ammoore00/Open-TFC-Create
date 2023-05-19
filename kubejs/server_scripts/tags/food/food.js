@@ -2,11 +2,6 @@ onEvent('item.tags', event => {
 
     //------ Meats ------//
 
-    event.add('diet:special_food', [
-        'minecraft:pumpkin_pie',
-        'tfc:cake'
-    ])
-
     let hamburgerMeats = [
         'beef',
         'mutton',
@@ -175,6 +170,7 @@ onEvent('item.tags', event => {
         'tfc:food/plum',
         'tfc:food/peach',
         'tfc:food/orange',
+        'tfc:food/lemon',
         'tfc:food/green_apple',
         'tfc:food/red_apple',
         'tfc:food/cherry',
@@ -223,8 +219,25 @@ onEvent('item.tags', event => {
         '#kubejs:salad_vegetables',
         'tfc:food/potato'
     ])
+
+    event.add('kubejs:plate_vegetables', [
+        '#kubejs:stew_vegetables',
+        'tfc:food/green_bean',
+        'tfc:food/soybean',
+        'tfc:food/cabbage'
+    ])
     
     //------ General ------//
+
+    event.add('diet:special_food', [
+        'minecraft:pumpkin_pie',
+        'tfc:cake',
+        'farmersdelight:roast_chicken_block',
+        'farmersdelight:stuffed_pumpkin_block',
+        'farmersdelight:honey_glazed_ham_block',
+        'farmersdelight:shepherds_pie_block',
+        'farmersdelight:rice_roll_medley_block'
+    ])
 
     event.add('kubejs:spices', [
         'firmalife:spice/basil_leaves',

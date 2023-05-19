@@ -1,4 +1,7 @@
 onEvent('recipes', event => {
+
+    //------ Processing ------//
+
     let grainCutting = (type) => {
         event.remove({id: 'tfc:crafting/' + type + '_cutting'})
 
@@ -46,6 +49,8 @@ onEvent('recipes', event => {
         flourGrinding(type)
         dough(type)
     }
+
+    //------ Bread ------//
     
     let grains = [
         'barley',
@@ -75,8 +80,45 @@ onEvent('recipes', event => {
 
     //------ Tortillas ------//
 
+    event.remove({id: 'firmalife:pot/cured_maize'})
+    event.remove({id: 'firmalife:vat/cured_maize'})
+    event.custom({
+        type: 'farmersdelight:cooking',
+        result: Item.of('firmalife:food/cured_maize').toResultJson(),
+        ingredients: [
+            Ingredient.of('tfc:food/maize_grain').toJson(),
+            {
+                type: 'tfc:fluid_item',
+                fluid_ingredient: {
+                    ingredient: {
+                        fluid: 'tfc:limewater'
+                    },
+                    amount: 100
+                }
+            }
+        ],
+        experience: 0,
+        cooking_time: 200
+    }).id('kubejs:cooking/cured_maize')
+
+    event.recipes.createMixing(
+        'firmalife:food/cured_maize',
+        [
+            'tfc:food/maize_grain',
+            Fluid.of('tfc:limewater', 100)
+        ]
+    ).id('kubejs:mixing/cured_maize')
+
+    event.recipes.createMixing(
+        'firmalife:food/nixtamal',
+        [
+            'firmalife:food/cured_maize',
+            Fluid.of('minecraft:water', 100)
+        ]
+    ).id('kubejs:mixing/nixtamal')
+
     event.recipes.createMilling(
-        'firmalife:food/masa_flour',
+        '4x firmalife:food/masa_flour',
         'firmalife:food/nixtamal'
     ).id('kubejs:milling/nixtamal')
 
@@ -87,6 +129,11 @@ onEvent('recipes', event => {
             Fluid.of('minecraft:water', 100)
         ]
     ).id('kubejs:mixing/masa')
+
+    event.smoking(
+        'firmalife:food/taco_shell',
+        'firmalife:food/corn_tortilla'
+    )
 
     //------ Other ------//
 
@@ -102,4 +149,16 @@ onEvent('recipes', event => {
             'firmalife:food/butter'
         ]
     ).id('kubejs:deploying/toast_with_butter')
+
+    event.remove({output: 'tfc:food/cooked_rice'})
+    event.remove({id: 'firmalife:vat/cooked_rice'})
+    event.custom({
+        type: 'farmersdelight:cooking',
+        result: Item.of('tfc:food/cooked_rice').toResultJson(),
+        ingredients: [
+            Ingredient.of('tfc:food/rice_grain').toJson()
+        ],
+        experience: 0,
+        cooking_time: 200
+    }).id('kubejs:cooking/cooked_rice')
 })

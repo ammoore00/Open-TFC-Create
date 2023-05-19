@@ -36,4 +36,6 @@ onEvent('recipes', event => {
             C: 'tfc:metal/ingot/cast_iron'
         }
     ).id('kubejs:cooking_pot')
+
+    event.remove({id: 'firmalife:anvil/pie_pan'})
 })

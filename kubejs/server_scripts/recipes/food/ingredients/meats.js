@@ -77,8 +77,30 @@ onEvent('recipes', event => {
 
     meatRecipes('farmersdelight:cooked_bacon', 'farmersdelight:bacon', 'bacon_meats')
     meatRecipes('farmersdelight:cooked_chicken_cuts', 'farmersdelight:chicken_cuts', 'poultry')
-    meatRecipes('farmersdelight:cooked_mutton_chops', 'farmersdelight:mutton_chops', 'chops_meats')
+    meatRecipes('farmersdelight:cooked_mutton_chops', 'farmersdelight:mutton_chops', 'wild_game')
     meatRecipes('farmersdelight:cooked_cod_slice', 'farmersdelight:cod_slice', 'white_fish')
     meatRecipes('farmersdelight:cooked_salmon_slice', 'farmersdelight:salmon_slice', 'salmon')
     meatRecipes('farmersdelight:beef_patty', 'farmersdelight:minced_beef', 'hamburger_meats')
+
+    event.campfireCooking(
+        'tfc:food/cooked_egg',
+        'minecraft:egg'
+    ).id('kubejs:campfire/egg')
+
+    event.smoking(
+        'tfc:food/cooked_egg',
+        'minecraft:egg'
+    ).id('kubejs:smoking/egg')
+
+    event.remove({output: 'tfc:food/boiled_egg'})
+    event.remove({id: 'firmalife:vat/boiled_egg'})
+    event.custom({
+        type: 'farmersdelight:cooking',
+        result: Item.of('tfc:food/boiled_egg').toResultJson(),
+        ingredients: [
+            Ingredient.of('#forge:eggs').toJson()
+        ],
+        experience: 0,
+        cooking_time: 200
+    }).id('kubejs:cooking/boiled_egg')
 })

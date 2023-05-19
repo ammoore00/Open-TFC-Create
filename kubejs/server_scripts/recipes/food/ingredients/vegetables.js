@@ -28,4 +28,39 @@ onEvent('recipes', event => {
     ).id('kubejs:mixing/tomato_sauce')
 
     event.remove({id: 'firmalife:crafting/salsa'})
+
+    event.remove({id: 'firmalife:pot/soy_mixture'})
+    event.remove({id: 'firmalife:vat/soy_mixture'})
+
+    event.custom({
+        type: 'farmersdelight:cooking',
+        result: Item.of('2x firmalife:food/soy_mixture').toResultJson(),
+        ingredients: [
+            Ingredient.of('tfc:food/soybean').toJson(),
+            Ingredient.of('tfc:food/soybean').toJson(),
+            Ingredient.of('tfc:powder/salt').toJson()
+        ],
+        experience: 0,
+        cooking_time: 200
+    }).id('kubejs:cooking/soy_mixture')
+
+    event.recipes.createMixing(
+        'firmalife:food/soy_mixture',
+        [
+            Fluid.of('tfc:salt_water', 100),
+            'tfc:food/soybean'
+        ]
+    ).id('kubejs:mixing/soy_mixture')
+
+    event.recipes.createCompacting(
+        'firmalife:food/tofu',
+        'firmalife:food/soy_mixture'
+    ).id('kubejs:compacting/tofu')
+
+    event.remove({id: 'minecraft:baked_potato_from_campfire_cooking'})
+    event.recipes.tfc.heating(
+        ItemStackProvider.of('minecraft:baked_potato').copyFood(),
+        'tfc:food/potato',
+        200
+    ).id('kubejs:heating/potato')
 })

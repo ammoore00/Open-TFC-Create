@@ -63,4 +63,13 @@ onEvent('recipes', event => {
         'tfc:food/potato',
         200
     ).id('kubejs:heating/potato')
+
+    event.smoking(
+        'tfc:food/dried_seaweed',
+        'tfc:groundcover/seaweed'
+    ).id('kubejs:smoking/seaweed')
+    event.smoking(
+        'tfc:food/dried_kelp',
+        'tfc:plant/giant_kelp_flower'
+    ).id('kubejs:smoking/seaweed')
 })

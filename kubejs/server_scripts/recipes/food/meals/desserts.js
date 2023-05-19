@@ -179,6 +179,22 @@ onEvent('recipes', event => {
             Fluid.of('kubejs:icing', 500)
         ]
     ).id('kubejs:filling/cake')
+    
+    event.recipes.createFilling(
+        'createaddition:chocolate_cake',
+        [
+            'createaddition:cake_base_baked',
+            Fluid.of('kubejs:dark_chocolate', 500)
+        ]
+    ).id('kubejs:filling/chocolate_cake_from_dark_chocolate')
+    
+    event.recipes.createFilling(
+        'createaddition:chocolate_cake',
+        [
+            'createaddition:cake_base_baked',
+            Fluid.of('kubejs:white_chocolate', 500)
+        ]
+    ).id('kubejs:filling/chocolate_cake_from_white_chocolate')
 
     //------ Cookies ------//
 
@@ -219,6 +235,22 @@ onEvent('recipes', event => {
 
     event.replaceInput({output: 'create:honeyed_apple'}, 'minecraft:apple', '#tfc:foods/apples')
     event.replaceInput({output: 'create:chocolate_glazed_berries'}, 'minecraft:sweet_berries', '#kubejs:berries')
+    
+    event.recipes.createFilling(
+        'create:chocolate_glazed_berries',
+        [
+            '#kubejs:berries',
+            Fluid.of('kubejs:dark_chocolate', 250)
+        ]
+    ).id('kubejs:filling/chocolate_glazed_berries_from_dark_chocolate')
+    
+    event.recipes.createFilling(
+        'create:chocolate_glazed_berries',
+        [
+            '#kubejs:berries',
+            Fluid.of('kubejs:white_chocolate', 250)
+        ]
+    ).id('kubejs:filling/chocolate_glazed_berries_from_white_chocolate')
 
     event.remove({id: 'farmersdelight:cooking/glow_berry_custard'})
     event.custom({

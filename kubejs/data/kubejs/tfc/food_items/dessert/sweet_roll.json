@@ -1,0 +1,8 @@
+{
+    "ingredient": {
+        "tag": "kubejs:stats/sweet_roll"
+    },
+    "hunger": 8,
+    "saturation": 8,
+    "decay_modifier": 1.5
+}

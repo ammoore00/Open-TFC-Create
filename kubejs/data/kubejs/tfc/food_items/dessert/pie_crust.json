@@ -1,0 +1,8 @@
+{
+    "ingredient": {
+        "tag": "kubejs:stats/pie_crust"
+    },
+    "hunger": 2,
+    "saturation": 2,
+    "decay_modifier": 2
+}

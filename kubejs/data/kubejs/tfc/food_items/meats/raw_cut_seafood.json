@@ -1,0 +1,8 @@
+{
+    "ingredient": {
+        "tag": "kubejs:stats/raw_cut_seafood"
+    },
+    "hunger": 2,
+    "saturation": 1,
+    "decay_modifier": 2.5
+}

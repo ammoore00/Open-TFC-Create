@@ -16,4 +16,8 @@ onEvent('recipes', event => {
     event.remove({id: 'firmalife:vat/tomato_sauce'})
     event.remove({output: 'firmalife:crafting/tomato_sauce_mix'})
     event.remove({output: 'farmersdelight:melon_popsicle'})
+
+    event.remove({id: 'farmersdelight:cooking/beetroot_soup'})
+    event.remove({id: 'farmersdelight:cooking/mushroom_stew'})
+    event.remove({id: 'farmersdelight:cooking/rabbit_stew'})
 })

@@ -16,7 +16,7 @@ onEvent('recipes', event => {
     event.remove({id: 'farmersdelight:cooking/dumplings'})
     event.custom({
         type: 'farmersdelight:cooking',
-        result: Item.of('2x farmersdelight:dumplings').toResultJson(),
+        result: Item.of('farmersdelight:dumplings').toResultJson(),
         ingredients: [
             Ingredient.of('#forge:dough').toJson(),
             Ingredient.of('#kubejs:cut_meats').toJson(),
@@ -98,9 +98,9 @@ onEvent('recipes', event => {
     event.shapeless(
         'farmersdelight:fruit_salad',
         [
-            '2x #kubejs:berries',
-            '2x #kubejs:fruit_salad_fruits',
-            '2x #kubejs:fruit_slices',
+            '#kubejs:berries',
+            '#kubejs:fruit_salad_fruits',
+            '#kubejs:fruit_slices',
             'minecraft:bowl'
         ]
     ).id('kubejs:fruit_salad')
@@ -119,6 +119,32 @@ onEvent('recipes', event => {
     //------ Plates ------//
 
     event.replaceInput({id: 'farmersdelight:bacon_and_eggs'}, 'farmersdelight:fried_egg', 'tfc:food/cooked_egg')
+
+    event.remove({id: 'farmersdelight:cooking/pasta_with_meatballs'})
+    event.custom({
+        type: 'farmersdelight:cooking',
+        result: Item.of('farmersdelight:pasta_with_meatballs').toResultJson(),
+        ingredients: [
+            Ingredient.of('farmersdelight:raw_pasta').toJson(),
+            Ingredient.of('farmersdelight:minced_beef').toJson(),
+            Ingredient.of('farmersdelight:tomato_sauce').toJson()
+        ],
+        experience: 0,
+        cooking_time: 200
+    }).id('kubejs:cooking/pasta_with_meatballs')
+
+    event.remove({id: 'farmersdelight:cooking/pasta_with_mutton_chop'})
+    event.custom({
+        type: 'farmersdelight:cooking',
+        result: Item.of('farmersdelight:pasta_with_mutton_chop').toResultJson(),
+        ingredients: [
+            Ingredient.of('farmersdelight:raw_pasta').toJson(),
+            Ingredient.of('farmersdelight:mutton_chops').toJson(),
+            Ingredient.of('farmersdelight:tomato_sauce').toJson()
+        ],
+        experience: 0,
+        cooking_time: 200
+    }).id('kubejs:cooking/pasta_with_mutton_chop')
 
     event.replaceInput({id: 'farmersdelight:roasted_mutton_chops'}, 'minecraft:beetroot', '#kubejs:plate_vegetables')
     event.replaceInput({id: 'farmersdelight:roasted_mutton_chops'}, 'minecraft:tomato', '#kubejs:plate_vegetables')
@@ -202,7 +228,7 @@ onEvent('recipes', event => {
         }
     ).id('kubejs:roast_chicken_block')
 
-    event.remove({id: 'farmersdelight:stuffed_pumpkin_block'})
+    event.remove({id: 'farmersdelight:cooking/stuffed_pumpkin_block'})
     event.shaped(
         'farmersdelight:stuffed_pumpkin_block',
         [

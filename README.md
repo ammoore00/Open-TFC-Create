@@ -82,6 +82,7 @@ tfc:fluid/flowing_spring_water tfc:fluid/flowing_river_water tfc:fluid/flowing_s
 
 ## Information
 - Antique Atlas - 
+- AppleSkin - 
 - Equipment Compare - 
 - Jade - 
 - Jade Addons - 

@@ -1,0 +1,6 @@
+{
+    "ingredient": {
+        "tag": "kubejs:stats/cake_base_baked"
+    },
+    "decay_modifier": 1.5
+}

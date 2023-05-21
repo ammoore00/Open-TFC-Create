@@ -1,0 +1,8 @@
+{
+    "ingredient": {
+        "tag": "kubejs:stats/cooked_seafood"
+    },
+    "hunger": 6,
+    "saturation": 4,
+    "decay_modifier": 2
+}

@@ -150,6 +150,8 @@ onEvent('item.tags', event => {
         event.add('forge:dough', 'tfc:food/' + grain + '_dough')
         event.add('forge:dough', 'firmalife:food/' + grain + '_dough')
     }
+    
+    event.add('forge:dough', 'firmalife:food/masa')
 
     //------ Fruits ------//
 

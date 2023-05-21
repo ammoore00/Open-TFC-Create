@@ -1,0 +1,8 @@
+{
+    "ingredient": {
+        "tag": "kubejs:stats/basic_handheld_meals"
+    },
+    "hunger": 8,
+    "saturation": 8,
+    "decay_modifier": 1
+}

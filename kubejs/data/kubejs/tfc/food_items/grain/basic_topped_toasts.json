@@ -1,0 +1,8 @@
+{
+    "ingredient": {
+        "tag": "kubejs:stats/basic_topped_toasts"
+    },
+    "hunger": 5,
+    "saturation": 3,
+    "decay_modifier": 1
+}

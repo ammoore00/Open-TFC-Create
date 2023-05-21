@@ -1,0 +1,8 @@
+{
+    "ingredient": {
+        "tag": "kubejs:stats/raw_meats"
+    },
+    "hunger": 3,
+    "saturation": 2,
+    "decay_modifier": 2
+}

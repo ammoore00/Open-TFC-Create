@@ -1,10 +1,3 @@
 {
-  "__comment__": "This file was automatically created by mcresources",
-  "ingredient": {
-    "item": "firmalife:food/frothy_coconut"
-  },
-  "category": "vegetable",
-  "hunger": 2,
-  "saturation": 0,
-  "decay_modifier": 3
+    
 }

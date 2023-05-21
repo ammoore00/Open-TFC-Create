@@ -76,6 +76,16 @@ onEvent('recipes', event => {
                 Item.of('firmalife:food/' + grain + '_slice').toResultJson()
             ]
         }).id('kubejs:cutting/' + grain + '_bread')
+
+        event.smoking(
+            'tfc:food/' + grain + '_bread',
+            'firmalife:food/' + grain + '_dough'
+        ).id('kubejs:smoking/' + grain + '_bread')
+
+        event.smoking(
+            'firmalife:food/' + grain + '_flatbread',
+            'tfc:food/' + grain + '_dough'
+        ).id('kubejs:smoking/' + grain + '_flatbread')
     }
 
     //------ Tortillas ------//
@@ -130,10 +140,15 @@ onEvent('recipes', event => {
         ]
     ).id('kubejs:mixing/masa')
 
+    event.campfireCooking(
+        'firmalife:food/corn_tortilla',
+        'firmalife:food/masa'
+    ).id('kubejs:campfire/masa')
+
     event.smoking(
         'firmalife:food/taco_shell',
         'firmalife:food/corn_tortilla'
-    )
+    ).id('kubejs:smoking/corn_tortilla')
 
     //------ Other ------//
 

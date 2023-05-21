@@ -1,0 +1,8 @@
+{
+    "ingredient": {
+        "tag": "kubejs:stats/chocolate"
+    },
+    "hunger": 4,
+    "saturation": 2,
+    "decay_modifier": 1
+}

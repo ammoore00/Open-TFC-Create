@@ -1,0 +1,8 @@
+{
+    "ingredient": {
+        "tag": "kubejs:stats/glazed_fruits"
+    },
+    "hunger": 6,
+    "saturation": 6,
+    "decay_modifier": 1.5
+}

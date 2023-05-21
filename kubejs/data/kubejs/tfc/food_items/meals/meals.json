@@ -1,0 +1,8 @@
+{
+    "ingredient": {
+        "tag": "kubejs:stats/meals"
+    },
+    "hunger": 12,
+    "saturation": 12,
+    "decay_modifier": 2
+}

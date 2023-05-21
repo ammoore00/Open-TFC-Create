@@ -1,0 +1,8 @@
+{
+    "ingredient": {
+        "tag": "kubejs:stats/bread_slices"
+    },
+    "hunger": 3,
+    "saturation": 1,
+    "decay_modifier": 1.5
+}

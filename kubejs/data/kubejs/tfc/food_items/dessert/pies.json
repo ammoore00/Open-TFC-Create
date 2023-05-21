@@ -1,0 +1,6 @@
+{
+    "ingredient": {
+        "tag": "kubejs:stats/pies"
+    },
+    "decay_modifier": 2
+}

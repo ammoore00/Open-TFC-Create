@@ -16,9 +16,11 @@
 - Decreased hunger cost of hand crank
 
 # Foods
+Saturation = Food value (in half-shanks) * 2 -> % saturation
+
 ## Ingredients
-- Uncooked meat: 3
-- Cooked meat: 6
+- Uncooked meat: food 3 decay 3
+- Cooked meat: food 6 decay 2.25
 - Fruits and vegetables: 2
 - Grain and flour: 1
 - Dough: 2
@@ -26,7 +28,7 @@
 - Bread: 5
 
 ## Products
-- Pies: 6
+- Pie and cake slices: 1.5
 
 # Advancements
 ## Intro

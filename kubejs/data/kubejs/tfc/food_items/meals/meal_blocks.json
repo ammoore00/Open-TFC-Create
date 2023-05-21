@@ -1,0 +1,6 @@
+{
+    "ingredient": {
+        "tag": "kubejs:stats/meal_blocks"
+    },
+    "decay_modifier": 2
+}

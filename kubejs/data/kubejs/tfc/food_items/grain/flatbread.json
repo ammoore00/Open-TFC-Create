@@ -1,0 +1,8 @@
+{
+    "ingredient": {
+        "tag": "kubejs:stats/flatbread"
+    },
+    "hunger": 4,
+    "saturation": 2,
+    "decay_modifier": 1.5
+}

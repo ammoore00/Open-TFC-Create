@@ -1,0 +1,8 @@
+{
+    "ingredient": {
+        "tag": "kubejs:stats/standard_fruits"
+    },
+    "hunger": 2,
+    "saturation": 1,
+    "decay_modifier": 2
+}

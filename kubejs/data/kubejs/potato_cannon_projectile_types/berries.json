@@ -15,7 +15,7 @@
         "firmalife:food/cocoa_beans",
         "firmalife:food/roasted_cocoa_beans"
     ],
-    "reload_ticks": 8,
+    "reload_ticks": 6,
     "damage": 3,
     "knockback": 0.1,
     "split": 3,

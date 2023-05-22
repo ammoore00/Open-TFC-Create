@@ -14,6 +14,6 @@
         "minecraft:baked_potato"
     ],
     "reload_ticks": 15,
-    "damage": 8,
+    "damage": 6,
     "knockback": 1
 }

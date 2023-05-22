@@ -14,10 +14,9 @@
         "tfc:food/soybean",
         "tfc:food/cattail_root",
         "tfc:food/taro_root",
-        "firmalife:food/soy_mixture",
         "tfc:food/sugarcane"
     ],
     "reload_ticks": 10,
-    "damage": 5,
+    "damage": 4,
     "knockback": 0.5
 }

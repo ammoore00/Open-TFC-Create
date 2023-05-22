@@ -1,0 +1,12 @@
+{
+    "items": [
+        "tfc:cake",
+        "createaddition:chocolate_cake",
+        "createaddition:honey_cake"
+    ],
+    "reload_ticks": 20,
+    "damage": 14,
+    "knockback": 0.1,
+    "sticky": true,
+    "velocity_multiplier": 0.75
+}

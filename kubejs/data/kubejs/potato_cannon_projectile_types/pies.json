@@ -1,0 +1,13 @@
+{
+    "items": [
+        "minecraft:pumpkin_pie",
+        "farmersdelight:apple_pie",
+        "farmersdelight:sweet_berry_cheesecake",
+        "farmersdelight:chocolate_pie"
+    ],
+    "reload_ticks": 15,
+    "damage": 8,
+    "knockback": 0.1,
+    "sticky": true,
+    "velocity_multiplier": 0.75
+}

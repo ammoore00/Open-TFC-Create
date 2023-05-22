@@ -1,0 +1,23 @@
+{
+    "items": [
+        "tfc:food/plum",
+        "tfc:food/peach",
+        "tfc:food/orange",
+        "tfc:food/lemon",
+        "tfc:food/banana",
+        "tfc:food/tomato",
+        "minecraft:melon_slice",
+        "firmalife:food/fig",
+        "farmersdelight:pumpkin_slice",
+        
+        "tfc:food/green_bean",
+        "tfc:food/soybean",
+        "tfc:food/cattail_root",
+        "tfc:food/taro_root",
+        "firmalife:food/soy_mixture",
+        "tfc:food/sugarcane"
+    ],
+    "reload_ticks": 10,
+    "damage": 5,
+    "knockback": 0.5
+}

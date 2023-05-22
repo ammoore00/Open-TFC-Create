@@ -1,0 +1,16 @@
+{
+    "items": [
+        "farmersdelight:pumpkin_pie_slice",
+        "farmersdelight:apple_pie_slice",
+        "farmersdelight:sweet_berry_cheesecake_slice",
+        "farmersdelight:chocolate_pie_slice",
+        "farmersdelight:cake_slice",
+        "create_central_kitchen:chocolate_cake_slice",
+        "create_central_kitchen:honey_cake_slice"
+    ],
+    "reload_ticks": 3,
+    "damage": 3,
+    "knockback": 0.05,
+    "sticky": true,
+    "velocity_multiplier": 1.5
+}

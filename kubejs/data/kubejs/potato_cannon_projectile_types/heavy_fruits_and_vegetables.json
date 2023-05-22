@@ -1,0 +1,19 @@
+{
+    "items": [
+        "tfc:food/green_apple",
+        "tfc:food/red_apple",
+        "firmalife:food/pineapple",
+        
+        "tfc:food/cabbage",
+        "tfc:food/squash",
+        "tfc:food/beet",
+        "tfc:food/potato",
+        "tfc:food/garlic",
+        "tfc:food/onion",
+        "tfc:food/carrot",
+        "minecraft:baked_potato"
+    ],
+    "reload_ticks": 15,
+    "damage": 8,
+    "knockback": 1
+}

@@ -4,8 +4,8 @@
 - No torch, candle, or jackolantern burnout - no real interesting cost or investment, just tedium
 - Lamps require fuel but will last forever, to avoid them being strictly worse than oth4er lighting options (lava can also go in any lamp)
 - Compeltely overhauled nutrition system
-- Foods takes longer to expire
-- Nutrition max health scaling is less dramatic
+- Food does not expire, as the food expiration system interacted poorly with many of the automation systems included in the pack
+- Nutrition is completely overhauled
 - Thirst removed - hunger already provides a stat to keep track of, thirst was just redundant
 - Dramatically reduced animal maturation times (8x for most, 4x for birds)
 - Slightly reduced barrel fluid capacity to match Create capacities
@@ -14,21 +14,6 @@
 ## Create
 - Increased sails required per rpm of windmill, but also increased the power multiplier
 - Decreased hunger cost of hand crank
-
-# Foods
-Saturation = Food value (in half-shanks) * 2 -> % saturation
-
-## Ingredients
-- Uncooked meat: food 3 decay 3
-- Cooked meat: food 6 decay 2.25
-- Fruits and vegetables: 2
-- Grain and flour: 1
-- Dough: 2
-- Flatbread: 3
-- Bread: 5
-
-## Products
-- Pie and cake slices: 1.5
 
 # Advancements
 ## Intro

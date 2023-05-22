@@ -169,8 +169,9 @@ onEvent('recipes', event => {
         ]
     ).id('kubejs:compacting/cake_base')
 
+    // Vanilla Cake
+
     event.remove({id: 'tfc:crafting/cake'})
-    event.replaceOutput({id: 'farmersdelight:cake_from_slices'}, 'minecraft:cake', 'tfc:cake')
     event.remove({output: 'minecraft:cake'})
     event.recipes.createFilling(
         'tfc:cake',
@@ -179,7 +180,25 @@ onEvent('recipes', event => {
             Fluid.of('kubejs:icing', 500)
         ]
     ).id('kubejs:filling/cake')
+
+    event.shapeless(
+        'tfc:cake',
+        [
+            '7x farmersdelight:cake_slice'
+        ]
+    ).id('kubejs:cake_from_slices')
+
+    // Chocolate Cake
     
+    event.remove({output: 'createaddition:chocolate_cake'})
+    event.recipes.createFilling(
+        'createaddition:chocolate_cake',
+        [
+            'createaddition:cake_base_baked',
+            Fluid.of('create:chocolate', 500)
+        ]
+    ).id('kubejs:filling/chocolate_cake_from_milk_chocolate')
+
     event.recipes.createFilling(
         'createaddition:chocolate_cake',
         [
@@ -187,7 +206,7 @@ onEvent('recipes', event => {
             Fluid.of('kubejs:dark_chocolate', 500)
         ]
     ).id('kubejs:filling/chocolate_cake_from_dark_chocolate')
-    
+
     event.recipes.createFilling(
         'createaddition:chocolate_cake',
         [
@@ -195,6 +214,13 @@ onEvent('recipes', event => {
             Fluid.of('kubejs:white_chocolate', 500)
         ]
     ).id('kubejs:filling/chocolate_cake_from_white_chocolate')
+
+    event.shapeless(
+        'createaddition:chocolate_cake',
+        [
+            '7x create_central_kitchen:chocolate_cake_slice'
+        ]
+    ).id('kubejs:chocolate_cake_from_slices')
 
     //------ Cookies ------//
 

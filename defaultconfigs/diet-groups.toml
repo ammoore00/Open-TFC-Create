@@ -1,6 +1,6 @@
 [[groups]]
     name = "proteins"
-    icon = "minecraft:cooked_beef"
+    icon = "farmersdelight:cooked_mutton_chops"
     color = "#d4781c"
     order = 0
     default_value = 0.0
@@ -9,7 +9,7 @@
     beneficial = true
 [[groups]]
     name = "grains"
-    icon = "minecraft:bread"
+    icon = "tfc:food/wheat_bread"
     color = "#d4a31c"
     order = 0
     default_value = 0.0

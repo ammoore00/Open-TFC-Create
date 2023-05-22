@@ -69,6 +69,11 @@ onEvent('jei.hide.items', event => {
     event.hide('tfc:ceremic/pot')
 
     event.hide('createaddition:digital_adapter')
+
+    event.hide('tfc:ceramic/unfired_pot')
+    event.hide('tfc:ceramic/pot')
+    event.hide('tfc:pot')
+    event.hide('firmalife:vat')
 })
 
 //let MysteriousItemConversionCategory = java('com.simibubi.create.compat.jei.category.MysteriousItemConversionCategory')

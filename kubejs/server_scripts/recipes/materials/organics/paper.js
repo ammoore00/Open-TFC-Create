@@ -62,11 +62,15 @@ onEvent('recipes', event => {
     
     //------ Refining ------//
 
-    event.recipes.createDeploying(
-        'minecraft:paper',
-        [
-            'tfc:unrefined_paper',
-            '#tfc:knives'
+    event.remove({id: 'tfc:scraping/paper'})
+    event.custom({
+        type: 'farmersdelight:cutting',
+        ingredients: [
+            Ingredient.of('tfc:unrefined_paper').toJson()
+        ],
+        tool: Ingredient.of('#tfc:knives').toJson(),
+        result: [
+            Item.of('minecraft:paper').toResultJson()
         ]
-    )
+    }).id('kubejs:cutting/unrefined_paper')
 })

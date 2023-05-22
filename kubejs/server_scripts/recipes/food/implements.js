@@ -4,6 +4,10 @@ onEvent('recipes', event => {
 
     event.remove({id: 'tfc:clay_knapping/pot'})
     event.remove({id: 'tfc:heating/fired_pot'})
+    event.remove({type: 'tfc:pot'})
+
+    event.remove({id: 'firmalife:crafting/vat'})
+    event.remove({type: 'firmalife:vat'})
 
     event.remove({output: 'farmersdelight:stove'})
     event.shaped(
@@ -11,12 +15,12 @@ onEvent('recipes', event => {
         [
             'CCC',
             'B B',
-            'BLB'
+            'BMB'
         ],
         {
             C: 'tfc:metal/ingot/cast_iron',
             B: '#kubejs:clay_bricks',
-            L: '#minecraft:logs'
+            M: '#kubejs:magma'
         }
     ).id('kubejs:stove')
 
@@ -38,4 +42,7 @@ onEvent('recipes', event => {
     ).id('kubejs:cooking_pot')
 
     event.remove({id: 'firmalife:anvil/pie_pan'})
+    event.remove({id: 'firmalife:crafting/spoon'})
+
+    event.replaceInput({output: 'farmersdelight:cutting_board'}, '#minecraft:planks', '#tfc:lumber')
 })

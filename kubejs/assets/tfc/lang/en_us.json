@@ -1,5 +1,7 @@
 {
     "item.tfc.food.cooked_egg": "Fried Egg",
     "item.tfc.food.boiled_egg": "Poached Egg",
-    "item.tfc.brass_mechanisms": "Simple Mechanism"
+    "item.tfc.brass_mechanisms": "Simple Mechanism",
+    "item.tfc.jute_net": "Net",
+    "item.tfc.dirty_jute_net": "Dirty Net"
 }

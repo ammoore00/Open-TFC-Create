@@ -81,4 +81,16 @@ onEvent('recipes', event => {
         'tfc:food/dried_kelp',
         'tfc:plant/giant_kelp_flower'
     ).id('kubejs:smoking/seaweed')
+
+    event.remove({id: 'firmalife:crafting/basil_leaves'})
+    event.custom({
+        type: 'farmersdelight:cutting',
+        ingredients: [
+            Ingredient.of('firmalife:plant/basil').toJson()
+        ],
+        tool: Ingredient.of('#tfc:knives').toJson(),
+        result: [
+            Item.of('firmalife:spice/basil_leaves').toResultJson()
+        ]
+    }).id('kubejs:cutting/basil')
 })

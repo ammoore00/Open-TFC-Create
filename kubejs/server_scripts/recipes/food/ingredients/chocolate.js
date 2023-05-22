@@ -79,4 +79,6 @@ onEvent('recipes', event => {
         'firmalife:food/dark_chocolate',
         Fluid.of('kubejs:dark_chocolate', 250)
     ).id('kubejs:compacting/dark_chocolate')
+
+    event.remove({id: 'firmalife:pot/chocolate'})
 })

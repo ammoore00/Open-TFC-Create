@@ -51,4 +51,6 @@ onEvent('item.tags', event => {
             'tfc:rock/smooth/' + rockType + '_slab'
         ])
     }
+
+    event.add('minecraft:infiniburn_overworld', '#kubejs:magma')
 })

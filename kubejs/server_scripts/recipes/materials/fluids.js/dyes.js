@@ -13,6 +13,6 @@ onEvent('recipes', event => {
         ).heated()
         .id('kubejs:mixing/' + color + '_dye')
 
-        event.replaceInput({id: 'tfc:pot/' + color + '_dye'}, 'minecraft:' + color + '_dye', '#forge:dyes/' + color)
+        event.remove({id: 'tfc:pot/' + color + '_dye'})
     }
 })

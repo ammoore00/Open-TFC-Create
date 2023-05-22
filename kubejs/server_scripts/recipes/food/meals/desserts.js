@@ -169,6 +169,12 @@ onEvent('recipes', event => {
         ]
     ).id('kubejs:compacting/cake_base')
 
+    event.recipes.firmalife.oven(
+        'createaddition:cake_base_baked',
+        'createaddition:cake_base',
+        1000,
+        200)
+
     // Vanilla Cake
 
     event.remove({id: 'tfc:crafting/cake'})
@@ -225,37 +231,63 @@ onEvent('recipes', event => {
     //------ Cookies ------//
 
     event.remove({id: 'minecraft:cookie'})
+    event.remove({id: 'create_central_kitchen:compacting/cookie'})
     event.shapeless(
-        '8x minecraft:cookie',
+        '4x minecraft:cookie',
         [
             '#firmalife:foods/chocolate',
             '2x #tfc:foods/flour'
         ]
     ).id('kubejs:cookie_manual_only')
-    event.replaceInput({id: 'create_central_kitchen:compacting/cookie'}, 'minecraft:cocoa_beans', '#firmalife:foods/chocolate')
-    event.replaceInput({id: 'create_central_kitchen:compacting/cookie'}, 'create:wheat_flour', '#tfc:foods/flour')
+    event.recipes.createCompacting(
+        '4x minecraft:cookie',
+        [
+            '#firmalife:foods/chocolate',
+            '2x #tfc:foods/flour'
+        ]
+    ).id('kubejs:compacting/cookie')
 
     event.remove({id: 'farmersdelight:sweet_berry_cookie'})
     event.remove({id: 'farmersdelight:honey_berry_cookie'})
+    event.remove({id: 'create_central_kitchen:compacting/sweet_berry_cookie'})
     event.shapeless(
-        '8x farmersdelight:sweet_berry_cookie',
+        '4x farmersdelight:sweet_berry_cookie',
         [
             '#kubejs:berries',
             '2x #tfc:foods/flour'
         ]
     ).id('kubejs:sweet_berry_cookie_manual_only')
-    event.replaceInput({id: 'create_central_kitchen:compacting/sweet_berry_cookie'}, 'minecraft:sweet_berries', '#kubejs:berries')
-    event.replaceInput({id: 'create_central_kitchen:compacting/sweet_berry_cookie'}, 'create:wheat_flour', '#tfc:foods/flour')
+    event.recipes.createCompacting(
+        '4x farmersdelight:sweet_berry_cookie',
+        [
+            '#kubejs:berries',
+            '2x #tfc:foods/flour'
+        ]
+    ).id('kubejs:compacting/sweet_berry_cookie')
     
     event.remove({id: 'farmersdelight:honey_cookie'})
+    event.remove({id: 'create_central_kitchen:compacting/honey_cookie'})
     event.shapeless(
-        '8x farmersdelight:honey_cookie',
+        '4x farmersdelight:honey_cookie',
         [
             'firmalife:raw_honey',
             '2x #tfc:foods/flour'
         ]
     ).id('kubejs:honey_cookie_manual_only')
-    event.replaceInput({id: 'create_central_kitchen:compacting/honey_cookie'}, 'create:wheat_flour', '#tfc:foods/flour')
+    event.recipes.createCompacting(
+        '4x farmersdelight:honey_cookie',
+        [
+            Fluid.of('create:honey', 250),
+            '2x #tfc:foods/flour'
+        ]
+    ).id('kubejs:compacting/honey_cookie')
+    event.recipes.createCompacting(
+        '4x farmersdelight:honey_cookie',
+        [
+            'firmalife:raw_honey',
+            '2x #tfc:foods/flour'
+        ]
+    ).id('kubejs:compacting/honey_cookie_from_raw_honey')
 
     //------ Other Desserts ------//
 

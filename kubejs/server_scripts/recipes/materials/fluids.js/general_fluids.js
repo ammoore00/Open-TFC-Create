@@ -15,16 +15,6 @@ onEvent('recipes', event => {
         ]
     ).heated()
     .id('kubejs:mixing/lye')
-    
-    /*
-    event.recipes.createMixing(
-        Fluid.of('tfc:milk_vinegar', 1000),
-        [
-            Fluid.of('minecraft:milk', 900),
-            Fluid.of('tfc:vinegar', 100),
-        ]
-    ).id('kubejs:mixing/milk_vinegar')
-    */
 
     event.recipes.createMixing(
         [
@@ -62,14 +52,4 @@ onEvent('recipes', event => {
         ]
     ).heated()
     .id('kubejs:mixing/tallow')
-
-    /*
-    event.recipes.createMixing(
-        Fluid.of('tfc:tannin', 1000),
-        [
-            Fluid.of('minecraft:water', 1000),
-            '#tfc:makes_tannin'
-        ]
-    ).id('kubejs:mixing/tannin')
-    */
 })

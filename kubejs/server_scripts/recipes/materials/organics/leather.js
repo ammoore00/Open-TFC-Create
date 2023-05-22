@@ -4,65 +4,38 @@ onEvent('recipes', event => {
     event.remove({output: 'minecraft:leather', type: 'create:milling'})
     event.remove({output: 'minecraft:leather', type: 'create:crushing'})
 
-    let fluidCounts = {
-        small: 300,
-        medium: 400,
-        large: 500
-    }
-
     let leatherCounts = {
         small: 1,
         medium: 2,
         large: 3
     }
 
-    for (const [size, fluidCount] of Object.entries(fluidCounts)) {
-        event.recipes.createDeploying(
-            [
-                'tfc:' + size + '_raw_hide',
-                Item.of('tfc:wool', leatherCounts[size])
+    for (const [size, leatherCount] of Object.entries(leatherCounts)) {
+        event.remove({id: 'tfc:crafting/crafting/' + size + '_sheepskin'})
+        event.custom({
+            type: 'farmersdelight:cutting',
+            ingredients: [
+                Ingredient.of('tfc:' + size + '_sheepskin_hide').toJson()
             ],
-            [
-                'tfc:' + size + '_sheepskin_hide',
-                '#tfc:knives'
+            tool: Ingredient.of('#tfc:knives').toJson(),
+            result: [
+                Item.of('tfc:' + size + '_raw_hide').toResultJson(),
+                Item.of('tfc:wool', leatherCount).toResultJson()
             ]
-        )
-
-        /*
-        event.recipes.createMixing(
-            'tfc:' + size + '_soaked_hide',
-            [
-                Fluid.of('tfc:limewater', fluidCount),
-                'tfc:' + size + '_raw_hide'
+        }).id('kubejs:cutting/' + size + '_sheepskin_hide')
+        
+        event.remove({id: 'tfc:scraping/' + size + '_soaked_hide'})
+        event.custom({
+            type: 'farmersdelight:cutting',
+            ingredients: [
+                Ingredient.of('tfc:' + size + '_soaked_hide').toJson()
+            ],
+            tool: Ingredient.of('#tfc:knives').toJson(),
+            result: [
+                Item.of('tfc:' + size + '_scraped_hide').toResultJson(),
+                Item.of('tfc:wool', leatherCount).toResultJson()
             ]
-        )
-        */
-
-        event.recipes.createDeploying(
-            'tfc:' + size + '_scraped_hide',
-            [
-                'tfc:' + size + '_soaked_hide',
-                '#tfc:knives'
-            ]
-        )
-
-        /*
-        event.recipes.createMixing(
-            'tfc:' + size + '_prepared_hide',
-            [
-                Fluid.of('minecraft:water', fluidCount),
-                'tfc:' + size + '_scraped_hide'
-            ]
-        )
-
-        event.recipes.createMixing(
-            Item.of('minecraft:leather', leatherCounts[size]),
-            [
-                Fluid.of('tfc:tannin', fluidCount),
-                'tfc:' + size + '_prepared_hide'
-            ]
-        )
-        */
+        }).id('kubejs:cutting/' + size + '_soaked_hide')
     }
 
     event.remove({id: 'sewingkit:leather_sheet_from_rabbit_hide'})
@@ -104,4 +77,24 @@ onEvent('recipes', event => {
         ],
         'sewingkit:leather_sheet'
     ).id('kubejs:create_cutting/leather_sheet')
+
+    //------ Pineapple Leather ------//
+
+    event.remove({id: 'firmalife:crafting/pineapple_fiber'})
+    event.custom({
+        type: 'farmersdelight:cutting',
+        ingredients: [
+            {
+                type: 'tfc:has_trait',
+                trait: 'firmalife:dried',
+                ingredient: {
+                    item: 'firmalife:food/pineapple'
+                }
+            }
+        ],
+        tool: Ingredient.of('#tfc:knives').toJson(),
+        result: [
+            Item.of('firmalife:pineapple_fiber').toResultJson()
+        ]
+    }).id('kubejs:cutting/dried_pineapple')
 })

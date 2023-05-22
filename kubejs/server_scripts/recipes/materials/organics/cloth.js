@@ -107,4 +107,6 @@ onEvent('recipes', event => {
     event.replaceInput({id: 'farmersdelight:rope'}, '#kubejs:unification/straw', 'tfc:jute_fiber')
     event.remove({id: 'quark:building/crafting/rope'})
     event.remove({id: 'farmersdelight:lead_from_rope'})
+
+    event.replaceInput({}, 'tfc:jute_fiber', '#kubejs:fibers')
 })

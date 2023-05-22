@@ -274,4 +274,44 @@ onEvent('jei.hide.items', event => {
     event.hide('create:small_veridium_brick_wall')
     event.hide('create:layered_veridium')
     event.hide('create:veridium_pillar')
+
+    let brickTypes = [
+        'worn',
+        'dean',
+        'red',
+        'pearl',
+        'scarlet',
+        'dusk',
+        'blue'
+    ]
+
+    let brickShapes = [
+        'bricks',
+        'brick_tiles',
+        'long_bricks',
+        'short_bricks'
+    ]
+
+    for (const type of brickTypes) {
+        for (const shape of brickShapes) {
+            event.hide('createdeco:' + type + '_' + shape + '_slab_vert')
+            event.hide('createdeco:' + 'cracked_' + type + '_' + shape + '_slab_vert')
+            event.hide('createdeco:' + 'mossy_' + type + '_' + shape + '_slab_vert')
+        }
+    }
+
+    let metals = [
+        'gold',
+        'brass',
+        'iron',
+        'netherite',
+        'andesite',
+        'zinc',
+        'cast_iron',
+        'copper'
+    ]
+
+    for (const metal of metals) {
+        event.hide('createdeco:' + metal + '_sheet_slab_vert')
+    }
 })

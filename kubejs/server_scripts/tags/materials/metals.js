@@ -4,7 +4,10 @@ onEvent('item.tags', event => {
 	event.add('forge:sheets/copper', '#forge:plates/copper')
 	event.add('forge:sheets/brass', '#forge:plates/brass')
     event.add('forge:sheets/wrought_iron', 'create:iron_sheet')
+    event.add('forge:sheets/cast_iron', '#forge:plates/cast_iron')
+    event.add('forge:sheets/black_steel', 'createdeco:netherite_sheet')
 
+    event.add('forge:ingots/black_steel', 'minecraft:netherite_ingot')
     event.add('forge:ingots/wrought_iron', 'minecraft:iron_ingot')
 
     event.remove('forge:rods/iron', 'createaddition:iron_rod')

@@ -111,6 +111,10 @@ onEvent('item.tags', event => {
 
     event.add('tfc:foods/raw_meats', '#kubejs:cut_meats')
     event.add('tfc:foods/cooked_meats', '#kubejs:cooked_cut_meats')
+    event.add('tfc:foods/meats', [
+        '#kubejs:cut_meats',
+        '#kubejs:cooked_cut_meats'
+    ])
 
     //------ Bread and Grain ------//
 
@@ -232,7 +236,9 @@ onEvent('item.tags', event => {
         'farmersdelight:stuffed_pumpkin_block',
         'farmersdelight:honey_glazed_ham_block',
         'farmersdelight:shepherds_pie_block',
-        'farmersdelight:rice_roll_medley_block'
+        'farmersdelight:rice_roll_medley_block',
+        'createaddition:cake_base',
+        'createaddition:cake_base_baked'
     ])
 
     event.add('kubejs:spices', [
@@ -252,11 +258,37 @@ onEvent('item.tags', event => {
     event.add('tfc:foods', [
         'farmersdelight:pumpkin_slice',
         '#kubejs:cut_meats',
-        '#kubejs:cooked_cut_meats'
+        '#kubejs:cooked_cut_meats',
+        'farmersdelight:tomato_sauce',
+        'farmersdelight:raw_pasta',
+
+        '#kubejs:stats/small_meals',
+        '#kubejs:stats/basic_handheld_meals',
+        '#kubejs:stats/basic_meals',
+        '#kubejs:stats/handheld_meals',
+        '#kubejs:stats/meals',
+        '#kubejs:stats/hearty_handheld_meals',
+        '#kubejs:stats/hearty_meals',
+
+        '#kubejs:stats/dessert_slices',
+        '#kubejs:stats/cakes',
+        '#kubejs:stats/pies',
+        '#kubejs:stats/cookies',
+        'farmersdelight:pie_crust',
+        'createaddition:cake_base',
+        'createaddition:cake_base_baked',
+        'create:chocolate_glazed_berries',
+        'create:sweet_roll',
+        'create:honeyed_apple',
+        'farmersdelight:glow_berry_custard',
+
+        '#diet:special_food'
     ])
 
     event.add('create:upright_on_belt', [
         'firmalife:empty_jar',
-        '#firmalife:jars'
+        '#firmalife:jars',
+        'tfc:cake',
+        'minecraft:pumpkin_pie'
     ])
 })

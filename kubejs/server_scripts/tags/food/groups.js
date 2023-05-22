@@ -59,7 +59,9 @@ onEvent('item.tags', event => {
         'farmersdelight:stuffed_pumpkin_block',
         'farmersdelight:stuffed_pumpkin',
         'farmersdelight:honey_glazed_ham_block',
-        'farmersdelight:honey_glazed_ham'
+        'farmersdelight:honey_glazed_ham',
+        'createaddition:cake_base',
+        'createaddition:cake_base_baked'
     ])
 
     event.add('diet:vegetables', [
@@ -164,6 +166,8 @@ onEvent('item.tags', event => {
         'farmersdelight:honey_glazed_ham_block',
         'farmersdelight:honey_glazed_ham',
         'farmersdelight:shepherds_pie_block',
-        'farmersdelight:shepherds_pie'
+        'farmersdelight:shepherds_pie',
+        'createaddition:cake_base',
+        'createaddition:cake_base_baked'
     ])
 })

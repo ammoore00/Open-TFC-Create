@@ -17,7 +17,7 @@ farmlandMakesTheBestRaceTracks = false
 	#Range: 0.0 ~ 1.0
 	fireStarterChance = 0.5
 	#Enable rat infestations for improperly stored food.
-	enableInfestations = true
+	enableInfestations = false
 	#If true, knapping with rocks will only work when one rock is held in each hand (main hand and off hand)
 	#If false, knapping with rocks will work either with main and off hand, or by holding at least two rocks in the main hand
 	requireOffhandForRockKnapping = false
@@ -26,7 +26,7 @@ farmlandMakesTheBestRaceTracks = false
 	#If false, vanilla lightning will not strike.
 	enableLightning = true
 	#If true, lightning has a chance of stripping bark off of trees.
-	enableLightningStrippingLogs = true
+	enableLightningStrippingLogs = false
 
 [blocks]
 

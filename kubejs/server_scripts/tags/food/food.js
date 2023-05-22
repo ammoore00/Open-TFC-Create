@@ -123,12 +123,6 @@ onEvent('item.tags', event => {
         'wheat'
     ]
 
-    let breadTypes = {
-        'bread': 'tfc',
-        'flatbread': 'firmalife',
-        'slice': 'firmalife'
-    }
-
     event.add('kubejs:sandwich_breads', [
         '#firmalife:foods/flatbreads',
         '#firmalife:foods/slices'

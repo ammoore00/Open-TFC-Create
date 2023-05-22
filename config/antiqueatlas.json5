@@ -10,7 +10,7 @@
 	// Whether to add global markers for Nether Portals.
 	"autoNetherPortalMarkers": true,
 	// Player will need to craft atlas item to use atlas.
-	"itemNeeded": true,
+	"itemNeeded": false,
 	"doScaleMarkers": false,
 	// Default zoom level. The number corresponds to the size of a block on the map relative to the size of a GUI pixel. Preferrably a power of 2.
 	"defaultScale": 0.5,
@@ -56,7 +56,7 @@
 	// If true, map render time will be output.
 	"debugRender": false,
 	// If true, all resource pack loading information will be logged during start and reload.
-	"resourcePackLogging": true,
+	"resourcePackLogging": false,
 	/* The size (in GUI pixels) of a map's tile.
 	   Note that this will change with Minecraft's GUI scale configuration.
 	   When using a small gui scale, the map may look better with a TILE_SIZE of 16 or more.

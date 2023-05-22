@@ -7,7 +7,7 @@
 	#If true, shows your current saturation level overlayed on the hunger bar
 	showSaturationHudOverlay = true
 	#If true, shows the hunger (and saturation if showSaturationHudOverlay is true) that would be restored by food you are currently holding
-	showFoodValuesHudOverlay = true
+	showFoodValuesHudOverlay = false
 	#If true, enables the hunger/saturation/health overlays for food in your off-hand
 	showFoodValuesHudOverlayWhenOffhand = true
 	#If true, shows your food exhaustion as a progress bar behind the hunger bars

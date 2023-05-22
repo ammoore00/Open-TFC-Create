@@ -3,6 +3,6 @@
         "tag": "kubejs:stats/chocolate_ingredients"
     },
     "hunger": 1,
-    "saturation": 0,
+    "saturation": 1,
     "decay_modifier": 2
 }

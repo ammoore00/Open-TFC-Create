@@ -209,4 +209,7 @@ onEvent('recipes', event => {
         ]
     ).transitionalItem('create:incomplete_track')
     .loops(1)
+
+    event.remove({id: 'create:kinetics/track_observer_from_other_plates'})
+    event.replaceInput({id: 'create:kinetics/track_observer'}, '#minecraft:wooden_pressure_plates', 'tfc:brass_mechanisms')
 })

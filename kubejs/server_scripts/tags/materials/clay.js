@@ -4,7 +4,6 @@ onEvent('item.tags', event => {
         'tfc:ceramic/fire_brick',
         'createdeco:worn_brick',
         'createdeco:dean_brick',
-        'createdeco:red_brick',
         'createdeco:pearl_brick',
         'createdeco:scarlet_brick',
         'createdeco:dusk_brick',

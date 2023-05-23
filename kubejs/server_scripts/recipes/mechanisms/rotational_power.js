@@ -41,4 +41,8 @@ onEvent('recipes', event => {
     )
     
     event.replaceInput({output: 'create:flywheel'}, 'tfc:metal/ingot/brass', 'tfc:metal/rod/brass')
+
+    event.replaceInput({output: 'create:steam_engine'}, 'minecraft:copper_block', 'create:fluid_tank')
+    event.replaceInput({output: 'create:steam_engine'}, 'create:andesite_alloy', 'tfc:metal/rod/steel')
+    event.replaceInput({output: 'create:steam_engine'}, 'tfc:metal/sheet/gold', 'tfc:metal/sheet/brass')
 })

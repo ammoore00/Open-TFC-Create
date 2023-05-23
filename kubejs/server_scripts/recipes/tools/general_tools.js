@@ -24,7 +24,9 @@ onEvent('recipes', event => {
     event.replaceInput({output: 'create:sand_paper'}, 'minecraft:sand', '#minecraft:sand')
 
     event.replaceInput({output: 'create:filter'}, 'minecraft:iron_nugget', 'tfc:metal/rod/brass')
-    event.replaceInput({output: 'create:attribute_filter'}, 'create:brass_nugget', 'tfc:metal/rod/wrought_iron')
+    event.replaceInput({output: 'create:filter'}, '#minecraft:wool', 'tfc:jute_net')
+    event.replaceInput({output: 'create:attribute_filter'}, 'create:brass_nugget', 'tfc:metal/rod/steel')
+    event.replaceInput({output: 'create:attribute_filter'}, '#minecraft:wool', 'tfc:jute_net')
 
     event.remove({output: 'create:super_glue'})
     event.shapeless(
@@ -68,4 +70,23 @@ onEvent('recipes', event => {
 
     event.replaceInput({output: 'minecraft:lodestone'}, 'minecraft:chiseled_stone_bricks', '#tfc:rock/chiseled_bricks')
     event.replaceInput({output: 'minecraft:lodestone'}, 'minecraft:netherite_ingot', 'tfc:ore/rich_magnetite')
+
+    event.recipes.createMechanicalCrafting(
+        'minecraft:elytra',
+        [
+            'LRSRL',
+            'RMIMR',
+            'RCSCR',
+            'RC CR',
+            'R   R'
+        ],
+        {
+            L: 'sewingkit:leather_strip',
+            R: 'tfc:metal/rod/brass',
+            S: 'create:sturdy_sheet',
+            M: 'create:precision_mechanism',
+            I: 'kubejs:integrated_circuit',
+            C: '#tfc:high_quality_cloth'
+        }
+    ).id('kubejs:mechanical_crafting/elytra')
 })

@@ -27,8 +27,6 @@ onEvent('recipes', event => {
         '4x create:crafter_slot_cover',
         ['tfc:metal/sheet/brass']
     )
-
-    //event.replaceInput({output: 'create:deployer'}, 'create:electron_tube', 'create:polished_rose_quartz')
     
     event.replaceInput({output: 'create:crushing_wheel'}, '#minecraft:planks', '#tfc:lumber')
 
@@ -48,4 +46,9 @@ onEvent('recipes', event => {
             I: 'kubejs:integrated_circuit'
         }
     )
+
+    event.replaceInput({output: 'create:mechanical_crafter'}, 'create:electron_tube', 'tfc:brass_mechanisms')
+
+    event.replaceInput({output: 'create_enchantment_industry:printer'}, 'tfc:metal/sheet/wrought_iron', 'firmalife:metal/sheet/stainless_steel')
+    event.replaceInput({output: 'create_enchantment_industry:disenchanter'}, '#create:sandpaper', 'createdeco:polished_iron_bars')
 })

@@ -52,6 +52,7 @@ tfc:fluid/flowing_spring_water tfc:fluid/flowing_river_water tfc:fluid/flowing_s
 ## Environment
 - AmbientSounds 5 - 
 - Clear Skies - 
+- Falling Leaves - https://www.curseforge.com/minecraft/mc-mods/falling-leaves-forge
 - ItemPhysic Lite - 
 - Magnesium/Rubidium Dynamic Lights - https://www.curseforge.com/minecraft/mc-mods/dynamiclights-reforged
 - Nyf's Spiders - 
@@ -70,6 +71,7 @@ tfc:fluid/flowing_spring_water tfc:fluid/flowing_river_water tfc:fluid/flowing_s
 - Controlling - 
 - Cosmetic Armor Reworked - 
 - Curious Quark Oddities Backpack - 
+- Diagonal Fences - https://www.curseforge.com/minecraft/mc-mods/diagonal-fences
 - Enigmatic Graves - 
 - Find Me - https://www.curseforge.com/minecraft/mc-mods/findme
 - Game Menu Remove GFARB - 
@@ -78,6 +80,7 @@ tfc:fluid/flowing_spring_water tfc:fluid/flowing_river_water tfc:fluid/flowing_s
 - Mouse Tweaks - 
 - NBT Autocomplete - 
 - OfflineSkins - https://www.curseforge.com/minecraft/mc-mods/offlineskins
+- Rebind Narrator - https://www.curseforge.com/minecraft/mc-mods/rebind-narrator
 - Skin Layers 3D - https://www.curseforge.com/minecraft/mc-mods/skin-layers-3d
 - Suggestion Tweaker - 
 
@@ -105,7 +108,9 @@ tfc:fluid/flowing_spring_water tfc:fluid/flowing_river_water tfc:fluid/flowing_s
 - Entity Collision FPS fix - 
 - Entity Culling - 
 - Fastload - 
+- FastSuite - https://www.curseforge.com/minecraft/mc-mods/fastsuite
 - FerriteCore - 
+- Lazy DaxaFixerUpper - https://www.curseforge.com/minecraft/mc-mods/lazy-dfu-forge
 - Magnesium/Rubidium Extras - 
 - Max Health Fix - 
 - Rubidium - 
@@ -128,6 +133,7 @@ tfc:fluid/flowing_spring_water tfc:fluid/flowing_river_water tfc:fluid/flowing_s
 - OfflineSkins - 
 - Packet Size Doubler - 
 - Paxi - 
+- Ponder for KubeJS - https://www.curseforge.com/minecraft/mc-mods/ponder
 
 # Resourcepacks
 - Tom's Create Storage - https://www.curseforge.com/minecraft/texture-packs/create-simple-storage

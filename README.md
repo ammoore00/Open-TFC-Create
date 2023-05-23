@@ -32,6 +32,7 @@ tfc:fluid/flowing_spring_water tfc:fluid/flowing_river_water tfc:fluid/flowing_s
 - Create Chunkloading - 
 - Create Crafts and Additions - 
 - Create Crystal Clear - 
+- Create Deco - 
 - Create Enchantment Industry - 
 - Diet
 - Farmer's Delight - https://www.curseforge.com/minecraft/mc-mods/farmers-delight
@@ -97,19 +98,22 @@ tfc:fluid/flowing_spring_water tfc:fluid/flowing_river_water tfc:fluid/flowing_s
 - ShulkerBoxTooltip - 
 - Tool Stats - 
 
-## Performance
+## Performance and Fixes
 - Alternate Current - 
+- Bow Infinity Fix - 
 - Clumps - 
 - Entity Collision FPS fix - 
 - Entity Culling - 
 - Fastload - 
 - FerriteCore - 
 - Magnesium/Rubidium Extras - 
+- Max Health Fix - 
 - Rubidium - 
 - Saturn - 
 - Starlight - 
 
 ## Utility
+- 3D Skin Layers - 
 - Alomst Unified - 
 - Catalogue - 
 - CobbleGenRandomizer - 
@@ -121,6 +125,7 @@ tfc:fluid/flowing_spring_water tfc:fluid/flowing_river_water tfc:fluid/flowing_s
 - Max Health Fix - https://www.curseforge.com/minecraft/mc-mods/max-health-fix
 - MoreCrashInfo - 
 - MusicTriggers - 
+- OfflineSkins - 
 - Packet Size Doubler - 
 - Paxi - 
 
